@@ -32,6 +32,7 @@
 				<ul>
 					<li><a href="#">Programmation</a></li>
 					<li class="btn-menu"><a href="#">Menu</a></li>
+					<li>Test</li>
 				</ul>
 			</nav>
 			<div class="menu">
