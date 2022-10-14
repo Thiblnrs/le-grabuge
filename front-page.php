@@ -125,15 +125,13 @@ get_header();
     <!-- SLIDE / SLICK--------------------------------------->
     <section id="diapo">
         <div class="multiple-items">
-            <img src="img/slick1.jpeg" alt="" />
-            <img src="img/slick2.jpeg" alt="" />
-            <img src="img/slick3.jpeg" alt="" />
-            <img src="img/slick1.jpeg" alt="" />
-            <img src="img/slick2.jpeg" alt="" />
-            <img src="img/slick3.jpeg" alt="" />
-            <img src="img/slick1.jpeg" alt="" />
-            <img src="img/slick2.jpeg" alt="" />
-            <img src="img/slick3.jpeg" alt="" />
+            <?php 
+                $images = get_field('galerie');
+                if( $images ): ?>
+                    <?php foreach( $images as $image ): ?>
+                        <img src="<?php echo esc_url($image['sizes']['full']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                    <?php endforeach; ?>
+                <?php endif; ?>
         </div>
     </section>
     <!-- DESCRIPTION SALLE--------------------------------------->
@@ -201,21 +199,16 @@ get_header();
 
     <!-- citation--------------------------------------->
     <section id="citation">
-        <div>
-            <p>« Sans aucun doute le grabuge va faire beaucoup de bruit»</p>
-        </div>
-        <div>
-            <p>« Sans aucun doute le grabuge va faire beaucoup de bruit»</p>
-        </div>
-        <div>
-            <p>« Sans aucun doute le grabuge va faire beaucoup de bruit»</p>
-        </div>
-        <div>
-            <p>« Sans aucun doute le grabuge va faire beaucoup de bruit»</p>
-        </div>
-        <div>
-            <p>« Sans aucun doute le grabuge va faire beaucoup de bruit»</p>
-        </div>
+        <?php 
+            if( have_rows('citations') ):
+                while( have_rows('citations') ) : the_row(); ?>
+                    <div>
+                        <p><?php the_sub_field('texte_citation') ?></p>
+                    </div>
+        <?php   endwhile;
+                else :
+            endif;
+        ?>
     </section>
 
     <!-- Raccourcis--------------------------------------->
