@@ -32,7 +32,6 @@
 				<ul>
 					<li><a href="#">Programmation</a></li>
 					<li class="btn-menu"><a href="#">Menu</a></li>
-					<li>Test Github</li>
 				</ul>
 			</nav>
 			<div class="menu">
