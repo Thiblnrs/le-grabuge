@@ -15,14 +15,16 @@ get_header();
 	<p>15 SEPT. 22</p>
 	<p>Ouverture - 19.30</p>
 	<hr>
-	<h2>CHARLOTTE DEWITTE & FRIENDS</h2>
+	<h2><?php the_title()?></h2>
 	<hr>
 	<p>Line up : </p>
 	<p>20.00 - 21.00 : Sam Paganini <br>
 21.00 - 22.00 : Amelie Lens <br>
 22.00 - 00.00 : Charlotte de witte</p>
 	<hr>
-	<p>Gantoise grandie sur la terre d'élection de la techno en Europe, Charlotte de Witte a 17 ans (à la fin de la dernière décennie) lorsqu'elle passe aux platines, où son absence de compromis lui permet de décrocher une émission hebdomadaire, Playground, sur Studio Brussels, et une résidence au Fuse, fameux club de la capitale belge.</p>
+	<p><?php $dateFR = strtotime( get_field('date') );
+			echo date_i18n( "j M Y", $dateFR ); ?><br />
+            <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?></p>
 
 	<a class="cta-b" href="#">Reservation</a></>
 </div>
