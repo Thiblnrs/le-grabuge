@@ -31,7 +31,7 @@ get_header();
 		<img src="<?php the_field('photo_artiste') ?>" alt="">
 		</div>
 
-<?php the_field("ytb")?>		
+<div class="position-ytb"><?php the_field("ytb")?></div>
 	</main>
 <?php
 get_footer();
