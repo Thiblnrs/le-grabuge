@@ -696,7 +696,7 @@ header > nav ul li a {
 }
 #detail-concert > div {
   text-align: justify;
-  width: 30%;
+  width: 50%;
 }
 #detail-concert h2 {
   color: white;
@@ -706,7 +706,7 @@ header > nav ul li a {
   padding: 10px;
 }
 #detail-concert img {
-  width: 30%;
+  width: 50%;
   aspect-ratio: 9/16;
   -o-object-fit: cover;
      object-fit: cover;
@@ -715,9 +715,21 @@ header > nav ul li a {
 }
 
 .position-ytb {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.position-ytb iframe,
+.position-ytb object,
+.position-ytb embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 h2 {
