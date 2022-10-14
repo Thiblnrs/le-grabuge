@@ -1,0 +1,38 @@
+/**********************Remise à zero****************/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li,
+a {
+	text-decoration: none;
+	list-style: none;
+}
+
+img {
+	height: auto;
+}
+
+body {
+	background: #141414;
+	font-family: "Montserrat";
+}
+
+.container {
+	max-width: 1165px;
+	margin: 0 auto;
+}
+
+p {
+	font-size: 16px;
+	color: rgb(231, 231, 231);
+	font-weight: normal;
+	text-align: justify;
+}
+
+hr {
+	width: 100%;
+}

@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px) {
+header h1{
+display: none;
+}
+
+	#prochain-artiste > div {
+		flex-direction: column;
+	}
+	.cont-artiste {
+		width: 90%;
+	}
+	#desc {
+		width: 95%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
