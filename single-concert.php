@@ -12,7 +12,7 @@ get_header();
 	<main>
 		<div id="detail-concert" class="container">
 <div>
-	<><?php $dateFR = strtotime( get_field('date') );
+	<p><?php $dateFR = strtotime( get_field('date') );
 			echo date_i18n( "j M Y", $dateFR ); ?><br />
             <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?> <br>
 	Ouverture - 19.30</p>
