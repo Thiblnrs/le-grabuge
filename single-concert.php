@@ -12,7 +12,9 @@ get_header();
 	<main>
 		<div id="detail-concert" class="container">
 <div>
-	<p>15 SEPT. 22</p>
+	<p><?php $dateFR = strtotime( get_field('date') );
+			echo date_i18n( "j M Y", $dateFR ); ?><br />
+            <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?></p>
 	<p>Ouverture - 19.30</p>
 	<hr>
 	<h2><?php the_title()?></h2>
@@ -22,9 +24,7 @@ get_header();
 21.00 - 22.00 : Amelie Lens <br>
 22.00 - 00.00 : Charlotte de witte</p>
 	<hr>
-	<p><?php $dateFR = strtotime( get_field('date') );
-			echo date_i18n( "j M Y", $dateFR ); ?><br />
-            <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?></p>
+	<p><?php the_content()?></p>
 
 	<a class="cta-b" href="#">Reservation</a></>
 </div>
