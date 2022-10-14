@@ -485,6 +485,9 @@ header > nav ul li a {
 .cont-artiste > div img {
   width: 100%;
   border: white solid 1px;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .cont-artiste hr {
   width: 351px;

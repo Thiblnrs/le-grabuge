@@ -159,6 +159,8 @@
 		img {
 			width: 100%;
 			border: white solid 1px;
+			aspect-ratio: 1/1;
+			object-fit: cover;
 		}
 	}
 	hr {
