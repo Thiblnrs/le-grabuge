@@ -36,6 +36,7 @@ get_header();
 <section>
 <h2>PREMIERE PARTIE</h2>
 </section>
+
 	</main>
 <?php
 get_footer();
