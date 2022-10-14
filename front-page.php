@@ -126,10 +126,10 @@ get_header();
     <section id="diapo">
         <div class="multiple-items">
             <?php 
-                $images = get_field('galerie');
-                if( $images ): ?>
-                    <?php foreach( $images as $image ): ?>
-                        <img src="<?php echo esc_url($image['sizes']['full']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                $galeries = get_field('galerie');
+                if( $galeries ): ?>
+                    <?php foreach( $galeries as $galerie ): ?>
+                        <img src="<?php echo esc_url($galerie['url']); ?>" alt="<?php echo esc_attr($galerie['alt']); ?>" />
                     <?php endforeach; ?>
                 <?php endif; ?>
         </div>
