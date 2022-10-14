@@ -720,6 +720,13 @@ header > nav ul li a {
   align-items: center;
 }
 
+h2 {
+  font-size: 24px;
+  letter-spacing: 5px;
+  color: white;
+  font-weight: 400;
+}
+
 /************************FOOTER***************************/
 footer {
   background: black;
