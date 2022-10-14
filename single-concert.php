@@ -12,10 +12,10 @@ get_header();
 	<main>
 		<div id="detail-concert" class="container">
 <div>
-	<p><?php $dateFR = strtotime( get_field('date') );
+	<><?php $dateFR = strtotime( get_field('date') );
 			echo date_i18n( "j M Y", $dateFR ); ?><br />
-            <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?></p>
-	<p>Ouverture - 19.30</p>
+            <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?> <br>
+	Ouverture - 19.30</p>
 	<hr>
 	<h2><?php the_title()?></h2>
 	<hr>
@@ -30,6 +30,8 @@ get_header();
 </div>
 		<img src="<?php the_field('photo_artiste') ?>" alt="">
 		</div>
+
+<?php the_field("ytb")?>		
 	</main>
 <?php
 get_footer();
