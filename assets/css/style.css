@@ -696,6 +696,7 @@ header > nav ul li a {
 }
 #detail-concert > div {
   text-align: justify;
+  width: 30%;
 }
 #detail-concert h2 {
   color: white;
@@ -705,7 +706,7 @@ header > nav ul li a {
   padding: 10px;
 }
 #detail-concert img {
-  width: 50%;
+  width: 30%;
   aspect-ratio: 9/16;
   -o-object-fit: cover;
      object-fit: cover;
