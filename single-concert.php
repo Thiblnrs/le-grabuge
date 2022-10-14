@@ -9,8 +9,8 @@
 
 get_header();
 ?>
-	<main class="container>
-		<div id="detail-concert"">
+	<main class="container">
+		<div id="detail-concert">
 			<div>
 				<p><?php $dateFR = strtotime( get_field('date') );
 						echo date_i18n( "j M Y", $dateFR ); ?><br />
