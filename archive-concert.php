@@ -10,7 +10,8 @@
 get_header();
 ?>
 
-	<main>
+		<main>
+		<div class="mois">
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) :
@@ -27,14 +28,23 @@ get_header();
 					}
 				?>
 
-				<p><?php echo $mois ?></p>
-				
-
-			<?php endwhile;
+				<?php
+					if ($mois == "October") :
+				?>
+					<h3 class="moisOctobre">Octobre</h3>
+					<div>
+						<?php the_title() ?>
+					</div>
+				<?php elseif ($mois == "November") : ?>
+					<h3 class="moisNovembre">Novembre</h3>
+					<div>
+						<?php the_title() ?>
+					</div>
+			<?php endif; endwhile;
 
 			// the_posts_navigation();
 		?>
-
+		</div>
 	</main><!-- #main -->
 
 <?php
