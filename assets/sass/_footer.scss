@@ -2,9 +2,6 @@
 
 footer {
 	background: black;
-	border-top: 3px solid white;
-	box-sizing: border-box;
-	padding: 50px 25px;
 
 	#mentionfooter nav {
 		width: 100%;
@@ -22,6 +19,15 @@ footer {
 		letter-spacing: 3px;
 		line-height: 160%;
 		color: white;
+	}
+
+	#newsletter{
+			box-sizing: border-box;
+	padding: 50px 25px;
+	border-top: 1px solid white;
+		border-bottom: 1px solid white;
+
+
 	}
 
 	h2{

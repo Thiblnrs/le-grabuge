@@ -867,9 +867,6 @@ h2 {
 /************************FOOTER***************************/
 footer {
   background: black;
-  border-top: 3px solid white;
-  box-sizing: border-box;
-  padding: 50px 25px;
 }
 footer #mentionfooter nav {
   width: 100%;
@@ -886,6 +883,12 @@ footer #mentionfooter nav ul li a {
   letter-spacing: 3px;
   line-height: 160%;
   color: white;
+}
+footer #newsletter {
+  box-sizing: border-box;
+  padding: 50px 25px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 footer h2 {
   font-size: 90px;
