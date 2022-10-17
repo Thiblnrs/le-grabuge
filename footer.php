@@ -50,8 +50,9 @@
             <div>
                 <p>LE GRABUGE
                 </p>
-                <p>22 Rue de la villaine
-                    59000 LILLE</p>
+                <p>22 Rue de la villaine</p>
+                <p>59000 LILLE
+                </p>
             </div>
         </div>
         </div>
