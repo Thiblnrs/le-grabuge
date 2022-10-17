@@ -14,7 +14,7 @@ get_header();
 			<?php the_post_thumbnail()?>
 		</div>
 
-		<section>
+		<section class="container-contenu">
 			<h1><?php the_title()?></h1>
 			<hr>
 			<?php the_content()?>
