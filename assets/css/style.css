@@ -886,13 +886,19 @@ footer #mentionfooter nav ul li a {
 }
 footer #newsletter {
   box-sizing: border-box;
-  padding: 50px 25px;
+  padding: 100px 80px;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
+footer #newsletter > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 footer h2 {
   font-size: 90px;
-  letter-spacing: 20px;
+  letter-spacing: 40px;
   text-transform: uppercase;
 }
 footer .mailpoet_form {
