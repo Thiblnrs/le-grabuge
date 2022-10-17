@@ -189,9 +189,9 @@ get_header();
     <section id="newsletter">
         <div>
             <h2>Newsletter</h2>
-            <p></p>
-            <p></p>
-            <p></p>
+            <p>Inscriver vous à notre news letter pour ne rater aucune information sur notre  programmation et bien d’autres choses. 10 % de réduction
+sur votre premiere visite chez nous en vous inscrivant.</p>
+            <p>J’accepte de recevoir les news du grabuge</p>
             <hr />
             <div><a href="">S'inscrire</a></div>
         </div>
