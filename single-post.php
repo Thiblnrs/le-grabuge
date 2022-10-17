@@ -19,7 +19,7 @@ get_header();
 			<h1><?php the_title()?></h1>
 			<hr>
 			<?php the_content()?>
-			<?php the_tags( $before:string|null, $sep:string, $after:string )()?>
+			<?php the_tags()?>
 		</section>
 
 		<section>
