@@ -876,7 +876,7 @@ footer {
   justify-content: space-between;
   align-items: flex-start;
   padding: 25px 96px;
-  text-align: right;
+  text-align: left;
   color: lightgrey;
 }
 
