@@ -893,8 +893,11 @@ footer #newsletter {
 footer #newsletter > div {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
+}
+footer #newsletter p {
+  width: 58%;
+  text-align: left;
 }
 footer h2 {
   font-size: 90px;
