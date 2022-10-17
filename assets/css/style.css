@@ -190,6 +190,10 @@ header > nav ul li a {
   font-weight: 200;
   text-transform: uppercase;
   color: white;
+  -webkit-animation: flip 2s infinite;
+          animation: flip 2s infinite;
+  -webkit-animation-delay: calc(0.2s * var(--i));
+          animation-delay: calc(0.2s * var(--i));
 }
 
 .darkHeader {
