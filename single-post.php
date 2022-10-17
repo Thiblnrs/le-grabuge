@@ -9,14 +9,14 @@
 
 get_header();
 ?>
-	<main>
-<div class="width-thumbnail">
-	<?php the_post_thumbnail()?>
-</div>
+	<main class="container">
+		<div class="width-thumbnail">
+			<?php the_post_thumbnail()?>
+		</div>
 
-	<div>
-<h1><?php the_title()?></h1>
-	</div>
+		<div>
+			<h1><?php the_title()?></h1>
+		</div>
 
 	</main><!-- #main -->
 

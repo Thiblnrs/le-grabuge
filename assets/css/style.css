@@ -740,8 +740,8 @@ h2 {
   text-align: center;
 }
 
-.width-thumbnail {
-  width: 50%;
+.width-thumbnail img {
+  width: 100%;
 }
 
 /************************FOOTER***************************/
