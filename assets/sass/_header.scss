@@ -50,14 +50,6 @@ header {
 				font-weight: 200;
 				text-transform: uppercase;
 				color: white;
-				animation: flip 2s infinite;
-				animation-delay: calc(0.2s * var(--i));
-			}
-			@keyframes flip {
-				0%,
-				80% {
-					transform: rotateY(360deg);
-				}
 			}
 		}
 	}
@@ -66,6 +58,13 @@ header {
 .darkHeader {
 	background: black;
 	border-bottom: solid 1px white;
+}
+
+@keyframes flip {
+	0%,
+	80% {
+		transform: rotateY(360deg);
+	}
 }
 
 .menu {
@@ -126,6 +125,8 @@ header {
 				font-weight: bold;
 				letter-spacing: 16px;
 				line-height: 250%;
+				animation: flip 2s infinite;
+				animation-delay: calc(0.2s * var(--i));
 			}
 		}
 	}

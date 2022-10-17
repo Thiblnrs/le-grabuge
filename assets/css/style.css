@@ -190,20 +190,6 @@ header > nav ul li a {
   font-weight: 200;
   text-transform: uppercase;
   color: white;
-  -webkit-animation: flip 2s infinite;
-          animation: flip 2s infinite;
-  -webkit-animation-delay: calc(0.2s * var(--i));
-          animation-delay: calc(0.2s * var(--i));
-}
-@-webkit-keyframes flip {
-  0%, 80% {
-    transform: rotateY(360deg);
-  }
-}
-@keyframes flip {
-  0%, 80% {
-    transform: rotateY(360deg);
-  }
 }
 
 .darkHeader {
@@ -211,6 +197,17 @@ header > nav ul li a {
   border-bottom: solid 1px white;
 }
 
+@-webkit-keyframes flip {
+  0%, 80% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes flip {
+  0%, 80% {
+    transform: rotateY(360deg);
+  }
+}
 .menu {
   position: fixed;
   top: 0;
@@ -267,6 +264,10 @@ header > nav ul li a {
   font-weight: bold;
   letter-spacing: 16px;
   line-height: 250%;
+  -webkit-animation: flip 2s infinite;
+          animation: flip 2s infinite;
+  -webkit-animation-delay: calc(0.2s * var(--i));
+          animation-delay: calc(0.2s * var(--i));
 }
 #menu-contenu #mention ul {
   -moz-columns: 2;
