@@ -35,8 +35,9 @@
 			.yarpp-thumbnails-horizontal {
 				display: flex;
 				justify-content: center;
-				align-items: flex-start;
+				align-items:flex-start;
 				gap: 130px;
+
 				& > a {
 					width: 25%;
 					height: auto;
