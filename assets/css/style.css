@@ -877,6 +877,7 @@ footer {
   align-items: flex-start;
   padding: 25px 96px;
   text-align: right;
+  color: lightgrey;
 }
 
 .flex-mention {
