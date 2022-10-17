@@ -49,7 +49,8 @@ function le_grabuge_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'le-grabuge' ),
+			'menu-principal' => esc_html__( 'Menu principal', 'le-grabuge' ),
+			'menu-secondaire' => esc_html__( 'Menu secondaire', 'le-grabuge' ),
 		)
 	);
 
