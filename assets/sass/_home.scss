@@ -161,7 +161,7 @@
 			border: white solid 1px;
 			aspect-ratio: 1/1;
 			-o-object-fit: cover;
-			   object-fit: cover;
+			object-fit: cover;
 		}
 	}
 	hr {
@@ -301,9 +301,9 @@
 	width: 100%;
 	aspect-ratio: 16 / 9;
 	-o-object-fit: cover;
-	   object-fit: cover;
+	object-fit: cover;
 	-webkit-filter: grayscale(1);
-	        filter: grayscale(1);
+	filter: grayscale(1);
 	border: 1px solid white;
 }
 
@@ -346,6 +346,7 @@
 }
 
 #raccourcis {
+background: black;
 	ul {
 		list-style-type: none;
 		li {
