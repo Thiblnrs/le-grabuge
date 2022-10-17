@@ -25,6 +25,7 @@ get_header();
 		<section>
 			<?php yarpp_related() ?>
 			<hr>
+			<div class="cta-esp"><a href="<?php the_permalink() ?>">En lire plus</a></div>
 		</section>
 
     <!-- Partie article--------------------------------------->
