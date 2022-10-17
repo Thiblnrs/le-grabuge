@@ -742,6 +742,8 @@ h2 {
 
 .single-post main {
   padding-top: 90px;
+  display: flex;
+  justify-content: center;
 }
 .single-post main .width-thumbnail img {
   width: 100%;
@@ -755,6 +757,9 @@ h2 {
   font-weight: 500;
   padding: 20px 0;
   font-size: 32px;
+}
+.single-post main p {
+  padding: 20px 0;
 }
 .single-post main .yarpp {
   border-top: 1px solid white;
@@ -791,9 +796,6 @@ h2 {
 .single-post main .yarpp .yarpp-thumbnails-horizontal span {
   font-size: 24px;
   font-weight: 600;
-}
-.single-post main .yarpp .yarpp-thumbnails-horizontal p {
-  padding: 20px 0;
 }
 
 .container-contenu {
