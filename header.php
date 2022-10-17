@@ -42,24 +42,16 @@
 				<section id="menu-contenu">
 					<div>
 						<nav id="menu-principal">
-							<ul>
-								<li><a href="#">PROGRAMMATION</a></li>
-								<li><a href="#">BILLETTERIE</a></li>
-								<li><a href="#">ACTUALITE</a></li>
-								<li><a href="#">A PROPOS</a></li>
-								<li><a href="#">INFOS PRATIQUES</a></li>
-								<li><a href="#">CONTACTS</a></li>
-							</ul>
+							<?php wp_nav_menu( array(
+								'theme_location' => 'menu-principal'
+									)
+								) ?>
 						</nav>
 						<nav id="mention">
-							<ul>
-								<li><a href="#">Newsletter</a></li>
-								<li><a href="#">Mentions légales</a></li>
-								<li><a href="#">Espace pro</a></li>
-								<li><a href="#">Politique de confidentialités</a></li>
-								<li><a href="#">CGV</a></li>
-								<li><a href="#">CGU</a></li>
-							</ul>
+							<?php wp_nav_menu( array(
+								'theme_location' => 'menu-scondaire'
+									)
+								) ?>
 						</nav>
 					</div>
 					<?php $args = array(
