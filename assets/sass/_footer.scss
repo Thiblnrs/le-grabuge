@@ -3,6 +3,8 @@
 footer {
 	background: black;
 	border-top: 3px solid white;
+	box-sizing: border-box;
+	padding: 50px 25px;
 
 	#mentionfooter nav {
 		width: 100%;
@@ -20,6 +22,13 @@ footer {
 		letter-spacing: 3px;
 		line-height: 160%;
 		color: white;
+	}
+
+	h2{
+		font-size: 90px;
+		letter-spacing: 20px;
+		text-transform: uppercase;
+
 	}
 
 	.mailpoet_form {
