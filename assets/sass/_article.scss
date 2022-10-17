@@ -27,7 +27,7 @@
 				color: white;
 				text-align: center;
 				font-weight: 200;
-				padding: 20px 0;
+				padding: 20px 0 50px 0;
 				font-size: 40px;
 				letter-spacing: 5px;
 				text-transform: uppercase;
@@ -35,7 +35,7 @@
 			.yarpp-thumbnails-horizontal {
 				display: flex;
 				justify-content: center;
-				align-items: center;
+				align-items: flex-start;
 				gap: 130px;
 				& > a {
 					width: 25%;
