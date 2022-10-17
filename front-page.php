@@ -212,14 +212,12 @@ sur votre premiere visite chez nous en vous inscrivant.</p>
 
     <!-- Raccourcis--------------------------------------->
     <nav id="raccourcis">
-        <ul>
-            <li><a href="#">PROGRAMMATION</a></li>
-            <li><a href="#">BILLETTERIE</a></li>
-            <li><a href="#">ACTUALITE</a></li>
-            <li><a href="#">A PROPOS</a></li>
-            <li><a href="#">INFOS PRATIQUES</a></li>
-            <li><a href="#">CONTACTS</a></li>
-        </ul>
+<?php wp_nav_menu( array(
+								'theme_location' => 'menu-principal',
+								'container' => '',
+								'menu_class' => '',
+									)
+								) ?>
     </nav>
 </main>
 <?php
