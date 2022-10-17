@@ -15,9 +15,11 @@ get_header();
 		</div>
 
 		<section class="container-contenu">
+			<?php the_category()?>
 			<h1><?php the_title()?></h1>
 			<hr>
 			<?php the_content()?>
+			<?php the_tags( $before:string|null, $sep:string, $after:string )()?>
 		</section>
 
 		<section>
