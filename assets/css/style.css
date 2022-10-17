@@ -742,9 +742,6 @@ h2 {
 
 .single-post main {
   padding-top: 90px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 .single-post main .width-thumbnail img {
   width: 100%;
@@ -761,6 +758,10 @@ h2 {
 }
 .single-post main p {
   padding: 20px 0;
+}
+.single-post main h1, .single-post main p {
+  display: flex;
+  justify-content: center;
 }
 .single-post main .yarpp {
   border-top: 1px solid white;
