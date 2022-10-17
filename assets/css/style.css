@@ -198,13 +198,13 @@ header > nav ul li a {
 }
 
 @-webkit-keyframes flip {
-  0%, 80% {
+  0%, 20% {
     transform: rotateY(360deg);
   }
 }
 
 @keyframes flip {
-  0%, 80% {
+  0%, 20% {
     transform: rotateY(360deg);
   }
 }
