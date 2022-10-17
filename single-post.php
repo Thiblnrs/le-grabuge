@@ -16,7 +16,44 @@ get_header();
 
 		<div>
 			<h1><?php the_title()?></h1>
+			<p><?php the_content()?></p>
 		</div>
+
+		
+
+
+ <section id="articles">
+        <div>
+            <img src="img/photo-article.png" alt="" />
+            <h4>Le street art s’invite à Lille et nous aussi.</h4>
+            <p>A l’occasion de la journée mondial pour le street art, le grabuge a souhaité partager avec les artiste de
+                la region...</p>
+            <div class="cta-esp"><a href="">En lire plus</a></div>
+        </div>
+
+        <div>
+            <img src="img/photo-article.png" alt="" />
+            <h4>Le street art s’invite à Lille et nous aussi.</h4>
+            <p>A l’occasion de la journée mondial pour le street art, le grabuge a souhaité partager avec les artiste de
+                la region...</p>
+            <div class="cta-esp"><a href="">En lire plus</a></div>
+        </div>
+
+        <div>
+            <img src="img/photo-article.png" alt="" />
+            <h4>Le street art s’invite à Lille et nous aussi.</h4>
+            <p>A l’occasion de la journée mondial pour le street art, le grabuge a souhaité partager avec les artiste de
+                la region...</p>
+            <div class="cta-esp"><a href="">En lire plus</a></div>
+        </div>
+    </section>
+    <section class="cta-prog">
+        <div><a href="#">Plus d’article</a></div>
+    </section>
+
+
+
+
 
 	</main><!-- #main -->
 
