@@ -740,6 +740,10 @@ h2 {
   text-align: center;
 }
 
+.width-thumbnail {
+  width: 50%;
+}
+
 /************************FOOTER***************************/
 footer {
   background: black;
