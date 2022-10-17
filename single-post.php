@@ -21,9 +21,11 @@ get_header();
 		</section>
 
 
+
     <!-- Partie article--------------------------------------->
   
     <section class="cta-prog">
+		<?php yarpp_related() ?>
         <div><a href="#">Plus d’article</a></div>
     </section>
 
