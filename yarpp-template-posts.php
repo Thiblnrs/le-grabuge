@@ -25,16 +25,16 @@ Notes:
 */
 ?>
 
-    <!-- YARPP Thumbnails -->
-    <h3>Articles similaires :</h3>
-    <?php
-        while ( have_posts() ) :
-            the_post();
-            ?>
-                <div class="yarpp-thumbnails-horizontal">
-                    <a class="yarpp-thumbnail" rel="norewrite" href="<?php the_permalink() ?>" >
-                        <?php the_post_thumbnail() ?><span class="yarpp-thumbnail-title"><?php the_title() ?></span>
-                        <p><?php the_excerpt() ?></p>
-                    </a>
-                </div>
+<!-- YARPP Thumbnails -->
+<h3>Articles similaires :</h3>
+<div class="yarpp-thumbnails-horizontal">
+<?php
+    while ( have_posts() ) :
+        the_post();
+        ?>
+        <a class="yarpp-thumbnail" rel="norewrite" href="<?php the_permalink() ?>" >
+            <?php the_post_thumbnail() ?><span class="yarpp-thumbnail-title"><?php the_title() ?></span>
+            <p><?php the_excerpt() ?></p>
+        </a>
     <?php endwhile; ?>
+</div>
