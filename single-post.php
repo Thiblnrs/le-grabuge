@@ -12,6 +12,14 @@ get_header();
 
 	<main id="primary" class="site-main">
 
+	<?php the_post_thumbnail()?>
+
+	<div>
+<h1><?php the_title()?></h1>
+
+
+	</div>
+
 		<?php
 		while ( have_posts() ) :
 			the_post();
