@@ -347,7 +347,6 @@
 		list-style-type: none;
 		li {
 			width: 100%;
-			padding: 50px;
 			display: flex;
 			align-items: center;
 			border: #fff solid 1px;
@@ -357,6 +356,7 @@
 			padding-left: 10%;
 			transition: 0.25s ease-in-out all;
 			a {
+				padding: 50px;
 				color: #fff;
 				transition: 0.25s ease-in-out all;
 			}

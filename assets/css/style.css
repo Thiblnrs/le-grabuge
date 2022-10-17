@@ -685,7 +685,6 @@ header > nav ul li a {
 }
 #raccourcis ul li {
   width: 100%;
-  padding: 50px;
   display: flex;
   align-items: center;
   border: #fff solid 1px;
@@ -696,6 +695,7 @@ header > nav ul li a {
   transition: 0.25s ease-in-out all;
 }
 #raccourcis ul li a {
+  padding: 50px;
   color: #fff;
   transition: 0.25s ease-in-out all;
 }
