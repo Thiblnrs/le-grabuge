@@ -61,9 +61,11 @@ header {
 }
 
 @keyframes flip {
-	0%,
-	20% {
+	0% {
 		transform: rotateY(360deg);
+	}
+	20% {
+		transform: rotateY(0deg);
 	}
 }
 
