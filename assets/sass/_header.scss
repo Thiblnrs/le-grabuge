@@ -139,7 +139,7 @@ header {
 				text-transform: uppercase;
 				&:hover {
 					-webkit-animation: flip 6s 1;
-					        animation: flip 6s 1;
+					animation: flip 6s 1;
 					// animation-iteration-count: 1;
 				}
 			}
@@ -148,11 +148,11 @@ header {
 
 	#mention ul {
 		-moz-columns: 2;
-		     columns: 2;
+		columns: 2;
 		a {
 			color: white;
 			font-size: 20px;
-			line-height: 50px;
+			line-height: 20px;
 		}
 	}
 	.cont-artiste-menu {
@@ -177,9 +177,9 @@ header {
 				border: white solid 1px;
 				aspect-ratio: 1 / 1;
 				-o-object-fit: cover;
-				   object-fit: cover;
+				object-fit: cover;
 				-o-object-position: top;
-				   object-position: top;
+				object-position: top;
 			}
 		}
 		hr {
