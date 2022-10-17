@@ -1,14 +1,13 @@
 /************************FOOTER***************************/
 
 footer {
-	background: black;
+	background: black;	
+	}
 
-	&>div{
+		#footer-nav>div{
 		width: 40%;
 		display: flex;
 		justify-content: space-between;
-	
-	}
 
 	#mentionfooter nav {
 		width: 100%;

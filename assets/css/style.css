@@ -870,68 +870,69 @@ h2 {
 footer {
   background: black;
 }
-footer > div {
+
+#footer-nav > div {
   width: 40%;
   display: flex;
   justify-content: space-between;
 }
-footer #mentionfooter nav {
+#footer-nav > div #mentionfooter nav {
   width: 100%;
   -moz-columns: 2;
   columns: 2;
 }
-footer #mentionfooter nav ul {
+#footer-nav > div #mentionfooter nav ul {
   width: 45%;
   flex-wrap: wrap;
 }
-footer #mentionfooter nav ul li a {
+#footer-nav > div #mentionfooter nav ul li a {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 3px;
   line-height: 160%;
   color: lightgrey;
 }
-footer #newsletter {
+#footer-nav > div #newsletter {
   box-sizing: border-box;
   padding: 100px 80px;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
-footer #newsletter > div {
+#footer-nav > div #newsletter > div {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-footer #newsletter p {
+#footer-nav > div #newsletter p {
   width: 58%;
   text-align: left;
 }
-footer h2 {
+#footer-nav > div h2 {
   font-size: 90px;
   letter-spacing: 40px;
   text-transform: uppercase;
   padding-bottom: 25px;
 }
-footer .mailpoet_form {
+#footer-nav > div .mailpoet_form {
   display: flex;
   width: 100%;
 }
-footer .mailpoet_form .mailpoet_paragraph {
+#footer-nav > div .mailpoet_form .mailpoet_paragraph {
   width: 100%;
 }
-footer .mailpoet_form .mailpoet_paragraph.last {
+#footer-nav > div .mailpoet_form .mailpoet_paragraph.last {
   width: unset;
 }
-footer .mailpoet_form .mailpoet_paragraph input {
+#footer-nav > div .mailpoet_form .mailpoet_paragraph input {
   padding: 15px;
   background-color: black;
   color: white;
 }
-footer .mailpoet_form .mailpoet_paragraph input[type=email] {
+#footer-nav > div .mailpoet_form .mailpoet_paragraph input[type=email] {
   border: none;
   border-bottom: 1px solid white;
 }
-footer .mailpoet_form .mailpoet_paragraph input[type=submit] {
+#footer-nav > div .mailpoet_form .mailpoet_paragraph input[type=submit] {
   border: 1px solid white !important;
 }
 
