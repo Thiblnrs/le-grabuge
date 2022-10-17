@@ -170,7 +170,7 @@ get_header();
                      <div>
                         <?php the_post_thumbnail() ?>
                         <h4><?php the_title() ?></h4>
-                        <p><?php the_excerpt() ?></p>
+                        <?php the_excerpt() ?>
                         <div class="cta-esp"><a href="<?php the_permalink() ?>">En lire plus</a></div>
                     </div>
                 <?php endwhile;
