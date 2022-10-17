@@ -12,6 +12,9 @@
 		h1 {
 			color: white;
 			text-align: center;
+            font-weight: 500;
+    padding: 20px 0;
+    font-size: 32px;
 		}
 		.yarpp {
 			border-top: 1px solid white;
@@ -19,6 +22,8 @@
 			h3 {
 				color: white;
                 text-align: center;
+                font-weight: 200;
+                padding: 20px 0;
 			}
 			.yarpp-thumbnails-horizontal {
 				display: flex;

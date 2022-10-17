@@ -752,6 +752,9 @@ h2 {
 .single-post main h1 {
   color: white;
   text-align: center;
+  font-weight: 500;
+  padding: 20px 0;
+  font-size: 32px;
 }
 .single-post main .yarpp {
   border-top: 1px solid white;
@@ -760,6 +763,8 @@ h2 {
 .single-post main .yarpp h3 {
   color: white;
   text-align: center;
+  font-weight: 200;
+  padding: 20px 0;
 }
 .single-post main .yarpp .yarpp-thumbnails-horizontal {
   display: flex;
