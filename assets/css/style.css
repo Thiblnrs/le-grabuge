@@ -753,8 +753,13 @@ h2 {
   color: white;
   text-align: center;
 }
+.single-post main .yarpp {
+  border-top: 1px solid white;
+  padding-top: 1em;
+}
 .single-post main .yarpp h3 {
   color: white;
+  text-align: center;
 }
 .single-post main .yarpp .yarpp-thumbnails-horizontal {
   display: flex;
@@ -764,6 +769,7 @@ h2 {
 }
 .single-post main .yarpp .yarpp-thumbnails-horizontal > a {
   width: 25%;
+  height: auto;
   color: rgb(231, 231, 231);
 }
 .single-post main .yarpp .yarpp-thumbnails-horizontal img {
@@ -777,7 +783,6 @@ h2 {
 .single-post main .yarpp .yarpp-thumbnails-horizontal span {
   font-size: 24px;
   font-weight: 600;
-  padding: 20px 0;
 }
 
 /************************FOOTER***************************/

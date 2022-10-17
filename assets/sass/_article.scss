@@ -14,8 +14,11 @@
 			text-align: center;
 		}
 		.yarpp {
+			border-top: 1px solid white;
+			padding-top: 1em;
 			h3 {
 				color: white;
+                text-align: center;
 			}
 			.yarpp-thumbnails-horizontal {
 				display: flex;
@@ -24,6 +27,7 @@
 				gap: 130px;
 				& > a {
 					width: 25%;
+					height: auto;
 					color: rgb(231, 231, 231);
 				}
 				img {
@@ -36,7 +40,6 @@
 				span {
 					font-size: 24px;
 					font-weight: 600;
-					padding: 20px 0;
 				}
 			}
 		}
