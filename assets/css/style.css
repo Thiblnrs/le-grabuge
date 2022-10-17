@@ -798,8 +798,7 @@ h2 {
 
 .container-contenu {
   width: 60%;
-  display: flex;
-  justify-content: center;
+  margin: auto;
 }
 
 /************************FOOTER***************************/
