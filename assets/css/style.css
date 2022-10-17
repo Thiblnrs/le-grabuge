@@ -753,17 +753,20 @@ h2 {
   color: white;
   text-align: center;
 }
-.single-post main .yarpp-thumbnails-horizontal {
+.single-post main .yarpp h3 {
+  color: white;
+}
+.single-post main .yarpp .yarpp-thumbnails-horizontal {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 130px;
 }
-.single-post main .yarpp-thumbnails-horizontal > a {
+.single-post main .yarpp .yarpp-thumbnails-horizontal > a {
   width: 25%;
   color: rgb(231, 231, 231);
 }
-.single-post main .yarpp-thumbnails-horizontal img {
+.single-post main .yarpp .yarpp-thumbnails-horizontal img {
   width: 100%;
   aspect-ratio: 16/9;
   -o-object-fit: cover;
@@ -771,7 +774,7 @@ h2 {
   filter: grayscale(1);
   border: 1px solid white;
 }
-.single-post main .yarpp-thumbnails-horizontal span {
+.single-post main .yarpp .yarpp-thumbnails-horizontal span {
   font-size: 24px;
   font-weight: 600;
   padding: 20px 0;

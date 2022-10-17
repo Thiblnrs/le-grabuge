@@ -13,26 +13,31 @@
 			color: white;
 			text-align: center;
 		}
-		.yarpp-thumbnails-horizontal {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			gap: 130px;
-			& > a {
-				width: 25%;
-				color: rgb(231, 231, 231);
+		.yarpp {
+			h3 {
+				color: white;
 			}
-			img {
-				width: 100%;
-				aspect-ratio: 16 / 9;
-				object-fit: cover;
-				filter: grayscale(1);
-				border: 1px solid white;
-			}
-			span {
-				font-size: 24px;
-				font-weight: 600;
-				padding: 20px 0;
+			.yarpp-thumbnails-horizontal {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 130px;
+				& > a {
+					width: 25%;
+					color: rgb(231, 231, 231);
+				}
+				img {
+					width: 100%;
+					aspect-ratio: 16 / 9;
+					object-fit: cover;
+					filter: grayscale(1);
+					border: 1px solid white;
+				}
+				span {
+					font-size: 24px;
+					font-weight: 600;
+					padding: 20px 0;
+				}
 			}
 		}
 	}
