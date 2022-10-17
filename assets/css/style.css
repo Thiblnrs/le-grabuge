@@ -695,6 +695,7 @@ header > nav ul li a {
   transition: 0.25s ease-in-out all;
 }
 #raccourcis ul li a {
+  width: 100%;
   padding: 50px;
   color: #fff;
   transition: 0.25s ease-in-out all;
