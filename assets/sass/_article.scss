@@ -12,3 +12,38 @@
 	}
 }
 
+
+#articles {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 130px;
+}
+
+#articles > div {
+	width: 25%;
+}
+
+#articles div img {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+	filter: grayscale(1);
+	border: 1px solid white;
+}
+
+#articles div h4 {
+	font-size: 24px;
+	font-weight: 600;
+	color: rgb(231, 231, 231);
+	padding: 20px 0;
+}
+
+#articles div p {
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(231, 231, 231);
+	text-align: left;
+	padding-bottom: 20px;
+}
+
