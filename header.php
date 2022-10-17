@@ -44,14 +44,14 @@
 						<nav id="menu-principal">
 							<?php wp_nav_menu( array(
 								'theme_location' => 'menu-principal',
-								'container' => false
+								'container' => null
 									)
 								) ?>
 						</nav>
 						<nav id="mention">
 							<?php wp_nav_menu( array(
 								'theme_location' => 'menu-scondaire',
-								'container' => false
+								'container' => null
 									)
 								) ?>
 						</nav>
