@@ -60,6 +60,15 @@ header {
 	border-bottom: solid 1px white;
 }
 
+@-webkit-keyframes flip {
+	0% {
+		transform: rotateY(360deg);
+	}
+	20% {
+		transform: rotateY(0deg);
+	}
+}
+
 @keyframes flip {
 	0% {
 		transform: rotateY(360deg);
@@ -127,8 +136,10 @@ header {
 				font-weight: bold;
 				letter-spacing: 16px;
 				line-height: 250%;
+				text-transform: uppercase;
 				&:hover {
-					animation: flip 6s 1;
+					-webkit-animation: flip 6s 1;
+					        animation: flip 6s 1;
 					// animation-iteration-count: 1;
 				}
 			}
@@ -136,10 +147,12 @@ header {
 	}
 
 	#mention ul {
-		columns: 2;
+		-moz-columns: 2;
+		     columns: 2;
 		a {
 			color: white;
 			font-size: 20px;
+			line-height: 50px;
 		}
 	}
 	.cont-artiste-menu {
@@ -163,8 +176,10 @@ header {
 				width: 100%;
 				border: white solid 1px;
 				aspect-ratio: 1 / 1;
-				object-fit: cover;
-				object-position: top;
+				-o-object-fit: cover;
+				   object-fit: cover;
+				-o-object-position: top;
+				   object-position: top;
 			}
 		}
 		hr {

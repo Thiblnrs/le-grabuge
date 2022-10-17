@@ -205,7 +205,6 @@ header > nav ul li a {
     transform: rotateY(0deg);
   }
 }
-
 @keyframes flip {
   0% {
     transform: rotateY(360deg);
@@ -270,18 +269,20 @@ header > nav ul li a {
   font-weight: bold;
   letter-spacing: 16px;
   line-height: 250%;
+  text-transform: uppercase;
 }
 #menu-contenu #menu-principal li a:hover {
   -webkit-animation: flip 6s 1;
-          animation: flip 6s 1;
+  animation: flip 6s 1;
 }
 #menu-contenu #mention ul {
   -moz-columns: 2;
-       columns: 2;
+  columns: 2;
 }
 #menu-contenu #mention ul a {
   color: white;
   font-size: 20px;
+  line-height: 50px;
 }
 #menu-contenu .cont-artiste-menu {
   width: 50%;
@@ -304,9 +305,9 @@ header > nav ul li a {
   border: white solid 1px;
   aspect-ratio: 1/1;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: top;
-     object-position: top;
+  object-position: top;
 }
 #menu-contenu .cont-artiste-menu hr {
   width: 351px;
