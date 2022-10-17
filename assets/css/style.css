@@ -871,68 +871,68 @@ footer {
   background: black;
 }
 
-#footer-nav > div {
+.flex-mention {
   width: 40%;
   display: flex;
   justify-content: space-between;
 }
-#footer-nav > div #mentionfooter nav {
+.flex-mention #mentionfooter nav {
   width: 100%;
   -moz-columns: 2;
   columns: 2;
 }
-#footer-nav > div #mentionfooter nav ul {
+.flex-mention #mentionfooter nav ul {
   width: 45%;
   flex-wrap: wrap;
 }
-#footer-nav > div #mentionfooter nav ul li a {
+.flex-mention #mentionfooter nav ul li a {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 3px;
   line-height: 160%;
   color: lightgrey;
 }
-#footer-nav > div #newsletter {
+.flex-mention #newsletter {
   box-sizing: border-box;
   padding: 100px 80px;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
-#footer-nav > div #newsletter > div {
+.flex-mention #newsletter > div {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-#footer-nav > div #newsletter p {
+.flex-mention #newsletter p {
   width: 58%;
   text-align: left;
 }
-#footer-nav > div h2 {
+.flex-mention h2 {
   font-size: 90px;
   letter-spacing: 40px;
   text-transform: uppercase;
   padding-bottom: 25px;
 }
-#footer-nav > div .mailpoet_form {
+.flex-mention .mailpoet_form {
   display: flex;
   width: 100%;
 }
-#footer-nav > div .mailpoet_form .mailpoet_paragraph {
+.flex-mention .mailpoet_form .mailpoet_paragraph {
   width: 100%;
 }
-#footer-nav > div .mailpoet_form .mailpoet_paragraph.last {
+.flex-mention .mailpoet_form .mailpoet_paragraph.last {
   width: unset;
 }
-#footer-nav > div .mailpoet_form .mailpoet_paragraph input {
+.flex-mention .mailpoet_form .mailpoet_paragraph input {
   padding: 15px;
   background-color: black;
   color: white;
 }
-#footer-nav > div .mailpoet_form .mailpoet_paragraph input[type=email] {
+.flex-mention .mailpoet_form .mailpoet_paragraph input[type=email] {
   border: none;
   border-bottom: 1px solid white;
 }
-#footer-nav > div .mailpoet_form .mailpoet_paragraph input[type=submit] {
+.flex-mention .mailpoet_form .mailpoet_paragraph input[type=submit] {
   border: 1px solid white !important;
 }
 
