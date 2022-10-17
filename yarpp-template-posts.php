@@ -25,7 +25,6 @@ Notes:
 */
 ?>
 
-<div class="yarpp yarpp-related yarpp-related-website yarpp-template-thumbnails">
     <!-- YARPP Thumbnails -->
     <h3>Articles similaires :</h3>
     <?php
@@ -39,4 +38,3 @@ Notes:
                     </a>
                 </div>
     <?php endwhile; ?>
-</div>

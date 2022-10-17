@@ -772,18 +772,18 @@ h2 {
   letter-spacing: 5px;
   text-transform: uppercase;
 }
-.single-post main .yarpp .yarpp-thumbnails-horizontal {
+.single-post main .yarpp .yarpp-template-yarpp-template-posts {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 130px;
 }
-.single-post main .yarpp .yarpp-thumbnails-horizontal > a {
+.single-post main .yarpp .yarpp-template-yarpp-template-posts > a {
   width: 25%;
   height: auto;
   color: rgb(231, 231, 231);
 }
-.single-post main .yarpp .yarpp-thumbnails-horizontal img {
+.single-post main .yarpp .yarpp-template-yarpp-template-posts img {
   width: 100%;
   aspect-ratio: 16/9;
   -o-object-fit: cover;
@@ -791,7 +791,7 @@ h2 {
   filter: grayscale(1);
   border: 1px solid white;
 }
-.single-post main .yarpp .yarpp-thumbnails-horizontal span {
+.single-post main .yarpp .yarpp-template-yarpp-template-posts span {
   font-size: 24px;
   font-weight: 600;
 }
