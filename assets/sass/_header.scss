@@ -125,8 +125,10 @@ header {
 				font-weight: bold;
 				letter-spacing: 16px;
 				line-height: 250%;
-				animation: flip 2s infinite;
-				animation-delay: calc(0.2s * var(--i));
+				&:hover {
+					animation: flip 6s infinite;
+				}
+				// animation-delay: calc(0.2s * var(--i));
 			}
 		}
 	}
