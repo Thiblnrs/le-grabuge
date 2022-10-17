@@ -744,6 +744,7 @@ h2 {
   padding-top: 90px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .single-post main .width-thumbnail img {
   width: 100%;
