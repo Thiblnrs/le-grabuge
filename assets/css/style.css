@@ -795,10 +795,17 @@ h2 {
   font-size: 24px;
   font-weight: 600;
 }
-
-.container-contenu {
+.single-post .container-contenu {
   width: 60%;
   margin: auto;
+}
+.single-post .post-categories,
+.single-post .tag {
+  color: lightgray;
+}
+.single-post .post-categories a,
+.single-post .tag a {
+  color: inherit;
 }
 
 /************************FOOTER***************************/

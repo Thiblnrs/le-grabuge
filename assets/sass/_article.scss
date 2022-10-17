@@ -35,7 +35,7 @@
 			.yarpp-thumbnails-horizontal {
 				display: flex;
 				justify-content: center;
-				align-items:flex-start;
+				align-items: flex-start;
 				gap: 130px;
 
 				& > a {
@@ -57,9 +57,16 @@
 			}
 		}
 	}
-}
+	.container-contenu {
+		width: 60%;
+		margin: auto;
+	}
 
-.container-contenu {
-	width: 60%;
-	margin: auto;
+	.post-categories,
+	.tag {
+		color: lightgray;
+		a {
+			color: inherit;
+		}
+	}
 }

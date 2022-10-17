@@ -34,7 +34,7 @@ Notes:
         ?>
         <a class="yarpp-thumbnail" rel="norewrite" href="<?php the_permalink() ?>" >
             <?php the_post_thumbnail() ?><span class="yarpp-thumbnail-title"><?php the_title() ?></span>
-            <p><?php the_excerpt() ?></p>
+            <?php the_excerpt() ?>
         </a>
     <?php endwhile; ?>
 </div>
