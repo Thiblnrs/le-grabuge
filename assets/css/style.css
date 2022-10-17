@@ -272,8 +272,8 @@ header > nav ul li a {
   line-height: 250%;
 }
 #menu-contenu #menu-principal li a:hover {
-  -webkit-animation: flip 6s infinite;
-          animation: flip 6s infinite;
+  -webkit-animation: flip 2s 1;
+          animation: flip 2s 1;
 }
 #menu-contenu #mention ul {
   -moz-columns: 2;

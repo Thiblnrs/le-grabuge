@@ -128,9 +128,9 @@ header {
 				letter-spacing: 16px;
 				line-height: 250%;
 				&:hover {
-					animation: flip 6s infinite;
+					animation: flip 2s 1;
+					// animation-iteration-count: 1;
 				}
-				// animation-delay: calc(0.2s * var(--i));
 			}
 		}
 	}
