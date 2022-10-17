@@ -740,8 +740,14 @@ h2 {
   text-align: center;
 }
 
-.width-thumbnail img {
+.single-post main {
+  padding-top: 90px;
+}
+.single-post main .width-thumbnail img {
   width: 100%;
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /************************FOOTER***************************/

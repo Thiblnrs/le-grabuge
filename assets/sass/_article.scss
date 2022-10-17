@@ -1,6 +1,14 @@
-.width-thumbnail {
-	// width: 50%;
-	img {
-		width: 100%;
+.single-post {
+	main {
+		padding-top: 90px;
+		.width-thumbnail {
+			// width: 50%;
+			img {
+				width: 100%;
+                aspect-ratio: 16/9;
+			object-fit: cover;
+			}
+		}
 	}
 }
+
