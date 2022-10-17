@@ -898,13 +898,14 @@ footer .mailpoet_form .mailpoet_paragraph.last {
 footer .mailpoet_form .mailpoet_paragraph input {
   padding: 15px;
   background-color: black;
+  color: white;
 }
 footer .mailpoet_form .mailpoet_paragraph input[type=email] {
   border: none;
   border-bottom: 1px solid white;
 }
 footer .mailpoet_form .mailpoet_paragraph input[type=submit] {
-  border: 1px solid white;
+  border: 1px solid white !important;
 }
 
 @media screen and (max-width: 480px) {

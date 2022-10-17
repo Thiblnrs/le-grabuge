@@ -33,13 +33,14 @@ footer {
 			input {
 				padding: 15px;
 				background-color: black;
+				color: white;
 			}
 			input[type="email"] {
 				border: none;
 				border-bottom: 1px solid white;
 			}
 			input[type="submit"] {
-				border: 1px solid white;
+				border: 1px solid white !important;
 			}
 		}
 	}
