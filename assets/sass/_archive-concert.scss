@@ -13,4 +13,23 @@
 	.mois > .moisDecembre ~ .moisDecembre {
 		display: none;
 	}
+	.mois {
+		display: flex;
+		flex-wrap: wrap;
+		h3 {
+			width: 100%;
+			text-align: center;
+			color: white;
+			border-bottom: 1pw solid white;
+			padding-bottom: 10px;
+			margin-bottom: 10px;
+		}
+		.detailConcert {
+			aspect-ratio: 1 / 1;
+			background-size: cover;
+			background-position: center;
+			border: 1px solid white;
+			width: 25%;
+		}
+	}
 }
