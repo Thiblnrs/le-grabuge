@@ -4,9 +4,10 @@ footer {
 	background: black;
 
 	&>div{
+		width: 40%;
 		display: flex;
 		justify-content: space-between;
-		align-items: flex-start;
+	
 	}
 
 	#mentionfooter nav {
@@ -25,7 +26,7 @@ footer {
 		font-weight: 500;
 		letter-spacing: 3px;
 		line-height: 160%;
-		color: white;
+		color: lightgrey;
 	}
 
 	#newsletter{
