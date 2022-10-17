@@ -3,6 +3,12 @@
 footer {
 	background: black;
 
+	&>div{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
 	#mentionfooter nav {
 		width: 100%;
 		-moz-columns: 2;

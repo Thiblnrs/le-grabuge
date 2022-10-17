@@ -21,27 +21,32 @@
             <?php echo do_shortcode('[mailpoet_form id="1"]') ?>
         </div>
     </section>
-    <div>
-        <nav id="mentionfooter">
-            <?php wp_nav_menu( array(
+    <!-- footer--------------------------------------->
+    <section id="footer-nav">
+        <div>
+
+            <nav id="mentionfooter">
+                <?php wp_nav_menu( array(
 					'theme_location' => 'menu-principal',
 					'container' => '',
 					'menu_class' => '',
 					)
 				) ?>
-        </nav>
-    </div>
+            </nav>
 
-    <div>
-        <nav id="mentionfooter">
-            <?php wp_nav_menu( array(
+
+
+            <nav id="mentionfooter">
+                <?php wp_nav_menu( array(
 					'theme_location' => 'menu-secondaire',
 					'container' => '',
 					'menu_class' => '',
 					)
 				) ?>
-        </nav>
-    </div>
+            </nav>
+        </div>
+        </div>
+    </section>
 </footer>
 <?php wp_footer(); ?>
 

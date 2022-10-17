@@ -870,6 +870,11 @@ h2 {
 footer {
   background: black;
 }
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 footer #mentionfooter nav {
   width: 100%;
   -moz-columns: 2;
