@@ -195,6 +195,16 @@ header > nav ul li a {
   -webkit-animation-delay: calc(0.2s * var(--i));
           animation-delay: calc(0.2s * var(--i));
 }
+@-webkit-keyframes flip {
+  0%, 80% {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes flip {
+  0%, 80% {
+    transform: rotateY(360deg);
+  }
+}
 
 .darkHeader {
   background: black;

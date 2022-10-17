@@ -50,13 +50,15 @@ header {
 				font-weight: 200;
 				text-transform: uppercase;
 				color: white;
-				  animation: flip 2s infinite;
-  animation-delay: calc(.2s * var(--i))
+				animation: flip 2s infinite;
+				animation-delay: calc(0.2s * var(--i));
 			}
 			@keyframes flip {
-  0%,80% {
-    transform: rotateY(360deg) 
-  }
+				0%,
+				80% {
+					transform: rotateY(360deg);
+				}
+			}
 		}
 	}
 }
