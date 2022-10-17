@@ -23,27 +23,36 @@
     </section>
     <!-- footer--------------------------------------->
     <section id="footer-nav">
-        <div class="flex-mention">
+        <div>
+            <div class="flex-mention">
 
-            <nav id="mentionfooter">
-                <?php wp_nav_menu( array(
+                <nav id="mentionfooter">
+                    <?php wp_nav_menu( array(
 					'theme_location' => 'menu-principal',
 					'container' => '',
 					'menu_class' => '',
 					)
 				) ?>
-            </nav>
+                </nav>
 
 
 
-            <nav id="mentionfooter">
-                <?php wp_nav_menu( array(
+                <nav>
+                    <?php wp_nav_menu( array(
 					'theme_location' => 'menu-secondaire',
 					'container' => '',
 					'menu_class' => '',
 					)
 				) ?>
-            </nav>
+                </nav>
+            </div>
+
+            <div>
+                <p>LE GRABUGE
+                </p>
+                <p>22 Rue de la villaine
+                    59000 LILLE</p>
+            </div>
         </div>
         </div>
     </section>

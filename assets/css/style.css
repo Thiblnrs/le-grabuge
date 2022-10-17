@@ -871,7 +871,7 @@ footer {
   background: black;
 }
 
-.flex-mention {
+#footer-nav > div .flex-mention {
   width: 40%;
   display: flex;
   justify-content: space-between;

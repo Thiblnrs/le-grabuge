@@ -4,6 +4,11 @@ footer {
 	background: black;	
 	}
 
+	#footer-nav>div{
+		display: flex;
+		justify-content: space-between;
+	}
+
 .flex-mention{
 		width: 40%;
 		display: flex;
