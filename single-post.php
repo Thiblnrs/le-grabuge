@@ -14,13 +14,17 @@ get_header();
 			<?php the_post_thumbnail()?>
 		</div>
 
-		<div>
+		<section>
 			<h1><?php the_title()?></h1>
 			<p><?php the_content()?></p>
-		</div>
+		</section>
 
-		
 
+    <!-- Partie article--------------------------------------->
+   <section class="container prochainement">
+        <hr />
+        <h3>Aticles similaires</h3>
+    </section>
 
  <section id="articles">
         <div>
