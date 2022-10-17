@@ -50,7 +50,7 @@
 						</nav>
 						<nav id="mention">
 							<?php wp_nav_menu( array(
-								'theme_location' => 'menu-scondaire'
+								'theme_location' => 'menu-scondaire',
 								'container' => ''
 									)
 								) ?>
