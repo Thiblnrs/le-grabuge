@@ -128,16 +128,16 @@ get_header();
             <?php 
                 $galeries = get_field('galerie');
                 if( $galeries ): ?>
-                    <?php foreach( $galeries as $galerie ): ?>
-                        <img src="<?php echo esc_url($galerie['url']); ?>" alt="<?php echo esc_attr($galerie['alt']); ?>" />
-                    <?php endforeach; ?>
-                <?php endif; ?>
+            <?php foreach( $galeries as $galerie ): ?>
+            <img src="<?php echo esc_url($galerie['url']); ?>" alt="<?php echo esc_attr($galerie['alt']); ?>" />
+            <?php endforeach; ?>
+            <?php endif; ?>
         </div>
     </section>
     <!-- DESCRIPTION SALLE--------------------------------------->
     <section id="desc-salle">
         <div>
-            <img src="img/grabuge-ext.jpg" alt="" />
+            <img src="/img/" alt="" />
             <div>
                 <h4>Le grabuge c'est quoi?</h4>
                 <p>Située sur Lille LE GRABUGE est une salle de spectacle dédiée au musique electronique.</p>
@@ -167,33 +167,34 @@ get_header();
             
             if ( $query->have_posts() ) :
                 while ( $query->have_posts() ) : $query->the_post(); ?>
-                     <div>
-                        <?php the_post_thumbnail() ?>
-                        <h4><?php the_title() ?></h4>
-                        <?php the_excerpt() ?>
-                        <div class="cta-esp"><a href="<?php the_permalink() ?>">En lire plus</a></div>
-                    </div>
-                <?php endwhile;
+        <div>
+            <?php the_post_thumbnail() ?>
+            <h4><?php the_title() ?></h4>
+            <?php the_excerpt() ?>
+            <div class=" cta-esp"><a href="<?php the_permalink() ?>">En lire plus</a>
+            </div>
+        </div>
+        <?php endwhile;
             endif;
             
             wp_reset_postdata();
         ?>
-        
+
     </section>
     <section class="cta-prog">
         <div><a href="#">Plus d’article</a></div>
     </section>
 
-   
+
 
     <!-- citation--------------------------------------->
     <section id="citation">
         <?php 
             if( have_rows('citations') ):
                 while( have_rows('citations') ) : the_row(); ?>
-                    <div>
-                        <p><?php the_sub_field('texte_citation') ?></p>
-                    </div>
+        <div>
+            <p><?php the_sub_field('texte_citation') ?></p>
+        </div>
         <?php   endwhile;
                 else :
             endif;
@@ -202,7 +203,7 @@ get_header();
 
     <!-- Raccourcis--------------------------------------->
     <nav id="raccourcis">
-<?php wp_nav_menu( array(
+        <?php wp_nav_menu( array(
 								'theme_location' => 'menu-principal',
 								'container' => '',
 								'menu_class' => '',
