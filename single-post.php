@@ -20,12 +20,15 @@ get_header();
         <hr>
         <?php the_content()?>
         <p class="tag"><?php the_tags()?></p>
-        <div class="cta-esp"><a href="<?php the_permalink() ?>">En lire plus</a></div>
+
     </section>
 
     <section>
-        <?php yarpp_related() ?>
 
+        <div>
+            <?php yarpp_related() ?>
+            <div class="cta-esp"><a href="<?php the_permalink() ?>">En lire plus</a></div>
+        </div>
     </section>
 
     <!-- Partie article--------------------------------------->
