@@ -9,36 +9,36 @@
 
 get_header();
 ?>
-	<main class="container">
-		<div class="width-thumbnail">
-			<?php the_post_thumbnail()?>
-		</div>
+<main class="container">
+    <div class="width-thumbnail">
+        <?php the_post_thumbnail()?>
+    </div>
 
-		<section class="container-contenu">
-			<?php the_category()?>
-			<h1><?php the_title()?></h1>
-			<hr>
-			<?php the_content()?>
-			<p class="tag"><?php the_tags()?></p>
-		</section>
+    <section class="container-contenu">
+        <?php the_category()?>
+        <h1><?php the_title()?></h1>
+        <hr>
+        <?php the_content()?>
+        <p class="tag"><?php the_tags()?></p>
+        <div class="cta-esp"><a href="<?php the_permalink() ?>">En lire plus</a></div>
+    </section>
 
-		<section>
-			<?php yarpp_related() ?>
-			<hr>
-			<div class="cta-esp"><a href="<?php the_permalink() ?>">En lire plus</a></div>
-		</section>
+    <section>
+        <?php yarpp_related() ?>
+
+    </section>
 
     <!-- Partie article--------------------------------------->
-  
+
     <section class="cta-prog">
-		<div><a href="#">Plus d’article</a></div>
+        <div><a href="#">Plus d’article</a></div>
     </section>
 
 
 
 
 
-	</main><!-- #main -->
+</main><!-- #main -->
 
 <?php
 get_footer();
