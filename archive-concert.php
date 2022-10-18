@@ -9,17 +9,20 @@
 
 get_header();
 ?>
-<section id="soiree-list">
 
-    <div>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-    </div>
-
-</section>
 
 <main class="container">
+
+    <section id="soiree-list">
+
+        <div>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+
+    </section>
+
     <h1>Programmation</h1>
     <div class="mois">
         <?php
