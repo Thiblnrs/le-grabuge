@@ -836,6 +836,7 @@ h2 {
   display: flex;
   background: black;
   border-bottom: 1px solid white;
+  height: 600px;
 }
 
 .post-type-archive-concert .mois > .moisJanvier ~ .moisJanvier,
