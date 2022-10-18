@@ -11,11 +11,10 @@ get_header();
 ?>
 
 <section id="soiree-list">
-
     <div>
-        <img src="<?php the_field('photo_artiste') ?>" alt="">
-        <img src="<?php the_field('photo_artiste') ?>" alt="">
-        <img src="<?php the_field('photo_artiste') ?>" alt="">
+
+        <h1>Les soirées grabuge</h1>
+        <hr>
     </div>
 
 </section>

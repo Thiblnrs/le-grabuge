@@ -3,6 +3,17 @@
 	background: black;
 	border-bottom: 1px solid white;
 	height: 600px;
+
+	& h1{
+		font-size: 40px;
+		font-weight: 200;
+		color: white;
+		letter-spacing:10px;
+	}
+
+	& hr{
+		width:100%;
+	}
 }
 
 

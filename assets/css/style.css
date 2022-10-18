@@ -838,6 +838,15 @@ h2 {
   border-bottom: 1px solid white;
   height: 600px;
 }
+#soiree-list h1 {
+  font-size: 40px;
+  font-weight: 200;
+  color: white;
+  letter-spacing: 10px;
+}
+#soiree-list hr {
+  width: 100%;
+}
 
 .post-type-archive-concert .mois > .moisJanvier ~ .moisJanvier,
 .post-type-archive-concert .mois > .moisFevrier ~ .moisFevrier,
