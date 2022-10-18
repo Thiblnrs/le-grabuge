@@ -724,6 +724,7 @@ header > nav ul li a {
 }
 #detail-concert h2 {
   color: white;
+  font-size: 65px;
 }
 #detail-concert h2,
 #detail-concert p {
@@ -733,9 +734,9 @@ header > nav ul li a {
   width: 50%;
   aspect-ratio: 9/16;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: top center;
-     object-position: top center;
+  object-position: top center;
 }
 
 .position-ytb {

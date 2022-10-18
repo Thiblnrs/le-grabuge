@@ -13,6 +13,7 @@
 	}
 	h2 {
 		color: white;
+		font-size: 65px;
 	}
 	h2,
 	p {
@@ -21,8 +22,10 @@
 	img {
 		width: 50%;
 		aspect-ratio: 9 / 16;
-		object-fit: cover;
-		object-position: top center;
+		-o-object-fit: cover;
+		   object-fit: cover;
+		-o-object-position: top center;
+		   object-position: top center;
 	}
 }
 
