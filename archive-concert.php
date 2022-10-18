@@ -10,18 +10,17 @@
 get_header();
 ?>
 
+<section id="soiree-list">
 
-<main class="container">
+    <div>
+        <img src="<?php the_field('photo_artiste') ?>" alt="">
+        <img src="<?php the_field('photo_artiste') ?>" alt="">
+        <img src="<?php the_field('photo_artiste') ?>" alt="">
+    </div>
 
-    <section id="soiree-list">
+</section>
 
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
-
-    </section>
+<main class=" container">
 
     <h1>Programmation</h1>
     <div class="mois">
