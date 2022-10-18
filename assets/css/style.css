@@ -838,6 +838,9 @@ h2 {
   border-bottom: 1px solid white;
   height: 600px;
 }
+#soiree-list > div {
+  margin: auto;
+}
 #soiree-list h1 {
   font-size: 40px;
   font-weight: 200;

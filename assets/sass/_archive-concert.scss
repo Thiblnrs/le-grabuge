@@ -4,6 +4,10 @@
 	border-bottom: 1px solid white;
 	height: 600px;
 
+	&>div{
+		margin: auto;
+	}
+
 	& h1{
 		font-size: 40px;
 		font-weight: 200;
