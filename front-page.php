@@ -89,7 +89,7 @@ get_header();
             <div class="cont-artiste">
                 <div>
                     <?php $photo_artiste = get_field('photo_artiste') ?>
-                    <img src="<?php $photo_artiste['sizes']['medium'] ?>" alt="<?php $photo_artiste['alt'] ?>" />
+                    <img src="<?php echo $photo_artiste['sizes']['medium'] ?>" alt="<?php echo $photo_artiste['alt'] ?>" />
                     <div class="cover-date">
                         <p>
                             <?php 
