@@ -28,7 +28,8 @@ get_header();
 
 				<a class="cta-b" href="#">Reservation</a></>
 			</div>
-			<img src="<?php the_field('photo_artiste') ?>" alt="">
+				<?php $photo_artiste = get_field('photo_artiste') ?>
+				<img src="<?php $photo_artiste['sizes']['large'] ?>" alt="<?php $photo_artiste['alt'] ?>" />
 		</div>
 
 <div class="position-ytb"><?php the_field("ytb")?></div>
