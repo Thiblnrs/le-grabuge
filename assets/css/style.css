@@ -663,7 +663,7 @@ header > nav ul li a {
   overflow-x: hidden;
   height: 75vh;
   border: #fff solid 1px;
-  background: url("../img/la-salle.png") no-repeat center;
+  background: url("../img/la-salle.webp") no-repeat center;
   background-size: cover;
 }
 #citation div {
