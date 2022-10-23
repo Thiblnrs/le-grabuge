@@ -29,7 +29,7 @@ get_header();
             <hr>
             <h1 class="h1-concert-page"><?php the_title()?></h1>
             <hr>
-            <p>Line up : </p>
+            <p>Line up: </p>
             <p>20.00 - 21.00 : Sam Paganini <br>
                 21.00 - 22.00 : Amelie Lens <br>
                 22.00 - 00.00 : Charlotte de witte</p>
@@ -50,13 +50,12 @@ get_header();
     <section>
         <div>
             <div class="cover-date">
-                <h3>Sam pagganie</h3>
+                <h3><?php the_title() ?><br />
+                </h3>
                 <p>21.00-22.00</p>
             </div>
             <hr>
-            <p>Le DJ et producteur italien Sam Paganini balade depuis 2010 sa techno minimale à travers la planète et a
-                sorti en 2014 un premier album intitulé "Satellite" qui gravite encore dans pas mal de têtes et de
-                tables de mix à l'heure actuelle</p>
+            <span><?php the_field('premiere-partie') ?></span>
         </div>
     </section>
 
