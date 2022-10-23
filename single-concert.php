@@ -61,7 +61,7 @@ get_header();
         </div>
         <div>
             <div class="cover-date">
-                <h3><?php the_field('seconde-partie') ?>
+                <h3 class="h3-concert-page"><?php the_field('seconde-partie') ?>
                 </h3>
                 <p>21.00-22.00</p>
             </div>
@@ -79,7 +79,7 @@ get_header();
     </section>
 
     <!-- Proposition d'artiste--------------------------------------->
-    <section id="prochain-artiste" class="bg-black-">
+    <section id="prochain-artiste" class="container">
         <div>
             <?php $args = array(
 							'post_type' => 'concert',
