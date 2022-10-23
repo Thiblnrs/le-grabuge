@@ -27,7 +27,7 @@ get_header();
                 <p>Fermeture - 19.30</p>
             </div>
             <hr>
-            <h2><?php the_title()?></h2>
+            <h1 class="h1-concert-page"><?php the_title()?></h1>
             <hr>
             <p>Line up : </p>
             <p>20.00 - 21.00 : Sam Paganini <br>
@@ -45,7 +45,19 @@ get_header();
     <div class="position-ytb"><?php the_field("ytb")?></div>
 
     <section>
-        <h2>PREMIERE PARTIE</h2>
+        <h2 class="h2-concert-page">PREMIERE PARTIE</h2>
+    </section>
+    <section>
+        <div>
+            <div class="cover-date">
+                <h3>Sam pagganie</h3>
+                <p>21.00-22.00</p>
+            </div>
+            <hr>
+            <p>Le DJ et producteur italien Sam Paganini balade depuis 2010 sa techno minimale à travers la planète et a
+                sorti en 2014 un premier album intitulé "Satellite" qui gravite encore dans pas mal de têtes et de
+                tables de mix à l'heure actuelle</p>
+        </div>
     </section>
 
 </main>
