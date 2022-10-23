@@ -20,8 +20,8 @@ get_header();
                     <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?>
                 </p>
                 <p>Techno</p>
-                <p>Ouverture - 19.30</p>
             </div>
+            <p>Ouverture - 19.30</p>
             <br>
             <hr>
             <h2><?php the_title()?></h2>
