@@ -12,7 +12,7 @@ get_header();
 <main class="container">
     <div id="detail-concert">
         <div>
-            <div class="cover-date-concert">
+            <div class="cover-date">
                 <p>
                     <?php 
 								$dateFR = strtotime( get_field('date') );
@@ -22,7 +22,7 @@ get_header();
                 <p>Techno</p>
             </div>
             <br>
-            <div class="cover-date-concert">
+            <div class="cover-date">
                 <p>Ouverture - 19.30</p>
                 <p>Fermeture - 19.30</p>
             </div>
