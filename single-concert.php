@@ -50,13 +50,91 @@ get_header();
     <section>
         <div>
             <div class="cover-date">
-                <h3><?php the_title() ?><br />
+                <h3><?php the_field('premiere-partie') ?>
                 </h3>
                 <p>21.00-22.00</p>
             </div>
             <hr>
-            <span><?php the_field('premiere-partie') ?></span>
+            <p>Le DJ et producteur italien Sam Paganini balade depuis 2010 sa techno minimale à travers la planète et a
+                sorti en 2014 un premier album intitulé "Satellite" qui gravite encore dans pas mal de têtes et de
+                tables de mix à l'heure actuelle</p>
         </div>
+        <div>
+            <div class="cover-date">
+                <h3><?php the_field('seconde-partie') ?>
+                </h3>
+                <p>21.00-22.00</p>
+            </div>
+            <hr>
+            <p>Le DJ et producteur italien Sam Paganini balade depuis 2010 sa techno minimale à travers la planète et a
+                sorti en 2014 un premier album intitulé "Satellite" qui gravite encore dans pas mal de têtes et de
+                tables de mix à l'heure actuelle</p>
+        </div>
+    </section>
+
+    <!-- Vous aimeriez peut être--------------------------------------->
+    <section class="container prochainement">
+        <hr />
+        <h2>Vous aimeriez peut être</h2>
+    </section>
+
+    <!-- Proposition d'artiste--------------------------------------->
+    <section id="prochain-artiste" class="container">
+        <div>
+            <?php $args = array(
+							'post_type' => 'concert',
+							'posts_per_page' => 2,
+							'meta_key'  => 'date',
+							'offset'    => 1,
+							'orderby'   => 'meta_value_num',
+							'order'     => 'ASC',
+						);
+				
+				$concertsAVenir = new WP_Query($args);
+				
+				if ( $concertsAVenir->have_posts() ) :
+					while ( $concertsAVenir->have_posts() ) : $concertsAVenir->the_post(); ?>
+
+            <div class="cont-artiste">
+                <div>
+                    <?php $photo_artiste = get_field('photo_artiste') ?>
+                    <img src="<?php echo $photo_artiste['sizes']['medium'] ?>"
+                        alt="<?php echo $photo_artiste['alt'] ?>" />
+                    <div class="cover-date">
+                        <p>
+                            <?php 
+								$dateFR = strtotime( get_field('date') );
+								echo date_i18n( "j M Y", $dateFR ); ?><br />
+                            <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?>
+                        </p>
+                        <p>Techno</p>
+                    </div>
+
+                    <hr class="hr-desc" />
+
+                    <h3><?php the_title() ?><br />
+                        <span><?php the_field('premiere-partie') ?></span>
+                    </h3>
+
+                    <div class="cta-esp"><a href="<?php the_permalink() ?>">En savoir plus</a></div>
+                    <div class="cta-b"><a href="">Billetterie</a></div>
+                </div>
+            </div>
+            <?php endwhile;
+				endif;
+				
+				wp_reset_postdata(); ?>
+        </div>
+
+        <section class="cta-prog">
+            <div><a href="#">Programmation complete</a></div>
+
+            <hr />
+        </section>
+    </section>
+
+    <section class="cta-prog">
+        <div><a href="#">Plus d’article</a></div>
     </section>
 
 </main>
