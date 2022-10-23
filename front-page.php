@@ -89,7 +89,8 @@ get_header();
             <div class="cont-artiste">
                 <div>
                     <?php $photo_artiste = get_field('photo_artiste') ?>
-                    <img src="<?php echo $photo_artiste['sizes']['medium'] ?>" alt="<?php echo $photo_artiste['alt'] ?>" />
+                    <img src="<?php echo $photo_artiste['sizes']['medium'] ?>"
+                        alt="<?php echo $photo_artiste['alt'] ?>" />
                     <div class="cover-date">
                         <p>
                             <?php 
@@ -138,7 +139,7 @@ get_header();
     <!-- DESCRIPTION SALLE--------------------------------------->
     <section id="desc-salle">
         <div>
-            <img src="/img/" alt="" />
+            <img src="../le-grabuge/assets/img/grabuge-ext.jpg" alt="" />
             <div>
                 <h4>Le grabuge c'est quoi?</h4>
                 <p>Située sur Lille LE GRABUGE est une salle de spectacle dédiée au musique electronique.</p>
