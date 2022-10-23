@@ -22,7 +22,10 @@ get_header();
                 <p>Techno</p>
             </div>
             <br>
-            <p>Ouverture - 19.30</p>
+            <div class="cover-date">
+                <p>Ouverture - 19.30</p>
+                <p>Fermeture - 19.30</p>
+            </div>
             <hr>
             <h2><?php the_title()?></h2>
             <hr>
