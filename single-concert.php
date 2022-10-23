@@ -125,8 +125,8 @@ get_header();
 				wp_reset_postdata(); ?>
         </div>
 
-        <section class="cta-prog">
-            <div><a href="#">Programmation complete</a></div>
+        <section>
+            <div><a href="#" class="cta-prog-a">Programmation</a></div>
 
             <hr />
         </section>
