@@ -79,7 +79,7 @@ get_header();
     </section>
 
     <!-- Proposition d'artiste--------------------------------------->
-    <section id="prochain-artiste" class="">
+    <section id="prochain-artiste" class="bg-black-">
         <div>
             <?php $args = array(
 							'post_type' => 'concert',
