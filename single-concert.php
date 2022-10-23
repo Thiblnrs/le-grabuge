@@ -50,7 +50,7 @@ get_header();
     <section>
         <div>
             <div class="cover-date">
-                <h3><?php the_field('premiere-partie') ?>
+                <h3 class="h3-concert-page"><?php the_field('premiere-partie') ?>
                 </h3>
                 <p>21.00-22.00</p>
             </div>
