@@ -15,8 +15,10 @@
 get_header();
 ?>
 
-<main>
+<main><div>
     <h1><?php the_title() ?></h1>
+    <hr>
+    </div>
     <div class="tabs">
         <button id="btn-billet">Acheter son billet</button>
         <button id="btn-handicap">Personnes en situation de handicap</button>
@@ -37,9 +39,6 @@ get_header();
     </section>
     <section id="faq">
         <h2>FAQ</h2>
-    </section>
-    <section>
-        <hr>
     </section>
 </main><!-- #main -->
 
