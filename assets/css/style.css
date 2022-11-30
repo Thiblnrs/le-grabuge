@@ -981,6 +981,11 @@ cta-prog-a {
   align-items: flex-start;
 }
 
+.bg-black {
+  background: black;
+  border-top: solid white 1px;
+}
+
 /************************FOOTER***************************/
 footer {
   background: black;

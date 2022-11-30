@@ -40,7 +40,8 @@ get_header();
     <section id="faq">
         <h2>FAQ</h2>
     </section>
-</main><!-- #main -->
+</main>
+<section class="bg-black"></section><!-- #main -->
 
 <?php
 get_footer();
