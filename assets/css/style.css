@@ -37,6 +37,10 @@ hr {
   width: 100%;
 }
 
+.page main {
+  padding-top: 90px;
+}
+
 /*************************FONTS*****************************/
 @font-face {
   font-family: "Montserrat";
@@ -532,7 +536,7 @@ header > nav ul li a {
   height: 50px;
   display: flex;
   margin: auto;
-  margin-top: 60px;
+  margin-bottom: 50px;
   justify-content: center;
   align-items: center;
   background: white;
@@ -714,13 +718,13 @@ header > nav ul li a {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 30px;
+  gap: 50px;
   min-height: 100vh;
   padding: 90px 0;
 }
 #detail-concert > div {
   text-align: justify;
-  width: 50%;
+  width: 40%;
 }
 #detail-concert h2 {
   color: white;
@@ -757,12 +761,56 @@ header > nav ul li a {
   height: 100%;
 }
 
-h2 {
+.h1-concert-page {
   font-size: 24px;
   letter-spacing: 5px;
   color: white;
   font-weight: 400;
   text-align: center;
+}
+
+.h2-concert-page {
+  font-size: 40px;
+  letter-spacing: 5px;
+  color: lightgrey;
+  font-weight: 200;
+  text-align: center;
+}
+
+.h3-concert-page {
+  font-size: 32px;
+  letter-spacing: 5px;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+}
+
+.cover-date {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 25px;
+}
+.cover-date > p {
+  color: white;
+  text-transform: uppercase;
+}
+
+.cont-artiste-2 {
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 85px;
+  color: white;
+}
+
+cta-prog-a {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  text-decoration: underline;
 }
 
 .single-post main {
@@ -889,6 +937,13 @@ h2 {
   background-position: center;
   border: 1px solid white;
   width: 25%;
+}
+
+.page-id-105 section {
+  display: none;
+}
+.page-id-105 section.active {
+  display: block;
 }
 
 /************************FOOTER***************************/

@@ -18,19 +18,22 @@ get_header();
 <main>
     <h1><?php the_title() ?></h1>
     <div class="tabs">
-        <button>Acheter son billet</button>
-        <button>Personnes en situation de handicap</button>
-        <button>Règlement intérieur</button>
-        <button>FAQ</button>
+        <button id="btn-billet">Acheter son billet</button>
+        <button id="btn-handicap">Personnes en situation de handicap</button>
+        <button id="btn-reglement">Règlement intérieur</button>
+        <button id="btn-faq">FAQ</button>
     </div>
-    <section id="billet">
+    <section id="billet" class="active">
         <h2>Acheter son billet</h2>
+        <?php the_field('billet') ?>
     </section>
     <section id="handicap">
         <h2>Personnes en situation de handicap</h2>
+        <?php the_field('handicap') ?>
     </section>
     <section id="reglement">
         <h2>Règlement intérieur</h2>
+        <?php the_field('reglement') ?>
     </section>
     <section id="faq">
         <h2>FAQ</h2>

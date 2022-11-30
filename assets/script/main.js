@@ -33,4 +33,20 @@ jQuery(document).ready(function ($) {
 		$(".menu").addClass("open");
 	});
 	// Tab page infos pratiques
+	$("#btn-billet").click(function () {
+		$("section").removeClass("active");
+		$("#billet").addClass("active");
+	});
+	$("#btn-handicap").click(function () {
+		$("section").removeClass("active");
+		$("#handicap").addClass("active");
+	});
+	$("#btn-reglement").click(function () {
+		$("section").removeClass("active");
+		$("#reglement").addClass("active");
+	});
+	$("#btn-faq").click(function () {
+		$("section").removeClass("active");
+		$("#faq").addClass("active");
+	});
 });

@@ -1,0 +1,8 @@
+.page-id-105 {
+	section {
+		display: none;
+		&.active {
+			display: block;
+		}
+	}
+}
