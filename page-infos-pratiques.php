@@ -40,8 +40,6 @@ get_header();
     <section id="faq">
         <h2>FAQ</h2>
     </section>
-  <section class="section-bg"></section>
-    
 </main><!-- #main -->
 
 <?php
