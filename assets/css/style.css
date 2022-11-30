@@ -1040,6 +1040,8 @@ h2 {
   letter-spacing: 40px;
   text-transform: uppercase;
   padding-bottom: 25px;
+  color: white;
+  font-weight: 400;
 }
 
 .mailpoet_form {
