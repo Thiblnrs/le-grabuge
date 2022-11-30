@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-<main><div>
+<main class="container"><div>
     <h1><?php the_title() ?></h1>
     <hr>
     </div>
