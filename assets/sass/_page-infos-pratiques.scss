@@ -33,13 +33,12 @@ button {
     border: none;
     text-transform: uppercase;
     width: 25%;
+        font-size: 16px;
+        text-align: left;
 }
 }
 
 .tabs{
     display: flex;
         align-items: flex-start;
-        display: flex;
-    font-size: 16px;
-    letter-spacing: 10px;
 }
