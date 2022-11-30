@@ -41,7 +41,6 @@ get_header();
         <h2>FAQ</h2>
     </section>
 </main>
-<section class="bg-black"></section><!-- #main -->
 
 <?php
 get_footer();
