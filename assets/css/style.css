@@ -950,6 +950,13 @@ cta-prog-a {
   color: white;
   text-transform: uppercase;
 }
+.page-id-105 button {
+  background: transparent;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  width: 25%;
+}
 
 /************************FOOTER***************************/
 footer {
