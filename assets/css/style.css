@@ -974,6 +974,14 @@ cta-prog-a {
   width: 25%;
 }
 
+.tabs {
+  display: flex;
+  align-items: flex-start;
+  display: flex;
+  font-size: 16px;
+  letter-spacing: 10px;
+}
+
 /************************FOOTER***************************/
 footer {
   background: black;
