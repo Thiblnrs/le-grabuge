@@ -27,7 +27,6 @@ get_header();
     </div>
     <section id="billet" class="active">
         <h2>Acheter son billet</h2>
-        <section class="section-bg"></section>
         <?php the_field('billet') ?>
     </section>
     <section id="handicap">
@@ -41,7 +40,7 @@ get_header();
     <section id="faq">
         <h2>FAQ</h2>
     </section>
-
+  <section class="section-bg"></section>
     
 </main><!-- #main -->
 
