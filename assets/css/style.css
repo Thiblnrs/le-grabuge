@@ -949,6 +949,9 @@ cta-prog-a {
   text-align: center;
   color: white;
   text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 10px;
+  font-weight: 200;
 }
 .page-id-105 hr {
   width: 100%;
