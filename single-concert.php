@@ -46,7 +46,7 @@ get_header();
             <p id="suivre-artiste">Suivre l'artiste</p>
             <hr>
             <?php while( have_rows('reseaux_sociaux') ) : the_row(); ?>
-                    <a href=" <?php the_sub_field('url')  ?>">
+                    <a href="<?php the_sub_field('url')  ?>">
                         <?php the_sub_field('choix_reseaux')  ?>
                     </a>
                 <?php endwhile; ?>
@@ -78,7 +78,7 @@ get_header();
                 <p>Suivre l'artiste</p>
                 <hr>
                 <?php while( have_rows('reseaux_sociaux') ) : the_row(); ?>
-                    <a href=" <?php the_sub_field('url')  ?>">
+                    <a href="<?php the_sub_field('url')  ?>">
                         <?php the_sub_field('choix_reseaux')  ?>
                     </a>
                 <?php endwhile; ?>

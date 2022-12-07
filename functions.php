@@ -140,6 +140,7 @@ add_action( 'widgets_init', 'le_grabuge_widgets_init' );
  */
 function le_grabuge_scripts() {
 	wp_enqueue_style( 'le-grabuge-style',  get_template_directory_uri().'/assets/css/style.min.css' );
+	wp_enqueue_style ( "font-awesome", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
 
 	wp_enqueue_script( 'slick', get_template_directory_uri().'/assets/script/slick.min.js', array('jquery'), _S_VERSION, true );
 	wp_enqueue_script( 'main', get_template_directory_uri().'/assets/script/main.js', array('jquery'), _S_VERSION, true );
