@@ -14,5 +14,3 @@
   <div class="cta-esp"><a href="<?php the_permalink() ?>">En savoir plus</a></div>
                     <div class="cta-b"><a href="">Billetterie</a></div>
 </div>
-</div>
-      
