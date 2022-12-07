@@ -41,6 +41,14 @@ get_header();
             <p><?php the_content()?></p>
 
             <a class="cta-b" href="#">Reservation</a></>
+            <div>
+            <p>Suivre l'artiste</p>
+            <hr>
+            <?php while( have_rows('line_up') ) : the_row(); ?>
+                    <?php the_sub_field('reseaux_sociaux') ?> <br>
+                <?php endwhile; ?>
+
+            </div>
         </div>
         <?php $photo = get_field('photo_artiste') ?>
         <img src="<?php echo $photo['sizes']['large'] ?>" alt="<?php echo $photo['alt'] ?>" />
