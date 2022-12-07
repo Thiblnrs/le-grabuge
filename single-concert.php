@@ -45,9 +45,6 @@ get_header();
             <div>
             <p id="suivre-artiste">Suivre l'artiste</p>
             <hr>
-            <p><?php while( have_rows('line_up') ) : the_row(); ?>
-                    <?php the_sub_field('reseaux_sociaux') ?>
-                <?php endwhile; ?></p>
 
             </div>
         </div>
@@ -77,9 +74,6 @@ get_header();
           <div id="suivre-artiste">
             <p>Suivre l'artiste</p>
             <hr>
-            <p><?php while( have_rows('line_up') ) : the_row(); ?>
-                    <?php the_sub_field('reseaux_sociaux') ?>
-                <?php endwhile; ?></p>
 
             </div>
     </section>
