@@ -32,40 +32,40 @@ get_header();
 					}
 				?>
         <?php if ($mois == "January") : ?>
-        <h2 class="moisJanvier">Janvier</h2>
+        <h3 class="moisJanvier">Janvier</h3>
         <?php get_template_part('template-parts/concert/archive-concert') ?>
         <?php elseif ($mois == "February") : ?>
-        <h2 class="moisFevrier">Février</h2>
+        <h3 class="moisFevrier">Février</h3>
         <?php get_template_part('template-parts/concert/archive-concert') ?>
         <?php elseif ($mois == "March") : ?>
-        <h2 class="moisMars">Mars</h2>
+        <h3 class="moisMars">Mars</h3>
         <?php get_template_part('template-parts/concert/archive-concert') ?>
         <?php elseif ($mois == "April") : ?>
-        <h2 class="moisAvril">Avril</h2>
+        <h3 class="moisAvril">Avril</h3>
         <?php get_template_part('template-parts/concert/archive-concert') ?>
         <?php elseif ($mois == "May") : ?>
-        <h2 class="moisMai">Mai</h2>
+        <h3 class="moisMai">Mai</h3>
         <?php get_template_part('template-parts/concert/archive-concert') ?>
         <?php elseif ($mois == "June") : ?>
-        <h2 class="moisJuin">Juin</h2>
+        <h3 class="moisJuin">Juin</h3>
         <?php get_template_part('template-parts/concert/archive-concert') ?>
         <?php elseif ($mois == "July") : ?>
-        <h2 class="moisJuillet">Juillet</h2>
+        <h3 class="moisJuillet">Juillet</h3>
         <?php get_template_part('template-parts/concert/archive-concert') ?>
         <?php elseif ($mois == "August") : ?>
-        <h2 class="moisAout">Aout</h2>
+        <h3 class="moisAout">Aout</h3>
         <?php get_template_part('template-parts/concert/archive-concert') ?>
         <?php elseif ($mois == "September") : ?>
-        <h2 class="moisSeptembre">Septembre</h2>
+        <h3 class="moisSeptembre">Septembre</h3>
         <?php get_template_part('template-parts/concert/archive-concert') ?>
         <?php elseif ($mois == "October") : ?>
-        <h2 class="moisOctobre">Octobre</h2>
+        <h3 class="moisOctobre">Octobre</h3>
         <?php get_template_part('template-parts/concert/archive-concert') ?>
         <?php elseif ($mois == "November") : ?>
-        <h2 class="moisNovembre">Novembre</h2>
+        <h3 class="moisNovembre">Novembre</h3>
         <?php get_template_part('template-parts/concert/archive-concert') ?>
         <?php elseif ($mois == "December") : ?>
-        <h2 class="moisDecembre">Décembre</h2>
+        <h3 class="moisDecembre">Décembre</h3>
         <?php get_template_part('template-parts/concert/archive-concert') ?>
         <?php endif; endwhile;
 
