@@ -881,22 +881,6 @@ cta-prog-a {
   color: inherit;
 }
 
-main div #titre-programmation {
-  padding-top: 70px;
-}
-main div #titre-programmation h1 {
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
-  font-size: 40px;
-  letter-spacing: 10px;
-  font-weight: 200;
-}
-main div #titre-programmation h1 hr {
-  width: 100%;
-  margin: 5% 0;
-}
-
 .post-type-archive-concert .mois > .moisJanvier ~ .moisJanvier,
 .post-type-archive-concert .mois > .moisFevrier ~ .moisFevrier,
 .post-type-archive-concert .mois > .moisMars ~ .moisMars,
@@ -934,6 +918,18 @@ main div #titre-programmation h1 hr {
   background-position: center;
   border: 1px solid white;
   width: 25%;
+}
+.post-type-archive-concert h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 10px;
+  font-weight: 200;
+}
+.post-type-archive-concert hr {
+  width: 100%;
+  margin: 5% 0;
 }
 
 .page-id-105 section {
