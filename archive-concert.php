@@ -10,13 +10,9 @@
 get_header();
 ?>
 <main class=" container">
-<div>
-    <h1><?php the_title() ?></h1>
-    <hr>
-    </div>
-<div id="titre-programmation">
-    <h1>Programmation</h1>
-    <hr>
+    <div id="titre-programmation">
+        <h1><?php the_archive_title() ?></h1>
+        <hr>
     </div>
 
     <div class="mois">
