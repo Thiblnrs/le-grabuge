@@ -1,6 +1,4 @@
-
- <div class="cont-artiste">
-    <div style="background-image:url(<?php the_post_thumbnail_url() ?>)" class="detailConcert">
+<div style="background-image:url(<?php the_post_thumbnail_url() ?>)" class="detailConcert">
 <div>
     <p>
          <?php 
@@ -17,4 +15,4 @@
                     <div class="cta-b"><a href="">Billetterie</a></div>
 </div>
 </div>
-    </div>          
+      
