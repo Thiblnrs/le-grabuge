@@ -23,8 +23,10 @@ get_header();
             </div>
             <br>
             <div class="cover-date">
-                <p>Ouverture - 19.30</p>
-                <p>Fermeture - 19.30</p>
+                <p> <?php 
+								$dateFR = strtotime( get_field('date') );
+								echo date_i18n( "j M Y", $dateFR ); ?><br />
+                            <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?></p>
             </div>
             <hr>
             <h1 class="h1-concert-page"><?php the_title()?></h1>
