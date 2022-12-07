@@ -13,6 +13,9 @@
 	.mois > .moisDecembre ~ .moisDecembre {
 		display: none;
 	}
+	main {
+		padding-top: 90px;
+	}
 	.mois {
 		display: flex;
 		flex-wrap: wrap;
