@@ -968,21 +968,14 @@ cta-prog-a {
   background-color: rgba(24, 24, 24, 0.6784313725);
   padding: 20px;
 }
-
-.cont-artist-prog {
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.cont-artist-prog h4 {
+.bg-gris h4 {
   color: white;
   text-align: left;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 16px;
 }
-.cont-artist-prog h4 span {
+.bg-gris h4 span {
   font-size: 14px;
   font-weight: 100;
 }
