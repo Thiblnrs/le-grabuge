@@ -825,13 +825,13 @@ cta-prog-a {
 }
 
 #suivre-artiste {
-  margin-top: 25%;
+  margin-top: 50px;
 }
 #suivre-artiste a {
-  color: inherit;
+  color: white;
 }
 #suivre-artiste a i {
-  font-size: 48px;
+  font-size: 36px;
 }
 
 .single-post main {
