@@ -1,5 +1,5 @@
-<div style="background-image:url(<?php the_post_thumbnail_url() ?>)" class="detailConcert">
 <div class=".bg-gris">
+<div style="background-image:url(<?php the_post_thumbnail_url() ?>)" class="detailConcert">
 <div>
     <p>
          <?php 
