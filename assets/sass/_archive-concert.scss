@@ -63,9 +63,10 @@
 .bg-gris{
     height: 100%;
     background-color: #181818ad;
-    padding: 20px;
-	
-		h4 {
+    padding: 20px;	
+}
+
+.bg-gris h4 {
 		color: white;
 		text-align: left;
 		text-transform: uppercase;
@@ -75,5 +76,4 @@
 			font-size: 14px;
 			font-weight: 100;
 		}
-}
 }
