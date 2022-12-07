@@ -9,5 +9,6 @@
     </p></div>
     <hr>
     <h4><?php the_title() ?></h4>
-    <a href="<?php the_permalink() ?>">En savoir plus</a>
+     <button> <a href="<?php the_permalink() ?>">Billetterie</a></button>
+   <button> <a href="<?php the_permalink() ?>">En savoir plus</a></button>
 </div>
