@@ -792,6 +792,7 @@ header > nav ul li a {
   display: flex;
   justify-content: space-between;
   line-height: 25px;
+  text-transform: uppercase;
 }
 .cover-date > p {
   color: white;
