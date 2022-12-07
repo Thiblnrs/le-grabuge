@@ -970,8 +970,6 @@ cta-prog-a {
 }
 
 .cont-artist-prog {
-  width: 50%;
-  /* height: 760px; */
   padding: 30px;
   display: flex;
   justify-content: center;
@@ -980,9 +978,8 @@ cta-prog-a {
 .cont-artist-prog h3 {
   color: white;
   text-align: left;
-  font-size: 24px;
   text-transform: uppercase;
-  line-height: 35px;
+  font-weight: 400;
 }
 .cont-artist-prog h3 span {
   font-size: 20px;
