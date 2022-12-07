@@ -17,4 +17,4 @@
                     <div class="cta-b"><a href="">Billetterie</a></div>
 </div>
 </div>
-              
+    </div>          
