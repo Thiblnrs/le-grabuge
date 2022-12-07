@@ -23,13 +23,11 @@
 		width: 50%;
 		aspect-ratio: 9 / 16;
 		-o-object-fit: cover;
-		   object-fit: cover;
+		object-fit: cover;
 		-o-object-position: top center;
-		   object-position: top center;
+		object-position: top center;
 	}
 }
-
-
 
 .position-ytb {
 	position: relative;
@@ -56,25 +54,24 @@
 	text-align: center;
 }
 
-.h2-concert-page{
+.h2-concert-page {
 	font-size: 40px;
 	letter-spacing: 5px;
 	color: lightgrey;
 	font-weight: 200;
 	text-align: center;
-	    padding: 5% 0 0 0;
+	padding: 5% 0 0 0;
 }
 
-.h3-concert-page{
-		font-size: 32px;
+.h3-concert-page {
+	font-size: 32px;
 	letter-spacing: 5px;
 	color: white;
 	font-weight: 800;
 	text-align: center;
 }
 
-
-.cover-date{
+.cover-date {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -85,27 +82,31 @@
 	}
 }
 
-.cont-artiste-2{
-    width: 50%;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 85px;
+.cont-artiste-2 {
+	width: 50%;
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 85px;
 	color: white;
+	img {
+		aspect-ratio: 1 / 1;
+		object-fit: cover;
+		height: 100%;
+		width: 100%;
 	}
- cta-prog-a{
+}
+cta-prog-a {
 	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 5px;
 	text-decoration: underline;
- }
+}
 
- #suivre-artiste{
+#suivre-artiste {
 	margin-top: 25%;
- }
-
-
+}
 
 // .cta-b {
 // 	display: flex;
