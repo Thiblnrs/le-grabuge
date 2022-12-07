@@ -10,8 +10,10 @@
 get_header();
 ?>
 <main class=" container">
-
+<section id="titre-programmation">
     <h1>Programmation</h1>
+    <hr>
+    </section>
     <div class="mois">
         <?php
 			/* Start the Loop */

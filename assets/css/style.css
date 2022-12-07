@@ -881,13 +881,17 @@ cta-prog-a {
   color: inherit;
 }
 
-h1 {
+#titre-programmation > h1 {
   text-align: center;
   color: white;
   text-transform: uppercase;
   font-size: 40px;
   letter-spacing: 10px;
   font-weight: 200;
+}
+#titre-programmation > h1 hr {
+  width: 100%;
+  margin: 5% 0;
 }
 
 .post-type-archive-concert .mois > .moisJanvier ~ .moisJanvier,
