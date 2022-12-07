@@ -1,6 +1,6 @@
 <div style="background-image:url(<?php the_post_thumbnail_url() ?>)" class="detailConcert">
 <div class="bg-gris">
-<div class=""cont-artist-prog>
+<div>
     <p>
          <?php 
 								$dateFR = strtotime( get_field('date') );
