@@ -69,6 +69,7 @@
 	color: white;
 	font-weight: 600;
 	text-align: center;
+    text-transform: uppercase;
 }
 
 .cover-date {
@@ -76,7 +77,6 @@
 	display: flex;
 	justify-content: space-between;
 	line-height: 25px;
-	text-transform: uppercase;
 	& > p {
 		color: white;
 		text-transform: uppercase;

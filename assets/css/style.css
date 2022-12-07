@@ -785,6 +785,7 @@ header > nav ul li a {
   color: white;
   font-weight: 600;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .cover-date {
@@ -792,7 +793,6 @@ header > nav ul li a {
   display: flex;
   justify-content: space-between;
   line-height: 25px;
-  text-transform: uppercase;
 }
 .cover-date > p {
   color: white;
