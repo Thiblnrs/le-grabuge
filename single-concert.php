@@ -42,7 +42,7 @@ get_header();
 
             <a class="cta-b" href="#">Reservation</a></>
             <div>
-            <p>Suivre l'artiste</p>
+            <p id="suivre-artiste">Suivre l'artiste</p>
             <hr>
             <p><?php while( have_rows('line_up') ) : the_row(); ?>
                     <?php the_sub_field('reseaux_sociaux') ?>
@@ -73,7 +73,7 @@ get_header();
             <p><?php the_sub_field('description') ?></p>
             </div>
         <?php endwhile; ?>
-          <div>
+          <div id="suivre-artiste">
             <p>Suivre l'artiste</p>
             <hr>
             <p><?php while( have_rows('line_up') ) : the_row(); ?>
