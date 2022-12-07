@@ -5,7 +5,6 @@
             $dateFR = strtotime( get_field('date') );
             echo date_i18n( "j M Y", $dateFR ); ?>
             </p></div>
-            <br/>
            <div><p><?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?>
     </p></div>
     <hr>
