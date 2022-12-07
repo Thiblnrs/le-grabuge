@@ -38,8 +38,12 @@
 			background-position: center;
 			border: 1px solid white;
 			width: 25%;
+
+		 >div{
+			display: flex;
+		 }
 		}
-	}
+
 	h1 {
 		text-align: center;
 		color: white;
