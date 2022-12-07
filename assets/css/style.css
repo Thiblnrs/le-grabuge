@@ -980,9 +980,10 @@ cta-prog-a {
   text-align: left;
   text-transform: uppercase;
   font-weight: 400;
+  font-size: 16px;
 }
 .cont-artist-prog h4 span {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 100;
 }
 
