@@ -52,28 +52,18 @@ get_header();
         <h2 class="h2-concert-page">PREMIERE PARTIE</h2>
     </section>
     <section>
+        <?php while( have_rows('line_up') ) : the_row(); ?>
+                    <?php the_sub_field('heure_debut') ?> - <?php the_sub_field('heure_fin') ?> : <?php the_sub_field('nom_artiste') ?> <br>
         <div>
             <div class="cover-date">
-                <h3 class="h3-concert-page"><?php the_field('premiere-partie') ?>
+                <h3 class="h3-concert-page"><?php the_sub_field('nom_artiste') ?>
                 </h3>
-                <p>21.00-22.00</p>
+                <p><?php the_sub_field('heure_debut') ?>-<?php the_sub_field('heure_fin') ?></p>
             </div>
             <hr>
-            <p>Le DJ et producteur italien Sam Paganini balade depuis 2010 sa techno minimale à travers la planète et a
-                sorti en 2014 un premier album intitulé "Satellite" qui gravite encore dans pas mal de têtes et de
-                tables de mix à l'heure actuelle</p>
-        </div>
-        <div>
-            <div class="cover-date">
-                <h3 class="h3-concert-page"><?php the_field('seconde-partie') ?>
-                </h3>
-                <p>21.00-22.00</p>
+            <p><?php the_sub_field('description') ?></p>
             </div>
-            <hr>
-            <p>Le DJ et producteur italien Sam Paganini balade depuis 2010 sa techno minimale à travers la planète et a
-                sorti en 2014 un premier album intitulé "Satellite" qui gravite encore dans pas mal de têtes et de
-                tables de mix à l'heure actuelle</p>
-        </div>
+        <?php endwhile; ?>
     </section>
 
     <!-- Vous aimeriez peut être--------------------------------------->
