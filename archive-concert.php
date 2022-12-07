@@ -72,10 +72,6 @@ get_header();
 			// the_posts_navigation();
 		?>
     </div>
-
-    <div style="background-image:url(<?php the_post_thumbnail_url() ?>)" class="detailConcert">
-    
-</div>
 </main><!-- #main -->
 
 <?php
