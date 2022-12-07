@@ -78,7 +78,8 @@ get_header();
     <p>
         <?php 
             $dateFR = strtotime( get_field('date') );
-            echo date_i18n( "j M Y", $dateFR ); ?><br />
+            echo date_i18n( "j M Y", $dateFR ); ?>
+            
             </p>
             <p>
         <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?>
