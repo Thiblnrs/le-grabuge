@@ -881,7 +881,10 @@ cta-prog-a {
   color: inherit;
 }
 
-#titre-programmation h1 {
+main div #titre-programmation {
+  padding-top: 70px;
+}
+main div #titre-programmation h1 {
   text-align: center;
   color: white;
   text-transform: uppercase;
@@ -889,7 +892,7 @@ cta-prog-a {
   letter-spacing: 10px;
   font-weight: 200;
 }
-#titre-programmation h1 hr {
+main div #titre-programmation h1 hr {
   width: 100%;
   margin: 5% 0;
 }
