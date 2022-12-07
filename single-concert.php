@@ -19,18 +19,20 @@ get_header();
 								echo date_i18n( "j M Y", $dateFR ); ?><br />
                     <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?>
                 </p>
-                <p>Techno</p>
+                <p><?php the_field("style_")?></p> 
             </div>
             <br>
             <div class="cover-date">
-                <p>Ouverture - 19.30</p>
-                <p>Fermeture - 19.30</p>
+                <p> <?php 
+								$dateFR = strtotime( get_field('date') );
+								echo date_i18n( "j M Y", $dateFR ); ?><br />
+                            <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?></p>
             </div>
             <hr>
             <h1 class="h1-concert-page"><?php the_title()?></h1>
             <hr>
             <p>Line up: </p>
-            <p>20.00 - 21.00 : <?php nom_artiste()?> <br>
+            <p>20.00 - 21.00 : <?php the_title()?> <br>
                 21.00 - 22.00 : Amelie Lens <br>
                 22.00 - 00.00 : Charlotte de witte</p>
             <hr>
