@@ -9,16 +9,6 @@
 
 get_header();
 ?>
-
-<section id="soiree-list">
-    <div>
-
-        <h1>Les soirées grabuge</h1>
-        <hr>
-    </div>
-
-</section>
-
 <main class=" container">
 
     <h1>Programmation</h1>
