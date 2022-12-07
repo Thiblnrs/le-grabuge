@@ -975,13 +975,13 @@ cta-prog-a {
   justify-content: center;
   align-items: center;
 }
-.cont-artist-prog h3 {
+.cont-artist-prog h4 {
   color: white;
   text-align: left;
   text-transform: uppercase;
   font-weight: 400;
 }
-.cont-artist-prog h3 span {
+.cont-artist-prog h4 span {
   font-size: 20px;
   font-weight: 100;
 }

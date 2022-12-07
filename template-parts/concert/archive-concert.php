@@ -10,8 +10,8 @@
     </p>
 <p><?php the_field("style_")?></p></div>
     <hr class="hr-desc" />
-    <h3><?php the_title() ?> <br>
- <span><?php the_field('premiere-partie') ?></span></h3>
+    <h4><?php the_title() ?> <br>
+ <span><?php the_field('premiere-partie') ?></span></h4>
   <div class="cta-esp"><a href="<?php the_permalink() ?>">En savoir plus</a></div>
                     <div class="cta-b"><a href="">Billetterie</a></div>
 </div>
