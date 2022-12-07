@@ -827,6 +827,12 @@ cta-prog-a {
 #suivre-artiste {
   margin-top: 25%;
 }
+#suivre-artiste a {
+  color: inherit;
+}
+#suivre-artiste a i {
+  font-size: 48px;
+}
 
 .single-post main {
   padding-top: 90px;
