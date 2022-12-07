@@ -32,9 +32,11 @@ get_header();
             <h1 class="h1-concert-page"><?php the_title()?></h1>
             <hr>
             <p>Line up: </p>
-            <p>20.00 - 21.00 : <?php the_title()?> <br>
-                21.00 - 22.00 : Amelie Lens <br>
-                22.00 - 00.00 : Charlotte de witte</p>
+            <?php while( have_rows('line_up') ) : the_row(); ?>
+                <p>
+                    <?php the_sub_field('heure_debut') ?> - <?php the_sub_field('heure_fin') ?> : <?php the_sub_field('nom_artiste') ?> 
+                </p>
+            <?php endwhile; ?>
             <hr>
             <p><?php the_content()?></p>
 
