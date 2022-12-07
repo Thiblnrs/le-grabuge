@@ -30,7 +30,7 @@ get_header();
             <h1 class="h1-concert-page"><?php the_title()?></h1>
             <hr>
             <p>Line up: </p>
-            <p>20.00 - 21.00 : Sam Paganini <br>
+            <p>20.00 - 21.00 : <?php nom_artiste()?> <br>
                 21.00 - 22.00 : Amelie Lens <br>
                 22.00 - 00.00 : Charlotte de witte</p>
             <hr>
