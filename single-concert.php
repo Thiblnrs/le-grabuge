@@ -119,7 +119,7 @@ get_header();
 								echo date_i18n( "j M Y", $dateFR ); ?><br />
                             <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?>
                         </p>
-                        <p><?php the_field("style_")?></p>
+                        <p>Techno</p>
                     </div>
 
                     <hr class="hr-desc" />
