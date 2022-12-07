@@ -1,4 +1,5 @@
 <div style="background-image:url(<?php the_post_thumbnail_url() ?>)" class="detailConcert">
+<div class=".bg-gris">
 <div>
     <p>
          <?php 
@@ -13,4 +14,5 @@
  <span><?php the_field('premiere-partie') ?></span></h4>
   <div class="cta-esp"><a href="<?php the_permalink() ?>">En savoir plus</a></div>
                     <div class="cta-b"><a href="">Billetterie</a></div>
+</div>
 </div>

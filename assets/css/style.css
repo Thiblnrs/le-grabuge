@@ -963,6 +963,12 @@ cta-prog-a {
   margin: 5% 0;
 }
 
+.bgGris {
+  height: 100%;
+  background-color: rgba(24, 24, 24, 0.6784313725);
+  padding: 20px;
+}
+
 .page-id-105 section {
   display: none;
 }
