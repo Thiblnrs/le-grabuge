@@ -44,7 +44,7 @@ get_header();
             <div>
             <p>Suivre l'artiste</p>
             <hr>
-            <p><?php while( have_rows('line_up') ) : the_row(); ?>
+            <p class="rs"><?php while( have_rows('line_up') ) : the_row(); ?>
                     <?php the_sub_field('reseaux_sociaux') ?> <br>
                 <?php endwhile; ?></p>
 
