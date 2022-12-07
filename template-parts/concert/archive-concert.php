@@ -1,5 +1,4 @@
 <div style="background-image:url(<?php the_post_thumbnail_url() ?>)" class="detailConcert">
-    <a href="<?php the_permalink() ?>">
         <div class="bg-gris">
         <div>
             <p>
@@ -18,12 +17,11 @@
                     <?php the_sub_field('nom_artiste') ?> <br>
                 <?php endwhile; ?>
             </h4>
-            <!-- <div class="cta-esp">
+            <div class="cta-esp">
                 <a href="<?php the_permalink() ?>">En savoir plus</a>
-            </div> -->
+            </div>
             <div class="cta-b">
                 <a href="">Billetterie</a>
             </div>
         </div>
-    </a>
 </div>
