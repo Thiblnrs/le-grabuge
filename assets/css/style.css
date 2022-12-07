@@ -881,25 +881,6 @@ cta-prog-a {
   color: inherit;
 }
 
-#soiree-list {
-  display: flex;
-  background: black;
-  border-bottom: 1px solid white;
-  height: 600px;
-}
-#soiree-list > div {
-  margin: auto;
-}
-#soiree-list h1 {
-  font-size: 40px;
-  font-weight: 200;
-  color: white;
-  letter-spacing: 10px;
-}
-#soiree-list hr {
-  width: 100%;
-}
-
 .post-type-archive-concert .mois > .moisJanvier ~ .moisJanvier,
 .post-type-archive-concert .mois > .moisFevrier ~ .moisFevrier,
 .post-type-archive-concert .mois > .moisMars ~ .moisMars,
@@ -910,7 +891,7 @@ cta-prog-a {
 .post-type-archive-concert .mois > .moisAout ~ .moisAout,
 .post-type-archive-concert .mois > .moisSeptembre ~ .moisSeptembre,
 .post-type-archive-concert .mois > .moisOctobre ~ .moisOctobre,
-.post-type-archive-concert .mois > .moisNovembre ~ .moiNovembre,
+.post-type-archive-concert .mois > .moisNovembre ~ .moisNovembre,
 .post-type-archive-concert .mois > .moisDecembre ~ .moisDecembre {
   display: none;
 }
