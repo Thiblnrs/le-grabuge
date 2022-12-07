@@ -96,6 +96,9 @@
 		height: 100%;
 		width: 100%;
 	}
+	& > * {
+		width: 100%;
+	}
 }
 cta-prog-a {
 	font-size: 20px;

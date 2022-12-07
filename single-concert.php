@@ -45,7 +45,11 @@ get_header();
             <div>
             <p id="suivre-artiste">Suivre l'artiste</p>
             <hr>
-
+            <?php while( have_rows('reseaux_sociaux') ) : the_row(); ?>
+                    <a href=" <?php the_sub_field('url')  ?>">
+                        <?php the_sub_field('choix_reseaux')  ?>
+                    </a>
+                <?php endwhile; ?>
             </div>
         </div>
         <?php $photo = get_field('photo_artiste') ?>
@@ -70,12 +74,16 @@ get_header();
             <hr>
             <p><?php the_sub_field('description') ?></p>
             </div>
-        <?php endwhile; ?>
-          <div id="suivre-artiste">
-            <p>Suivre l'artiste</p>
-            <hr>
-
+            <div id="suivre-artiste">
+                <p>Suivre l'artiste</p>
+                <hr>
+                <?php while( have_rows('reseaux_sociaux') ) : the_row(); ?>
+                    <a href=" <?php the_sub_field('url')  ?>">
+                        <?php the_sub_field('choix_reseaux')  ?>
+                    </a>
+                <?php endwhile; ?>
             </div>
+        <?php endwhile; ?>
     </section>
 
     <!-- Vous aimeriez peut être--------------------------------------->
