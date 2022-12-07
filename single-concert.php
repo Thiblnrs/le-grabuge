@@ -73,6 +73,14 @@ get_header();
             <p><?php the_sub_field('description') ?></p>
             </div>
         <?php endwhile; ?>
+          <div>
+            <p>Suivre l'artiste</p>
+            <hr>
+            <p><?php while( have_rows('line_up') ) : the_row(); ?>
+                    <?php the_sub_field('reseaux_sociaux') ?>
+                <?php endwhile; ?></p>
+
+            </div>
     </section>
 
     <!-- Vous aimeriez peut être--------------------------------------->
