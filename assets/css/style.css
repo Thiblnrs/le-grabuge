@@ -925,7 +925,7 @@ cta-prog-a {
   display: flex;
   flex-wrap: wrap;
 }
-.post-type-archive-concert .mois h3 {
+.post-type-archive-concert .mois h2 {
   width: 100%;
   text-align: center;
   color: lightgrey;
