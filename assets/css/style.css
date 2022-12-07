@@ -969,6 +969,26 @@ cta-prog-a {
   padding: 20px;
 }
 
+.cont-artist-prog {
+  width: 50%;
+  /* height: 760px; */
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont-artist-prog h3 {
+  color: white;
+  text-align: left;
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 35px;
+}
+.cont-artist-prog h3 span {
+  font-size: 20px;
+  font-weight: 100;
+}
+
 .page-id-105 section {
   display: none;
 }

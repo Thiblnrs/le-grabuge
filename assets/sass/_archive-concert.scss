@@ -65,3 +65,24 @@
     background-color: #181818ad;
     padding: 20px;
 }
+
+.cont-artist-prog {
+	width: 50%;
+	/* height: 760px; */
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	h3 {
+		color: white;
+		text-align: left;
+		font-size: 24px;
+		text-transform: uppercase;
+		line-height: 35px;
+		span {
+			font-size: 20px;
+			font-weight: 100;
+		}
+	}
+}

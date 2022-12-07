@@ -1,6 +1,6 @@
 <div style="background-image:url(<?php the_post_thumbnail_url() ?>)" class="detailConcert">
 <div class="bg-gris">
-<div>
+<div class=""cont-artist-prog>
     <p>
          <?php 
 								$dateFR = strtotime( get_field('date') );
@@ -10,8 +10,8 @@
     </p>
 <p><?php the_field("style_")?></p></div>
     <hr class="hr-desc" />
-    <h4><?php the_title() ?>
- <span><?php the_field('premiere-partie') ?></span></h4>
+    <h3><?php the_title() ?> <br>
+ <span><?php the_field('premiere-partie') ?></span></h3>
   <div class="cta-esp"><a href="<?php the_permalink() ?>">En savoir plus</a></div>
                     <div class="cta-b"><a href="">Billetterie</a></div>
 </div>
