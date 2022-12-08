@@ -37,7 +37,7 @@ t ac neque et felis aliquet rhoncus. Nunc rutrum justo at ipsum lacinia, ac effi
 </p>
 	<hr>
 </section>
-<section>
+<section id="apparition-photo">
 	<h2>ILS VONT PASSER AU GRABUGE</h2>
     <ul>
         <li>LAURENT GARNIER - </li>
