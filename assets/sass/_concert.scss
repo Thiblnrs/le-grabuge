@@ -112,10 +112,12 @@
 	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 5px;
+	display: flex;
+	justify-content: center;
 	color: white;
-	text-align: center;
 	list-style: none;
 	text-decoration: none;
+	text-transform: uppercase;
 
 	>hr{
 		width: 50%;
