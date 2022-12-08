@@ -1,101 +1,97 @@
 /************************FOOTER***************************/
 
 footer {
-	background: black;	
-	}
+	background: black;
+}
 
-	#footer-nav>div{
+#footer-nav > div {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 25px 96px;
+	text-align: left;
+	color: lightgrey;
+}
+
+.flex-mention {
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#mentionfooter nav {
+	width: 100%;
+	-moz-columns: 2;
+	columns: 2;
+}
+
+#mentionfooter nav ul {
+	width: 45%;
+	flex-wrap: wrap;
+}
+
+#mentionfooter nav ul li a {
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	line-height: 160%;
+	color: lightgrey;
+}
+
+#newsletter {
+	box-sizing: border-box;
+	padding: 100px 80px;
+	border-top: 1px solid white;
+
+	& > div {
 		display: flex;
-		justify-content: space-between;
-		align-items: flex-start;
-		    padding: 25px 96px;
-			text-align: left;
-			color: lightgrey;
-	}
-
-.flex-mention{
-		width: 40%;
-		display: flex;
-		justify-content: space-between;
-		}
-
-	#mentionfooter nav {
-		width: 100%;
-		-moz-columns: 2;
-		     columns: 2;
-	}
-
-	#mentionfooter nav ul {
-		width: 45%;
+		justify-content: center;
 		flex-wrap: wrap;
 	}
 
-	#mentionfooter nav ul li a {
-		font-size: 20px;
-		font-weight: 500;
-		letter-spacing: 3px;
-		line-height: 160%;
-		color: lightgrey;
+	& p {
+		width: 58%;
+		text-align: left;
 	}
-
-	#newsletter{
-			box-sizing: border-box;
-	padding: 100px 80px;
-	border-top: 1px solid white;
-	margin-top: 100px;
-
-		&>div{
-			display: flex;
-			justify-content: center;
-			flex-wrap: wrap;
-		}
-
-		& p {
-			    width: 58%;
-				text-align: left;
-		}
-
-
-	}
-
-	h2{
-		font-size: 90px;
-		letter-spacing: 40px;
-		text-transform: uppercase;
-		color: white;
-		font-weight: 400;
-	}
-
-	.mailpoet_form {
-		display: flex;
-		width: 100%;
-		
-		.mailpoet_paragraph {
-			width: 100%;
-			&.last {
-				width: unset;
-			}
-			input {
-				padding: 15px;
-				background-color: black;
-				color: white;
-			}
-			input[type="email"] {
-				border: none;
-				border-bottom: 1px solid white;
-			}
-			input[type="submit"] {
-				border: 1px solid white !important;
-			}
-		}
-	}
-
-
-#mailpoet_form_1 form.mailpoet_form {
-    padding: 20px;
-    margin-top: 54px;
 }
 
-.element.style{
+h2 {
+	font-size: 90px;
+	letter-spacing: 40px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 400;
+}
+
+.mailpoet_form {
+	display: flex;
+	width: 100%;
+
+	.mailpoet_paragraph {
+		width: 100%;
+		&.last {
+			width: unset;
+		}
+		input {
+			padding: 15px;
+			background-color: black;
+			color: white;
+		}
+		input[type="email"] {
+			border: none;
+			border-bottom: 1px solid white;
+		}
+		input[type="submit"] {
+			border: 1px solid white !important;
+		}
+	}
+}
+
+#mailpoet_form_1 form.mailpoet_form {
+	padding: 20px;
+	margin-top: 54px;
+}
+
+.element.style {
 	border-bottom: 7px solid white;
 }
