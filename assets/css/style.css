@@ -537,7 +537,7 @@ header > nav ul li a {
   font-weight: 100;
 }
 
-.cta-prog div {
+.cta-prog-a div {
   max-width: 470px;
   height: 50px;
   display: flex;
@@ -548,18 +548,18 @@ header > nav ul li a {
   background: white;
   transition: 0.25s linear all;
 }
-.cta-prog div a {
+.cta-prog-a div a {
   transition: 0.25s linear all;
   letter-spacing: 5px;
   font-size: 16px;
   text-transform: uppercase;
   color: black;
 }
-.cta-prog div:hover {
+.cta-prog-a div:hover {
   background-color: transparent;
   border: 2px solid white;
 }
-.cta-prog div:hover a {
+.cta-prog-a div:hover a {
   color: white;
 }
 
