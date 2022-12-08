@@ -972,14 +972,14 @@ cta-prog-a {
   font-weight: normal;
   font-size: 14px;
   text-align: justify;
-  letter-spacing: 10px;
+  letter-spacing: 2px;
 }
 .post-type-archive-concert .mois h1 {
   text-align: center;
   color: white;
   text-transform: uppercase;
   font-size: 40px;
-  letter-spacing: 10px;
+  letter-spacing: 2px;
   font-weight: 200;
 }
 .post-type-archive-concert .mois hr {
