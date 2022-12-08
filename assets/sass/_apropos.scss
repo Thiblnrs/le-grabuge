@@ -27,7 +27,6 @@ h1{
     }
 
     ul li{ 
-        display: flex;
         color: white;
         text-align: justify;
         font-size: 23px;
@@ -41,5 +40,21 @@ h1{
 }
     p{
         text-align: justify;
+    }
+
+    .cursor{
+        z-index: 1000;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border: 1px solid white;
+        pointer-events: none;
+        transition: transform 0.4s ease-in-out; 
+
+        .hovered{
+            background-size: cover;
+            transform: scale(5);
+        }
+
     }
 }
