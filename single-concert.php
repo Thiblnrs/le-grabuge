@@ -47,7 +47,7 @@ get_header();
             <a class="cta-b" href="#">Réservation</a></>
             <div id="suivre-artiste">
                 <p>Suivre l'artiste</p>
-                <hr>
+                <hr class="hr-suivre-a">
                 <?php while( have_rows('reseaux_sociaux') ) : the_row(); ?>
                         <a href="<?php the_sub_field('url')  ?>" target="_blank">
                             <?php the_sub_field('choix_reseaux')  ?>
