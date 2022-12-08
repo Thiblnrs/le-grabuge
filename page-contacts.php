@@ -18,14 +18,14 @@ get_header();
 	<main>
  <section  class="container">
     <div id="detail-concert">
-        <p>dsfssssssss</p>
+        <div>
+           
+           <p>fdgdfgdfgfddglorem</p>
+            </div>
         </div>
         <?php $photo = get_field('photo_artiste') ?>
         <img src="<?php echo $photo['sizes']['large'] ?>" alt="<?php echo $photo['alt'] ?>" />
     </div>
-
-    <div class="position-ytb"><?php the_field("ytb")?></div>
-
     <section>
 	</main><!-- #main -->
 
