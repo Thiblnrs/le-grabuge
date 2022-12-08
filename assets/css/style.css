@@ -773,6 +773,8 @@ header > nav ul li a {
 }
 .h1-concert-page > p {
   text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .h2-concert-page {
