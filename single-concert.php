@@ -9,7 +9,8 @@
 
 get_header();
 ?>
-<main class="container">
+<main>
+    <section  class="container">
     <div id="detail-concert">
         <div>
             <div class="cover-date">
@@ -85,12 +86,12 @@ get_header();
             </div>
         <?php endwhile; ?>
     </section>
-
+</section>
     <!-- Vous aimeriez peut être--------------------------------------->
     <div id="background-aimeriez">
+        
     <section class="container prochainement">
-        <hr />
-        <h2>Vous aimeriez peut être</h2>
+        <h2>Vous aimerez</h2>
     </section>
 
     <!-- Proposition d'artiste--------------------------------------->
