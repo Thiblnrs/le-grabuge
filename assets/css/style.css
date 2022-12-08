@@ -1269,15 +1269,14 @@ h2 {
 .page-id-103 .container h2 p {
   text-align: justify;
 }
-
-#apparition-photo h2 ul {
+.page-id-103 #apparition-photo h2 ul {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   text-align: justify;
   flex-wrap: wrap;
 }
-#apparition-photo h2 ul ul li {
+.page-id-103 #apparition-photo h2 ul li {
   text-decoration: none;
   color: white;
   padding: 5px;
