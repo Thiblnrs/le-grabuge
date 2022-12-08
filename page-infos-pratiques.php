@@ -39,25 +39,10 @@ get_header();
         <?php the_field('reglement') ?>
     </section>
 
-/* ACCORDEON FAW */
+/* ACCORDEON FAQ */
 
     <section id="faq">
         <h2>FAQ</h2>
-        
-        <button class="accordion">Section 1</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
-
-<button class="accordion">Section 2</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
-
-<button class="accordion">Section 3</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
     </section>
 </main>
 
