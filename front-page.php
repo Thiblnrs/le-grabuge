@@ -142,7 +142,7 @@ get_header();
             <img src="../le-grabuge/assets/img/grabuge-ext.jpg" alt="" />
             <div>
                 <h4>Le grabuge c'est quoi?</h4>
-                <p>Située sur Lille LE GRABUGE est une salle de spectacle dédiée au musique electronique.</p>
+                <p>Située sur Lille LE GRABUGE est une salle de spectacle dédiée aux musiques électroniques.</p>
                 <p>Retrouvez une line-up aux multiples sonoritées tous les Samedis soir de 20.00 à 00.00.</p>
 
                 <div class="cta-bw"><a href="#">A propos</a></div>
@@ -153,7 +153,7 @@ get_header();
     <!-- Plus que des concerts titre--------------------------------------->
     <section class="container prochainement">
         <hr />
-        <h2>Plus que des concerts</h2>
+        <h2>L'ACTU. DU GRABUGE</h2>
     </section>
 
     <!-- Plus que des concerts Articles--------------------------------------->
