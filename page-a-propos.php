@@ -42,35 +42,35 @@ t ac neque et felis aliquet rhoncus. Nunc rutrum justo at ipsum lacinia, ac effi
 <section id="apparition-photo">
 	<h2>ILS VONT PASSER AU GRABUGE</h2>
     <ul>
-        <li>LAURENT GARNIER - </li>
-        <li>BRUTALISMUS3000 - </li>
-        <li>THE BLOODY BEETROOTS - </li>
-        <li>HI-LO - </li>
-        <li>CASUAL GABBERZ - </li>
-        <li>BILLX - </li>
-        <li>DARKTEK - </li>
-        <li>LNRS - </li>
-        <li>VANDAL</li>
-        <li>LEBASK -</li>
-        <li>SEFA -</li>
-        <li>COONE -</li>
-        <li>AMELIE LENS  -</li>
-        <li>VON BIKRAV -</li>
-        <li>GARGANTUA -</li>
-        <li>CHARLOTTE DE WITTE -</li>
-        <li>REBEKKA WARRIOR -</li>
-        <li>ALRT -</li>
-        <li>JOYRIDE - </li>
-        <li>APASHE -</li>
-        <li>MANDIDEXTROUS - </li>
-        <li>DEADMAU5 -</li>
-        <li>SOLOMUM -</li>
-        <li>BOYS NOIZE -</li>
-        <li>MR OIZO -</li>
-        <li>MISS KITTIN -</li>
-        <li>JAUZ -</li>
-        <li>MASSANE -</li>
-        <li>JOYHAUSSER ...</li>
+        <li class="item-li" data-loc="laurent-garnier">LAURENT GARNIER - </li>
+        <li class="item-li" data-loc="laurent-garnier">BRUTALISMUS3000 - </li>
+        <li class="item-li" data-loc="laurent-garnier">THE BLOODY BEETROOTS - </li>
+        <li class="item-li" data-loc="laurent-garnier">HI-LO - </li>
+        <li class="item-li" data-loc="laurent-garnier">CASUAL GABBERZ - </li>
+        <li class="item-li" data-loc="laurent-garnier">BILLX - </li>
+        <li class="item-li" data-loc="laurent-garnier">DARKTEK - </li>
+        <li class="item-li" data-loc="laurent-garnier">LNRS - </li>
+        <li class="item-li" data-loc="laurent-garnier">VANDAL</li>
+        <li class="item-li" data-loc="laurent-garnier">LEBASK -</li>
+        <li class="item-li" data-loc="laurent-garnier">COONE -</li>
+        <li class="item-li" data-loc="laurent-garnier">SEFA -</li>
+        <li class="item-li" data-loc="laurent-garnier">AMELIE LENS  -</li>
+        <li class="item-li" data-loc="laurent-garnier">VON BIKRAV -</li>
+        <li class="item-li" data-loc="laurent-garnier">GARGANTUA -</li>
+        <li class="item-li" data-loc="laurent-garnier">CHARLOTTE DE WITTE -</li>
+        <li class="item-li" data-loc="laurent-garnier">REBEKKA WARRIOR -</li>
+        <li class="item-li" data-loc="laurent-garnier">ALRT -</li>
+        <li class="item-li" data-loc="laurent-garnier">JOYRIDE - </li>
+        <li class="item-li" data-loc="laurent-garnier">APASHE -</li>
+        <li class="item-li" data-loc="laurent-garnier">MANDIDEXTROUS - </li>
+        <li class="item-li" data-loc="laurent-garnier">DEADMAU5 -</li>
+        <li class="item-li" data-loc="laurent-garnier">SOLOMUM -</li>
+        <li class="item-li" data-loc="laurent-garnier">BOYS NOIZE -</li>
+        <li class="item-li" data-loc="laurent-garnier">MR OIZO -</li>
+        <li class="item-li" data-loc="laurent-garnier">MISS KITTIN -</li>
+        <li class="item-li" data-loc="laurent-garnier">JAUZ -</li>
+        <li class="item-li" data-loc="laurent-garnier">MASSANE -</li>
+        <li class="item" data-loc="laurent-garnier">JOYHAUSSER ...</li>
     </ul>
 
 </section>
