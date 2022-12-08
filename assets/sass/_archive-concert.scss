@@ -80,14 +80,14 @@
     margin-top: 25px;
 	flex-wrap: wrap;
 	
-	> span {
+	>span {
 				color: white;
 				font-weight: 500;	
 				font-size: 16px;
 				text-align: justify;
 				text-transform: uppercase;
 			}
-			>span > p{
+			>span>p{
 				color: white;
 				font-weight: normal;
 				font-size: 16px;
@@ -96,4 +96,5 @@
 				
 				}
 	}
+}
 }

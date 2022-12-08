@@ -958,7 +958,7 @@ cta-prog-a {
   font-size: 14px;
   text-align: justify;
 }
-.post-type-archive-concert h1 {
+.post-type-archive-concert .mois h1 {
   text-align: center;
   color: white;
   text-transform: uppercase;
@@ -966,22 +966,36 @@ cta-prog-a {
   letter-spacing: 10px;
   font-weight: 200;
 }
-.post-type-archive-concert hr {
+.post-type-archive-concert .mois hr {
   width: 100%;
   margin: 5% 0;
 }
-
-.bg-gris {
+.post-type-archive-concert .bg-gris {
   height: 100%;
   background-color: rgba(24, 24, 24, 0.6784313725);
   padding: 20px;
 }
-.bg-gris > div {
+.post-type-archive-concert .bg-gris > div {
   width: 100%;
   display: flex;
   justify-content: space-between;
   line-height: 25px;
   margin-top: 25px;
+  flex-wrap: wrap;
+}
+.post-type-archive-concert .bg-gris > div > span {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+.post-type-archive-concert .bg-gris > div > span > p {
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: justify;
+  text-transform: uppercase;
 }
 
 .page-id-105 section {
