@@ -831,15 +831,16 @@ header > nav ul li a {
   width: 100%;
 }
 
-cta-prog-a a {
+cta-prog-a {
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 5px;
-  text-decoration: underline;
   color: white;
   text-align: center;
+  list-style: none;
+  text-decoration: none;
 }
-cta-prog-a a > hr {
+cta-prog-a > hr {
   width: 50%;
 }
 
