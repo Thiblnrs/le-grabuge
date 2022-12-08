@@ -836,6 +836,11 @@ cta-prog-a {
   font-weight: 600;
   letter-spacing: 5px;
   text-decoration: underline;
+  color: white;
+  text-align: center;
+}
+cta-prog-a > hr {
+  width: 50%;
 }
 
 #suivre-artiste {
