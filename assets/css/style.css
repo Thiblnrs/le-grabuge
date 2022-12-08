@@ -1138,8 +1138,8 @@ h3 > span {
 .page-id-105 .panel {
   padding: 0 18px;
   background-color: white;
-  display: none;
   overflow: hidden;
+  height: 0;
 }
 
 /************************FOOTER***************************/
