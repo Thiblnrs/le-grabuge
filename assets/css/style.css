@@ -953,6 +953,7 @@ cta-prog-a {
   color: white;
   font-weight: normal;
   font-size: 18px;
+  text-align: justify;
 }
 .post-type-archive-concert h1 {
   text-align: center;
