@@ -836,6 +836,10 @@ cta-prog-a {
   font-size: 36px;
 }
 
+.prochainement {
+  background-color: black;
+}
+
 .single-post main {
   padding-top: 90px;
 }
