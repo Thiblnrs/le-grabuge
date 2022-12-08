@@ -13,8 +13,8 @@
             <p><?php the_field("style_")?></p></div>
             <hr class="hr-desc" />
             <h4><?php the_title() ?> <br>
-                <?php while( have_rows('line_up') ) : the_row(); ?>
-                    <?php the_sub_field('nom_artiste') ?> <br>
+              <span>  <?php while( have_rows('line_up') ) : the_row(); ?>
+                    <?php the_sub_field('nom_artiste') ?> </span><br>
                 <?php endwhile; ?>
             </h4>
             <div class="cta-esp">
