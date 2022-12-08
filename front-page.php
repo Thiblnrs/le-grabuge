@@ -153,7 +153,7 @@ get_header();
     <!-- Plus que des concerts titre--------------------------------------->
     <section class="container prochainement">
         <hr />
-        <h2>L'ACTU. DU GRABUGE</h2>
+        <h2>L'ACTU DU GRABUGE</h2>
     </section>
 
     <!-- Plus que des concerts Articles--------------------------------------->
