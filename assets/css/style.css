@@ -1079,6 +1079,12 @@ h3 > span {
   /*Accordeon*/
   /* Style the buttons that are used to open and close the accordion panel */
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /*.acctive,
+  .accordion:hover {
+  	background-color: #ccc;
+         color:rgb(29, 29, 29);
+  }
+
   /* Style the accordion panel. Note: hidden by default */
 }
 .page-id-105 section {
@@ -1132,14 +1138,9 @@ h3 > span {
   transition: 0.4s;
   border-bottom: solid 1px white;
 }
-.page-id-105 .acctive,
-.page-id-105 .accordion:hover {
-  background-color: #ccc;
-  color: rgb(29, 29, 29);
-}
 .page-id-105 .panel {
   padding: 0 18px;
-  background-color: white;
+  background-color: #141414;
   overflow: hidden;
   height: 0;
 }
