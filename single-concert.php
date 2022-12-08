@@ -13,7 +13,7 @@ get_header();
     <section  class="container">
     <div id="detail-concert">
         <div>
-            <div class="cover-date">
+            <div class="cover-date-concert">
                 <p>
                    <span class="bold-date"> <?php 
 								$dateFR = strtotime( get_field('date') );

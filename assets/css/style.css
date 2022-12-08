@@ -895,6 +895,17 @@ h3 > span {
   padding-bottom: 65px;
 }
 
+.cover-date-concert {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 25px;
+}
+.cover-date-concert > p {
+  color: white;
+  text-transform: uppercase;
+}
+
 .single-post main {
   padding-top: 90px;
 }
