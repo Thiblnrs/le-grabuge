@@ -250,7 +250,7 @@
 		background: black;
 		box-shadow: 2px -1px 0 2px #fff;
 		border: 1px solid white;
-		margin: 100px 0;
+		margin: 100px 0 150px 0;
 
 		img {
 			border: #fff solid 1px;
@@ -281,9 +281,9 @@
 	}
 }
 
-.desc-salle-texte{
-		margin: auto;
-		padding: 59px 97px;
+.desc-salle-texte {
+	margin: auto;
+	padding: 59px 97px;
 }
 
 .cta-bw {
@@ -364,7 +364,7 @@
 			width: 100%;
 			display: flex;
 			align-items: center;
-            	border-bottom: #fff solid 1px;
+			border-bottom: #fff solid 1px;
 			font-size: 40px;
 			font-weight: lighter;
 			text-transform: uppercase;
