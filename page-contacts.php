@@ -23,8 +23,7 @@ get_header();
            <p>fdgdfgdfgfddglorem</p>
             </div>
         </div>
-        <?php $photo = get_field('photo_artiste') ?>
-        <img src="<?php echo $photo['sizes']['large'] ?>" alt="<?php echo $photo['alt'] ?>" />
+   <img src="assets/img/grabuge-ext.jpg" alt="">
     </div>
     <section>
 	</main><!-- #main -->
