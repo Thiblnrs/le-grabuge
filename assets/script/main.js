@@ -54,6 +54,8 @@ jQuery(document).ready(function ($) {
 		$(this).toggleClass("acctive");
 		$(this).next().toggleClass("ouvert");
 	});
+});
+
 	//test apparition
 	const alllinks = document.querySelectorAll("ul li");
 
@@ -65,5 +67,4 @@ jQuery(document).ready(function ($) {
 			cursor.style.backgroundImage = "url(/assets/img/${location}.webp";
 		});
 	});
-});
 
