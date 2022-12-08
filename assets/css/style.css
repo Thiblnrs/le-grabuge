@@ -846,6 +846,7 @@ header > nav ul li a {
 }
 #suivre-artiste a i {
   font-size: 36px;
+  padding: 2% px;
 }
 
 #background-aimeriez {
@@ -873,10 +874,6 @@ h3 > span {
 
 .hr-suivre-a {
   width: 60%;
-}
-
-i {
-  padding: 15px;
 }
 
 .single-post main {
