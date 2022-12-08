@@ -1121,7 +1121,7 @@ h3 > span {
   align-items: flex-start;
 }
 .page-id-105 .accordion {
-  background-color: #eee;
+  background-color: black;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -1130,6 +1130,7 @@ h3 > span {
   border: none;
   outline: none;
   transition: 0.4s;
+  border-bottom: white;
 }
 .page-id-105 .acctive,
 .page-id-105 .accordion:hover {

@@ -43,7 +43,7 @@
 	/*Accordeon*/
 	/* Style the buttons that are used to open and close the accordion panel */
 	.accordion {
-		background-color: #eee;
+		background-color: black;
 		color: #444;
 		cursor: pointer;
 		padding: 18px;
@@ -52,6 +52,7 @@
 		border: none;
 		outline: none;
 		transition: 0.4s;
+        border-bottom: white ;
 	}
 
 	/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
