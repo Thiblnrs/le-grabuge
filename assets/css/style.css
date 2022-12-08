@@ -701,7 +701,7 @@ header > nav ul li a {
   width: 100%;
   display: flex;
   align-items: center;
-  border: #fff solid 1px;
+  border-bottom: #fff solid 1px;
   font-size: 40px;
   font-weight: lighter;
   text-transform: uppercase;
@@ -1260,4 +1260,8 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+}
+.page-id-103 .container h2 {
+  font-size: 40px;
+  letter-spacing: 10px;
 }/*# sourceMappingURL=style.css.map */
