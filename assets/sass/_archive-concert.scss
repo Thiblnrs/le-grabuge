@@ -46,7 +46,7 @@
 
 			div > p {
 				color: white;
-				font-weight: 900;
+				font-weight: normal;
 				font-size: 18px;
 			}
 		}
@@ -69,4 +69,13 @@
 	height: 100%;
 	background-color: #181818ad;
 	padding: 20px;
+
+	>div{
+		    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 25px;
+    margin-top: 25px;
+
+	}
 }

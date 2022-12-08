@@ -6,11 +6,10 @@
                     $dateFR = strtotime( get_field('date') );
                     echo date_i18n( "j M Y", $dateFR ); ?><br />
             </p>
-        </div>
-        <div>
             <p><?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?>
             </p>
             <p><?php the_field("style_")?></p></div>
+            
             <hr class="hr-desc" />
             <h4><?php the_title() ?> <br>
               <span>  <?php while( have_rows('line_up') ) : the_row(); ?>
