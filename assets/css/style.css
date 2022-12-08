@@ -969,6 +969,11 @@ cta-prog-a {
   padding: 20px;
 }
 
+.detailConcert h4 {
+  color: white;
+  font-weight: 400;
+}
+
 .page-id-105 section {
   display: none;
 }
