@@ -118,7 +118,7 @@ get_header();
         </div>
 
         <section class="cta-prog">
-            <div><a href="https://cdui.amigrafdev.com/thibault/concert/">Programmation complete</a></div>
+            <div><a href="https://cdui.amigrafdev.com/thibault/concert/">PROGRAMMATION COMPLÉTE</a></div>
 
             <hr />
         </section>
