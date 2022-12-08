@@ -49,11 +49,11 @@ jQuery(document).ready(function ($) {
 		$("section").removeClass("active");
 		$("#faq").addClass("active");
 	});
-});
-
-$(".accordion").click(function () {
-	$(this).addClass("acctive");
-	$(this).next().toggleClass("ouvert");
+	//Accordeon
+	$(".accordion").click(function () {
+		$(this).addClass("acctive");
+		$(this).next().toggleClass("ouvert");
+	});
 });
 
 // var acc = document.getElementsByClassName("accordion");
