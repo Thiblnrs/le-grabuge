@@ -872,7 +872,11 @@ h3 > span {
 }
 
 .hr-suivre-a {
-  width: 25%;
+  width: 60%;
+}
+
+i {
+  padding: 15px;
 }
 
 .single-post main {
