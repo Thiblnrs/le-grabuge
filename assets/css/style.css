@@ -978,7 +978,6 @@ cta-prog-a {
 .post-type-archive-concert .bg-gris > div {
   width: 100%;
   display: flex;
-  justify-content: space-between;
   line-height: 25px;
   margin-top: 25px;
   flex-wrap: wrap;
@@ -989,6 +988,7 @@ cta-prog-a {
   font-size: 16px;
   text-align: justify;
   text-transform: uppercase;
+  justify-content: space-between;
 }
 .post-type-archive-concert .bg-gris > div > span > p {
   color: white;
