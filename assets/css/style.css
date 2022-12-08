@@ -1082,10 +1082,7 @@ h3 > span {
   /*.acctive,
   .accordion:hover {
   	background-color: #ccc;
-         color:rgb(29, 29, 29);
-  }
-
-  /* Style the accordion panel. Note: hidden by default */
+         color:rgb(29, 29, 29);*/
 }
 .page-id-105 section {
   display: none;
@@ -1138,13 +1135,15 @@ h3 > span {
   transition: 0.4s;
   border-bottom: solid 1px white;
 }
-.page-id-105 .panel {
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
   padding: 0 18px;
   background-color: #141414;
   overflow: hidden;
   height: 0;
 }
-.page-id-105 .panel.ouvert {
+.panel.ouvert {
   height: auto;
 }
 
