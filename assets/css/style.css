@@ -850,6 +850,14 @@ cta-prog-a {
   margin-top: 100px;
 }
 
+h3 > span {
+  color: white;
+  font-weight: lighter;
+  font-size: 14px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
 .single-post main {
   padding-top: 90px;
 }
@@ -969,7 +977,7 @@ cta-prog-a {
 }
 .post-type-archive-concert .mois .detailConcert h4 > span {
   color: white;
-  font-weight: normal;
+  font-weight: lighter;
   font-size: 14px;
   text-align: justify;
   letter-spacing: 1px;
