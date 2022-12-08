@@ -141,13 +141,14 @@ get_header();
 				
 				wp_reset_postdata(); ?>
         </div>
-</section>
-<section>
+        <section>
             <div><a href="#" class="cta-prog-a">Programmation</a></div>
 
             <hr />
         
     </section>
+</section>
+
 </div>
      
 </main>
