@@ -90,11 +90,14 @@ get_header();
     <!-- Vous aimeriez peut être--------------------------------------->
     <div id="background-aimeriez">
         
+    <section class="container prochainement">
+        <h2>Vous aimerez</h2>
+        <hr>
+    </section>
 
     <!-- Proposition d'artiste--------------------------------------->
     <section id="prochain-artiste" class="container">
         <div>
-            <h2>Vous aimerez</h2>
             <?php $args = array(
 							'post_type' => 'concert',
 							'posts_per_page' => 3,
@@ -145,7 +148,8 @@ get_header();
             <hr />
         
     </section>
-</div>     
+</div>
+     
 </main>
 <?php
 get_footer();
