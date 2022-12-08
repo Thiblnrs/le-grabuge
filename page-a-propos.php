@@ -16,9 +16,24 @@ get_header();
 ?>
 
 	<main>
-
-	<h1>Notre histoire</h1>
-
+<section>
+	<h1>LE GRABUGE C'EST QUOI ?</h1>
+	<hr>
+	<img src="" alt="">
+</section>
+<section>
+	<h2>NOTRE HISTOIRE</h2>
+	<p></p>
+	<hr>
+</section>
+<section>
+	<h2>ILS VONT PASSER AU GRABUGE</h2>
+</section>
+<section>
+	<hr>
+	<h2>ENCORE PLUS D'INFO</h2>
+	<div class="cta-prog"><a href="#">Plus d’article</a></div>
+</section>
 <!-- SLIDE / SLICK--------------------------------------->
     <section id="diapo">
         <div class="multiple-items">
