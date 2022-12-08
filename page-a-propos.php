@@ -72,11 +72,11 @@ t ac neque et felis aliquet rhoncus. Nunc rutrum justo at ipsum lacinia, ac effi
     </ul>
 
 </section>
-<sectioc lass="cta-prog"n>
+<section class="cta-prog">
 	<hr>
 	<h2>ENCORE PLUS D'INFO</h2>
 	<div><a href="<?php echo home_url() ?>/infos-pratiques/">Programmation complete</a></div>
-</sectioc>
+</section>
 </div>
 <!-- SLIDE / SLICK--------------------------------------->
     <section id="diapo">
