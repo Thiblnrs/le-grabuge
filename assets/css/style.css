@@ -1119,8 +1119,8 @@ h3 > span {
 /*Accordeon*/
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: rgb(0, 0, 0);
+  color: white;
   cursor: pointer;
   padding: 18px;
   width: 100%;
