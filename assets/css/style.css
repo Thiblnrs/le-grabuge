@@ -1318,4 +1318,16 @@ h2 {
 .page-id-103 .cursor .hovered {
   background-size: cover;
   transform: scale(5);
+}
+.page-id-103 .cta-prog div {
+  max-width: 100%;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  transition: 0.25s linear all;
 }/*# sourceMappingURL=style.css.map */
