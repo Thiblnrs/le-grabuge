@@ -842,12 +842,16 @@ header > nav ul li a {
 #suivre-artiste {
   margin-top: 26px;
 }
-#suivre-artiste a {
+#suivre-artiste > p {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+#suivre-artiste > p a {
   color: white;
 }
-#suivre-artiste a i {
+#suivre-artiste > p a i {
   font-size: 36px;
-  padding: 0 1%;
+  padding: 1%;
 }
 
 #background-aimeriez {

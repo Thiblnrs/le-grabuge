@@ -118,15 +118,20 @@
 
 #suivre-artiste {
 	margin-top: 26px;
+	>p{
+		text-transform: uppercase;
+		font-size: 18px;
+
+	
 	a {
 		color: white;
 		i {
 			font-size: 36px;
-				padding: 0 1%;
+				padding: 1%;
 		}
 	}
 }
-
+}
 #background-aimeriez {
 	border-top: 1px solid white;
 	background-color: black;
