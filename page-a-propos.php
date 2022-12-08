@@ -21,6 +21,7 @@ get_header();
 	<hr>
 	<img src="" alt="">
 </section>
+<div class="container">
 <section>
 	<h2>NOTRE HISTOIRE</h2>
 	<p></p>
@@ -34,6 +35,7 @@ get_header();
 	<h2>ENCORE PLUS D'INFO</h2>
 	<div class="cta-prog"><a href="#">Plus d’article</a></div>
 </section>
+</div>
 <!-- SLIDE / SLICK--------------------------------------->
     <section id="diapo">
         <div class="multiple-items">
