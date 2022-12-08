@@ -973,6 +973,7 @@ h3 > span {
 }
 .post-type-archive-concert main {
   padding-top: 200px;
+  padding-bottom: 100px;
 }
 .post-type-archive-concert .mois {
   display: flex;
@@ -1063,6 +1064,15 @@ h3 > span {
 }
 .post-type-archive-concert .bg-gris .cta-esp {
   margin-top: auto;
+}
+
+#titre-programmation h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 10px;
+  font-weight: 200;
 }
 
 .page-id-105 section {
