@@ -999,6 +999,7 @@ cta-prog-a {
   line-height: 25px;
   margin-top: 25px;
   flex-wrap: wrap;
+  text-transform: uppercase;
 }
 .post-type-archive-concert .bg-gris > div:first-of-type {
   justify-content: space-between;
