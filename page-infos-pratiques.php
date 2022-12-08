@@ -38,8 +38,12 @@ get_header();
         <h2>Règlement intérieur</h2>
         <?php the_field('reglement') ?>
     </section>
+
+/* ACCORDEON FAW */
+
     <section id="faq">
         <h2>FAQ</h2>
+        
         <button class="accordion">Section 1</button>
 <div class="panel">
   <p>Lorem ipsum...</p>
