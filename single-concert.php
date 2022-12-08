@@ -14,16 +14,16 @@ get_header();
     <div id="detail-concert">
         <div>
             <div class="cover-date">
-                <p class="bold-date">
-                    <?php 
+                <p>
+                   <span class="bold-date"> <?php 
 								$dateFR = strtotime( get_field('date') );
-								echo date_i18n( "j M Y", $dateFR ); ?><br />
+								echo date_i18n( "j M Y", $dateFR ); ?><br /></span>
                     <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin')?>
 
                     <?php the_field('heure_douverture') ?> - 
                     <?php the_field('heure_de_fermeture') ?>
                 </p>
-                <p><?php the_field("style_")?></p> 
+                <p class="bold-date"><?php the_field("style_")?></p> 
             </div>
             <br>
             <div class="cover-date">
