@@ -15,9 +15,9 @@
 
             <hr class="hr-desc" />
             <h4><?php the_title() ?> <br>
-              <span><?php while( have_rows('line_up') ) : the_row(); ?>
+             - <span><?php while( have_rows('line_up') ) : the_row(); ?>
                     <?php the_sub_field('nom_artiste') ?>
-                <?php endwhile; ?> /</span>
+                <?php endwhile; ?></span> -
             </h4>
             <div class="cta-esp">
                 <a href="<?php the_permalink() ?>">En savoir plus</a>
