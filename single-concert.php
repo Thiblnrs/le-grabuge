@@ -44,7 +44,7 @@ get_header();
             <hr>
             <p><?php the_content()?></p>
 
-            <a class="cta-b" href="#">Reservation</a></>
+            <a class="cta-b" href="#">Réservation</a></>
             <div id="suivre-artiste">
                 <p>Suivre l'artiste</p>
                 <hr>
@@ -62,7 +62,7 @@ get_header();
     <div class="position-ytb"><?php the_field("ytb")?></div>
 
     <section>
-        <h2 class="h2-concert-page">PREMIERE PARTIE</h2>
+        <h2 class="h2-concert-page">PREMIÈRES PARTIES</h2>
         <hr>
     </section>
     <section>
