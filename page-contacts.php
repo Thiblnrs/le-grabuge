@@ -16,12 +16,12 @@ get_header();
 ?>
 
 	<main class="container">
-<section class="container-contact">
+<section>
 	<h1>Nous contacter</h1>
 	<hr>
 </section>
 
-<section>
+<section class="container-contact">
 <div>
 <hr>
 <h2>LE grabuge</h2>
