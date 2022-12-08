@@ -542,7 +542,7 @@ header > nav ul li a {
   height: 50px;
   display: flex;
   margin: auto;
-  margin-bottom: 50px;
+  margin: 50px 0;
   justify-content: center;
   align-items: center;
   background: white;
