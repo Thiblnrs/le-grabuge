@@ -18,7 +18,7 @@ get_header();
 	<main>
 <section>
 	<h1>LE GRABUGE C'EST QUOI ?</h1>
-	<hr>
+	<hr class="h1-hr">
 	<img src="" alt="">
 </section>
 <div class="container">
