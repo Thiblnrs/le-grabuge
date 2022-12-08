@@ -1330,4 +1330,10 @@ h2 {
   align-items: center;
   background: #fff;
   transition: 0.25s linear all;
+}
+
+.container-contact {
+  max-width: 80px;
+  margin: 0 auto;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */

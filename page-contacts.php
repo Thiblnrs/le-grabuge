@@ -16,7 +16,7 @@ get_header();
 ?>
 
 	<main class="container">
-<section>
+<section class="container-contact">
 	<h1>Nous contacter</h1>
 	<hr>
 </section>
