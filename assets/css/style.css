@@ -1268,4 +1268,7 @@ h2 {
 }
 .page-id-103 .container h2 p {
   text-align: justify;
+}
+.page-id-103 .container h2 p ul {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
