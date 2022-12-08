@@ -87,6 +87,7 @@ get_header();
     </section>
 
     <!-- Vous aimeriez peut être--------------------------------------->
+    <div id="background-aimeriez">
     <section class="container prochainement">
         <hr />
         <h2>Vous aimeriez peut être</h2>
@@ -138,12 +139,13 @@ get_header();
 				
 				wp_reset_postdata(); ?>
         </div>
-
+</section>
+</div>
         <section>
             <div><a href="#" class="cta-prog-a">Programmation</a></div>
 
             <hr />
-        </section>
+        
     </section>
 
 </main>
