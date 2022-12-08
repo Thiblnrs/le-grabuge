@@ -25,7 +25,7 @@ get_header();
         <button id="btn-reglement">Règlement intérieur</button>
         <button id="btn-faq">FAQ</button>
     </div>
-    <section id="billet" class="active">
+    <section id="billet" class="active bg-black">
         <h2>Acheter son billet</h2>
         <section class="bg-black"></section>
         <?php the_field('billet') ?>
