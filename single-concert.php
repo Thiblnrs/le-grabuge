@@ -33,7 +33,7 @@ get_header();
             <hr>
             <h1 class="h1-concert-page"><?php the_title()?></h1>
             <hr>
-            <p>Line up :</p>
+            <p class="line-up-style">Line up :</p>
             <p>
                 <?php while( have_rows('line_up') ) : the_row(); ?>
                     <?php the_sub_field('heure_debut') ?> - <?php the_sub_field('heure_fin') ?> : <?php the_sub_field('nom_artiste') ?> <br>

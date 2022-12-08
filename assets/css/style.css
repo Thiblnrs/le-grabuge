@@ -772,7 +772,7 @@ header > nav ul li a {
   text-align: center;
   text-transform: uppercase;
 }
-.h1-concert-page > p {
+.h1-concert-page .line-up-style {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
@@ -834,7 +834,7 @@ cta-prog-a {
 }
 
 #suivre-artiste {
-  margin-top: 50px;
+  margin-top: 26px;
 }
 #suivre-artiste a {
   color: white;
