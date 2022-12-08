@@ -251,18 +251,6 @@
 		border: 1px solid white;
 		margin: 100px 0;
 
-			& > div {
-		width: 90%;
-		// height: 80%;
-		display: flex;
-		box-sizing: border-box;
-		align-items: center;
-		padding: 10px;
-		background: black;
-		box-shadow: 2px -1px 0 2px #fff;
-		border: 1px solid white;
-		margin: 100px 0;
-
 		img {
 			border: #fff solid 1px;
 			width: 40%;
@@ -290,6 +278,19 @@
 			color: black;
 		}
 	}
+}
+
+.desc-salle-texte{
+			width: 90%;
+		// height: 80%;
+		display: flex;
+		box-sizing: border-box;
+		align-items: center;
+		padding: 10px;
+		background: black;
+		box-shadow: 2px -1px 0 2px #fff;
+		border: 1px solid white;
+		margin: 100px 0;
 }
 
 .cta-bw {
