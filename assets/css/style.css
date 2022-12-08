@@ -770,6 +770,7 @@ header > nav ul li a {
   color: white;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
 }
 .h1-concert-page > p {
   text-transform: uppercase;
