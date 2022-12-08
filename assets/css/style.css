@@ -1143,6 +1143,14 @@ h3 > span {
   overflow: hidden;
 }
 
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
 /************************FOOTER***************************/
 footer {
   background: black;
