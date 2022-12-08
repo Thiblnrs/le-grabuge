@@ -988,6 +988,8 @@ cta-prog-a {
   height: 100%;
   background-color: rgba(24, 24, 24, 0.6784313725);
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .post-type-archive-concert .bg-gris > div {
   width: 100%;
@@ -995,6 +997,12 @@ cta-prog-a {
   line-height: 25px;
   margin-top: 25px;
   flex-wrap: wrap;
+}
+.post-type-archive-concert .bg-gris > div:first-of-type {
+  justify-content: space-between;
+}
+.post-type-archive-concert .bg-gris > div:first-of-type p:last-of-type {
+  width: 100%;
 }
 .post-type-archive-concert .bg-gris > div > span {
   color: white;
@@ -1010,6 +1018,9 @@ cta-prog-a {
   font-size: 16px;
   text-align: justify;
   text-transform: uppercase;
+}
+.post-type-archive-concert .bg-gris .cta-esp {
+  margin-top: auto;
 }
 
 .page-id-105 section {
