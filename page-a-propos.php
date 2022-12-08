@@ -16,12 +16,14 @@ get_header();
 ?>
 
 	<main>
-<section>
+
+<div class="container">
+    <section>
 	<h1>LE GRABUGE C'EST QUOI ?</h1>
 	<hr class="h1-hr">
 	<img src="" alt="">
 </section>
-<div class="container">
+
 <section>
 	<h2>NOTRE HISTOIRE</h2>
 	<p>Nulla mollis interdum ante eu mattis. Sed facilisis tortor vehicula lacus malesuada, laoreet euismod erat aliquet.
