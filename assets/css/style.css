@@ -1003,6 +1003,7 @@ cta-prog-a {
 }
 .post-type-archive-concert .bg-gris > div:first-of-type p:last-of-type {
   width: 100%;
+  font-weight: 700;
 }
 .post-type-archive-concert .bg-gris > div > span {
   color: white;
