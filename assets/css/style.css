@@ -951,7 +951,7 @@ cta-prog-a {
   text-transform: uppercase;
   font-weight: bold;
 }
-.post-type-archive-concert .mois .detailConcert div > span {
+.post-type-archive-concert .mois .detailConcert div > p {
   color: white;
   font-weight: normal;
   font-size: 18px;
