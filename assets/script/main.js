@@ -55,16 +55,3 @@ jQuery(document).ready(function ($) {
 		$(this).next().toggleClass("ouvert");
 	});
 });
-
-	//test apparition
-	const alllinks = document.querySelectorAll("ul li");
-
-	alllinks.forEach((link) => {
-		const location = link.getAttribute("data-loc");
-
-		link.addEventListener("mouseenter", () => {
-			cursor.classlist.add("hovered");
-			cursor.style.backgroundImage = "url(/assets/img/${location}.webp";
-		});
-	});
-
