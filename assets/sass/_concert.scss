@@ -142,34 +142,6 @@ h3 {
 					text-transform: uppercase;
 }
 }
-
-.cta-prog div {
-	max-width: 470px;
-	height: 50px;
-	display: flex;
-	margin: auto;
-	margin-bottom: 50px;
-	justify-content: center;
-	align-items: center;
-	background: white;
-	transition: 0.25s linear all;
-	a {
-		transition: 0.25s linear all;
-		letter-spacing: 5px;
-		font-size: 16px;
-		text-transform: uppercase;
-		color: black;
-	}
-
-	&:hover {
-		background-color: transparent;
-		border: 2px solid white;
-
-		a {
-			color: white;
-		}
-	}
-}
 // .cta-b {
 // 	display: flex;
 // 	justify-content: center;
