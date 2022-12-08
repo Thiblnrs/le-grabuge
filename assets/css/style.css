@@ -965,6 +965,9 @@ cta-prog-a {
   text-align: justify;
   text-transform: uppercase;
 }
+.post-type-archive-concert .mois .detailConcert div > p > span {
+  font-weight: 500;
+}
 .post-type-archive-concert h1 {
   text-align: center;
   color: white;

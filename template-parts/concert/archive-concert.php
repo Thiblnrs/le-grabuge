@@ -2,12 +2,15 @@
         <div class="bg-gris">
         <div>
             <p>
-                <?php 
+               <span> <p><?php 
                     $dateFR = strtotime( get_field('date') );
-                    echo date_i18n( "j M Y", $dateFR ); ?><br />
+                    echo date_i18n( "j M Y", $dateFR ); ?> </p>
+                     <p><?php the_field("style_")?></p> 
+                </span>
+                <br />
             <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?>
             </p>
-            <p><?php the_field("style_")?></p></div>
+          </div>
 
             <hr class="hr-desc" />
             <h4><?php the_title() ?> <br>
