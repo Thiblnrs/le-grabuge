@@ -810,6 +810,7 @@ header > nav ul li a {
 .cover-date > p {
   color: white;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .cont-artiste-3 {
