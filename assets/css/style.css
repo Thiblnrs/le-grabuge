@@ -871,6 +871,10 @@ h3 > span {
   text-transform: uppercase;
 }
 
+.hr-suivre-a {
+  width: 25%;
+}
+
 .single-post main {
   padding-top: 90px;
 }
