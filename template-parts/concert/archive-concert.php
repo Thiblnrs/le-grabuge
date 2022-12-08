@@ -1,11 +1,13 @@
 <div style="background-image:url(<?php the_post_thumbnail_url() ?>)" <?php post_class('detailConcert'); ?>>
         <div class="bg-gris">
         <div>
-               <span> <?php 
+               <span> <p> <?php 
                     $dateFR = strtotime( get_field('date') );
                     echo date_i18n( "j M Y", $dateFR ); ?> 
                     <?php the_field("style_")?>
+                    </p>
                 </span>
+                
                 <br />
             <p><?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?>
             </p>
