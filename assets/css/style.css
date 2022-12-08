@@ -948,6 +948,7 @@ cta-prog-a {
 .post-type-archive-concert .mois .detailConcert h4 {
   color: white;
   font-weight: 400;
+  text-transform: uppercase;
 }
 .post-type-archive-concert .mois .detailConcert div > p {
   color: white;
