@@ -44,7 +44,7 @@
 	/* Style the buttons that are used to open and close the accordion panel */
 	.accordion {
 		background-color: black;
-		color:white;
+		color: white;
 		cursor: pointer;
 		padding: 18px;
 		width: 100%;
@@ -52,7 +52,7 @@
 		border: none;
 		outline: none;
 		transition: 0.4s;
-        border-bottom: solid 1px white ;
+		border-bottom: solid 1px white;
 	}
 
 	/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -60,15 +60,15 @@
 	.accordion:hover {
 		background-color: #ccc;
         color:rgb(29, 29, 29);*/
-	}
+}
 
-	/* Style the accordion panel. Note: hidden by default */
-	.panel {
-		padding: 0 18px;
-		background-color: #141414;
-		overflow: hidden;
-		height: 0;
-		&.ouvert {
-			height: auto;
-		}
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+	padding: 0 18px;
+	background-color: #141414;
+	overflow: hidden;
+	height: 0;
+	&.ouvert {
+		height: auto;
 	}
+}
