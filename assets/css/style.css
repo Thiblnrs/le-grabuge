@@ -455,6 +455,7 @@ header > nav ul li a {
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 .cta-b > a {
