@@ -1178,6 +1178,7 @@ h2 {
 
 #newsletter > div div {
   text-align: left;
+  width: 100%;
 }
 
 @media screen and (max-width: 480px) {
