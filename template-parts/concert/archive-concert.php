@@ -1,15 +1,15 @@
 <div style="background-image:url(<?php the_post_thumbnail_url() ?>)" <?php post_class('detailConcert'); ?>>
         <div class="bg-gris">
         <div>
-               <p> <?php 
-                    $dateFR = strtotime( get_field('date') );
-                    echo date_i18n( "j M Y", $dateFR ); ?> 
-                     <span><?php the_field("style_")?></span>
-                    </p>
-                
-                
-                <br />
-            <p><?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?>
+            <p> 
+                <?php 
+                $dateFR = strtotime( get_field('date') ); echo date_i18n( "j M Y", $dateFR ); ?> 
+            </p>
+            <p>
+                <?php the_field("style_")?>
+            </p>
+            <p>
+                <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?>
             </p>
           </div>
 
