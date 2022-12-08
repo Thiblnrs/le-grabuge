@@ -1284,6 +1284,7 @@ h2 {
   list-style: none;
 }
 .page-id-103 ul li {
+  display: flex;
   color: white;
   text-align: justify;
   font-size: 23px;
