@@ -62,7 +62,7 @@ jQuery(document).ready(function ($) {
 
 		link.addEventListener("mouseenter", () => {
 			cursor.classlist.add("hovered");
-			cursor.style.backgroundImage = "url(img/${location}.webp";
+			cursor.style.backgroundImage = "url(/assets/img/${location}.webp";
 		});
 	});
 });
