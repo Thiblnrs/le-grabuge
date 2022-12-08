@@ -958,17 +958,6 @@ cta-prog-a {
   font-size: 14px;
   text-align: justify;
 }
-.post-type-archive-concert .mois .detailConcert div > p {
-  color: white;
-  font-weight: normal;
-  font-size: 18px;
-  text-align: justify;
-  text-transform: uppercase;
-}
-.post-type-archive-concert .mois .detailConcert > span > p {
-  font-weight: 500;
-  text-align: center;
-}
 .post-type-archive-concert h1 {
   text-align: center;
   color: white;
