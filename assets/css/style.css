@@ -1270,5 +1270,16 @@ h2 {
   text-align: justify;
 }
 .page-id-103 .container h2 p ul {
+  box-sizing: border-box;
   display: flex;
+  justify-content: center;
+  text-align: justify;
+  flex-wrap: wrap;
+}
+.page-id-103 .container h2 p ul ul li {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  text-align: justify;
 }/*# sourceMappingURL=style.css.map */

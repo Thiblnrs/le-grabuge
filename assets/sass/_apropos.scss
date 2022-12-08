@@ -9,7 +9,19 @@
         text-align: justify;
 
         ul{
-            display: flex;
+           box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    flex-wrap: wrap;
+
+    ul li {
+        text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    text-align: justify;
+    }
         }
     }
 }
