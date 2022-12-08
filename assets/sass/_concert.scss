@@ -108,22 +108,6 @@
 		width: 100%;
 	}
 }
-#cta-prog-a div a{
-	font-size: 20px;
-	font-weight: 600;
-	letter-spacing: 5px;
-	display: flex;
-	justify-content: center;
-	color: white;
-	list-style: none;
-	text-decoration: none;
-	text-transform: uppercase;
-	    padding: 60px 0;
-
-	>hr{
-		width: 50%;
-	}
-}
 
 #suivre-artiste {
 	margin-top: 26px;
@@ -157,6 +141,34 @@ h3 {
 					letter-spacing: 1px;
 					text-transform: uppercase;
 }
+}
+
+.cta-prog div {
+	max-width: 470px;
+	height: 50px;
+	display: flex;
+	margin: auto;
+	margin-bottom: 50px;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	transition: 0.25s linear all;
+	a {
+		transition: 0.25s linear all;
+		letter-spacing: 5px;
+		font-size: 16px;
+		text-transform: uppercase;
+		color: black;
+	}
+
+	&:hover {
+		background-color: transparent;
+		border: 2px solid white;
+
+		a {
+			color: white;
+		}
+	}
 }
 // .cta-b {
 // 	display: flex;
