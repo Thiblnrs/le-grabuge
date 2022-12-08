@@ -43,20 +43,13 @@ get_header();
 
     <section id="faq">
         <h2>FAQ</h2>
-        <button class="accordion">Section 1</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
+        <?php while( have_rows('faq') ) : the_row(); ?>
+            <button class="accordion"><?php the_sub_field ("question") ?></button>
 
-<button class="accordion">Section 2</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
-
-<button class="accordion">Section 3</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
+            <div class="panel">
+                <?php the_sub_field ("reponse") ?>
+            </div>
+           <?php endwhile; ?>
     </section>
 </main>
 
