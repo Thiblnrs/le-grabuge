@@ -1135,6 +1135,7 @@ h3 > span {
 .page-id-105 .acctive,
 .page-id-105 .accordion:hover {
   background-color: #ccc;
+  color: black;
 }
 .page-id-105 .panel {
   padding: 0 18px;
