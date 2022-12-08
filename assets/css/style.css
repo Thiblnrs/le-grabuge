@@ -1075,6 +1075,12 @@ h3 > span {
   font-weight: 200;
 }
 
+.page-id-105 {
+  /*Accordeon*/
+  /* Style the buttons that are used to open and close the accordion panel */
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* Style the accordion panel. Note: hidden by default */
+}
 .page-id-105 section {
   display: none;
 }
@@ -1110,17 +1116,13 @@ h3 > span {
   width: 25%;
   font-size: 16px;
 }
-
-.tabs {
+.page-id-105 .tabs {
   display: flex;
   align-items: flex-start;
 }
-
-/*Accordeon*/
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  background-color: rgb(0, 0, 0);
-  color: white;
+.page-id-105 .accordion {
+  background-color: #eee;
+  color: #444;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -1129,26 +1131,15 @@ h3 > span {
   outline: none;
   transition: 0.4s;
 }
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: rgb(0, 0, 0);
+.page-id-105 .acctive,
+.page-id-105 .accordion:hover {
+  background-color: #ccc;
 }
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: rgb(0, 0, 0);
-  display: none;
-  overflow: hidden;
-}
-
-.panel {
+.page-id-105 .panel {
   padding: 0 18px;
   background-color: white;
-  max-height: 0;
+  display: none;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
 }
 
 /************************FOOTER***************************/

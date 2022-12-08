@@ -43,18 +43,17 @@ get_header();
 
     <section id="faq">
         <h2>FAQ</h2>
-
-<button class="accordion">Je peux venir avec un appareil photo ?</button>
+        <button class="accordion">Section 1</button>
 <div class="panel">
   <p>Lorem ipsum...</p>
 </div>
 
-<button class="accordion">Y-a-t-il un vestiaire?</button>
+<button class="accordion">Section 2</button>
 <div class="panel">
   <p>Lorem ipsum...</p>
 </div>
 
-<button class="accordion">Y-a-t-il des places assises ?</button>
+<button class="accordion">Section 3</button>
 <div class="panel">
   <p>Lorem ipsum...</p>
 </div>
