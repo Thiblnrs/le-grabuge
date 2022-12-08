@@ -39,6 +39,10 @@ get_header();
 <hr>
 
 </div>
+
+<div>
+	<?php echo do_shortcode( '[contact-form-7 id="363" title="Contactez nous"]' ); ?>
+</div>
 </section>
 	</main><!-- #main -->
 
