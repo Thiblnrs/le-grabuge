@@ -92,7 +92,6 @@ t ac neque et felis aliquet rhoncus. Nunc rutrum justo at ipsum lacinia, ac effi
             <?php endif; ?>
         </div>
     </section>
-
 	 <!-- citation--------------------------------------->
     <section id="citation">
         <?php 
