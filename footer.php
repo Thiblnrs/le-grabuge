@@ -13,9 +13,9 @@
 
 <footer>
     <!-- Newsletter--------------------------------------->
-    <section id="newsletter" class="container">
-        <div>
-            <h2>Newsletter</h2>
+    <section id="newsletter">
+        <div class="container">
+            <h2 >Newsletter</h2>
             <div>
             <p>Inscrivez vous à notre news letter pour ne rater aucune information sur notre programmation et bien
                 d’autres choses. 10 % de réduction sur votre premiere visite chez nous en vous inscrivant.</p>
