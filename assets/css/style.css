@@ -812,7 +812,7 @@ header > nav ul li a {
   text-transform: uppercase;
 }
 
-.cover-date > p {
+.bold-date {
   color: white;
   text-transform: uppercase;
   font-weight: 700;

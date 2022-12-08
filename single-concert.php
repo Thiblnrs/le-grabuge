@@ -14,7 +14,7 @@ get_header();
     <div id="detail-concert">
         <div>
             <div class="cover-date">
-                <p>
+                <p class="bold-date">
                     <?php 
 								$dateFR = strtotime( get_field('date') );
 								echo date_i18n( "j M Y", $dateFR ); ?><br />
