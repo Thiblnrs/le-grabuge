@@ -1176,7 +1176,7 @@ h2 {
   border-bottom: 7px solid white;
 }
 
-#newsletter > div div {
+#newsletter > div div p {
   text-align: left;
   width: 100%;
 }
