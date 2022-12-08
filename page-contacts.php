@@ -21,7 +21,7 @@ get_header();
 	<hr>
 </section>
 
-<section class="container-contact">
+<section>
 <div>
 <hr>
 <h2>LE grabuge</h2>
