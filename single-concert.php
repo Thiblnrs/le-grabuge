@@ -112,7 +112,7 @@ get_header();
 				if ( $concertsAVenir->have_posts() ) :
 					while ( $concertsAVenir->have_posts() ) : $concertsAVenir->the_post(); ?>
 
-            <div class="cont-artiste-2">
+            <div class="cont-artiste-3">
                 <div>
                     <?php $photo_artiste = get_field('photo_artiste') ?>
                     <img src="<?php echo $photo_artiste['sizes']['medium'] ?>"
