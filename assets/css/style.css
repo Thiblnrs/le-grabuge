@@ -410,6 +410,7 @@ header > nav ul li a {
   text-align: justify;
   color: white;
   font-weight: 200;
+  line-height: 20px;
 }
 
 .cover-date {
@@ -734,7 +735,7 @@ header > nav ul li a {
 }
 #detail-concert h2,
 #detail-concert p {
-  padding: 10px;
+  padding: 5px;
 }
 #detail-concert img {
   width: 50%;
