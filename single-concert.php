@@ -144,8 +144,8 @@ get_header();
 				wp_reset_postdata(); ?>
         </div>
         <section id="cta-prog-a">
-            <div><a href="https://cdui.amigrafdev.com/thibault/concert/" class="">Programmation</a>
-            <hr/></div>
+            <div><a href="#https://cdui.amigrafdev.com/thibault/concert/">Programmation complete</a></div>
+            
 
         
         
