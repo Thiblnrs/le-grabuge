@@ -15,17 +15,31 @@
 get_header();
 ?>
 
-	<main>
- <section  class="container">
-    <div id="detail-concert">
-        <div>
-           
-           <p>fdgdfgdfgfddglorem</p>
-            </div>
-        </div>
-   <img src="assets/img/grabuge-ext.jpg" alt="">
-    </div>
-    <section>
+	<main class="container">
+<section>
+	<h1>Nous contacter</h1>
+	<hr>
+</section>
+
+<section>
+<div>
+<hr>
+<h2>LE grabuge</h2>
+<p>45 Rue Solferino
+59000 Lille
+03.21.45.86.59.
+</p>
+<button></button>
+<hr>
+<p>Envie d’en savoir plus sur le grabuge?</p>
+<button></button>
+<hr>
+<p>A la recherche d’informations ?</p>
+<button></button>
+<hr>
+
+</div>
+</section>
 	</main><!-- #main -->
 
 <?php
