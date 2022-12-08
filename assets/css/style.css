@@ -810,11 +810,12 @@ header > nav ul li a {
 
 .cont-artiste-3 {
   width: 50%;
-  padding: 30px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  flex-direction: column;
 }
 .cont-artiste-3 img {
   aspect-ratio: 1/1;
