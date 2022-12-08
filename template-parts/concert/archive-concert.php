@@ -1,4 +1,4 @@
-<div style="background-image:url(<?php the_post_thumbnail_url() ?>)" class="detailConcert <?php post_class(); ?>">
+<div style="background-image:url(<?php the_post_thumbnail_url() ?>)" <?php post_class('detailConcert'); ?>>
         <div class="bg-gris">
         <div>
             <p>
