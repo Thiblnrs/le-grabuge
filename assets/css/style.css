@@ -1261,13 +1261,17 @@ h2 {
     transform: translate(-50%, -50%);
   }
 }
-.page-id-103 h1 {
+.page-id-103 .container h1 {
   text-align: center;
   color: white;
   text-transform: uppercase;
   font-size: 40px;
   letter-spacing: 10px;
   font-weight: 200;
+}
+.page-id-103 hr {
+  width: 100%;
+  margin: 5% 0;
 }
 .page-id-103 .container h2 {
   font-size: 40px;

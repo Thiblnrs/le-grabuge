@@ -1,6 +1,6 @@
 .page-id-103{
     
- h1{
+ .container h1{
 		text-align: center;
 		color: white;
 		text-transform: uppercase;
@@ -8,7 +8,10 @@
 		letter-spacing: 10px;
 		font-weight: 200;
 	}
-
+hr {
+		width: 100%;
+		margin: 5% 0;
+	}
 .container h2{
     font-size: 40px;
     letter-spacing: 10px;
