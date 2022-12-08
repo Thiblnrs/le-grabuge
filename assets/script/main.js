@@ -51,7 +51,7 @@ jQuery(document).ready(function ($) {
 	});
 	//Accordeon
 	$(".accordion").click(function () {
-		$(this).addClass("acctive");
+		$(this).toggleClass("acctive");
 		$(this).next().toggleClass("ouvert");
 	});
 });

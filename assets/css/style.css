@@ -1141,6 +1141,9 @@ h3 > span {
   overflow: hidden;
   height: 0;
 }
+.page-id-105 .panel.ouvert {
+  height: auto;
+}
 
 /************************FOOTER***************************/
 footer {
