@@ -13,7 +13,7 @@
 
 <footer>
     <!-- Newsletter--------------------------------------->
-    <section id="newsletter">
+    <section id="newsletter" class="container">
         <div>
             <h2>Newsletter</h2>
             <p>Inscrivez vous à notre news letter pour ne rater aucune information sur notre programmation et bien
