@@ -947,6 +947,7 @@ cta-prog-a {
 }
 .post-type-archive-concert .mois .detailConcert h4 {
   color: white;
+  font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
   font-weight: bold;
@@ -954,7 +955,7 @@ cta-prog-a {
 .post-type-archive-concert .mois .detailConcert div > p {
   color: white;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px;
   text-align: justify;
 }
 .post-type-archive-concert h1 {
