@@ -39,7 +39,38 @@ t ac neque et felis aliquet rhoncus. Nunc rutrum justo at ipsum lacinia, ac effi
 </section>
 <section>
 	<h2>ILS VONT PASSER AU GRABUGE</h2>
-    <p>LAURENT GARNIER - BRUTALISMUS - THE BLOODY BEETROOTS - HI-LO - CASUAL GABBERZ - BILLX - DARKTEK - LNRS - VANDAL - LEBASK - SEFA - COONE - AMELIE LENS  - VON BIKRAV - GARGANTUA - CHARLOTTE DE WITTE - REBEKKA WARRIOR - ALRT - JOYRIDE - APASHE - MANDIDEXTROUS - DEADMAU5 - SOLOMUM - BOYS NOIZE - MR OIZO MISS KITTIN - JAUZ - MASSANE - JOYHAUSSER ...  </p>
+    <ul>
+        <li>LAURENT GARNIER - </li>
+        <li>BRUTALISMUS3000 - </li>
+        <li>THE BLOODY BEETROOTS - </li>
+        <li>HI-LO - </li>
+        <li>CASUAL GABBERZ - </li>
+        <li>BILLX - </li>
+        <li>DARKTEK - </li>
+        <li>LNRS - </li>
+        <li>VANDAL</li>
+        <li>LEBASK -</li>
+        <li>SEFA -</li>
+        <li>COONE -</li>
+        <li>AMELIE LENS  -</li>
+        <li>VON BIKRAV -</li>
+        <li>GARGANTUA -</li>
+        <li>CHARLOTTE DE WITTE -</li>
+        <li>REBEKKA WARRIOR -</li>
+        <li>ALRT -</li>
+        <li>JOYRIDE - </li>
+        <li>APASHE -</li>
+        <li>MANDIDEXTROUS - </li>
+        <li>DEADMAU5 -</li>
+        <li>SOLOMUM -</li>
+        <li>BOYS NOIZE -</li>
+        <li>MR OIZO -</li>
+        <li>MISS KITTIN -</li>
+        <li>JAUZ -</li>
+        <li>MASSANE -</li>
+        <li>JOYHAUSSER ...</li>
+    </ul>
+
 </section>
 <section>
 	<hr>
