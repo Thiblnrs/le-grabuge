@@ -1130,7 +1130,7 @@ h3 > span {
   border: none;
   outline: none;
   transition: 0.4s;
-  border-bottom: white;
+  border-bottom: solid 1px white;
 }
 .page-id-105 .acctive,
 .page-id-105 .accordion:hover {
