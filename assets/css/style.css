@@ -805,6 +805,7 @@ header > nav ul li a {
   display: flex;
   justify-content: space-between;
   line-height: 25px;
+  margin-top: 30px;
 }
 .cover-date > p {
   color: white;
