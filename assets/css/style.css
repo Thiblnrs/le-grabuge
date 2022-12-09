@@ -1348,7 +1348,7 @@ h2 {
 .page-id-103 #liste-artiste span:nth-of-type(odd) {
   color: grey;
 }
-.page-id-103 #liste-artiste {
+.page-id-103 #liste-artiste p {
   font-size: 28px;
   text-align: justify;
   line-height: 66px;
