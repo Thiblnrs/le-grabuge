@@ -16,14 +16,14 @@ get_header();
 ?>
 
 	<main class="container">
-		<div id="zone-contact">
-		<div id="zonecta">
+
 <section>
 <!------ CTA----->
 	<h1>Nous contacter</h1>
 	<hr>
 </section>
-
+		<div id="zone-contact">
+		<div id="zonecta">
 <section>
 <div>
 <hr>
