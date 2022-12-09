@@ -1001,6 +1001,7 @@ h3 > span {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .blog .container .actualite {
   width: 100%;
