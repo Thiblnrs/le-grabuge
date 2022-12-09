@@ -16,8 +16,8 @@ get_header();
 ?>
 
 	<main class="container">
+		<div id="zonecta">
 <section>
-
 <!------ CTA----->
 	<h1>Nous contacter</h1>
 	<hr>
@@ -33,13 +33,16 @@ get_header();
 </p>
 <button></button>
 <hr>
+</div>
+<div>
 <p>Envie d’en savoir plus sur le grabuge?</p>
 <button></button>
 <hr>
-<p>A la recherche d’informations ?</p>
+</div>
+<div><p>A la recherche d’informations ?</p>
 <button></button>
 <hr>
-
+</div>
 </div>
 <!------ FORMULAIRE CONTACT----->
 <div>
