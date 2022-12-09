@@ -28,6 +28,7 @@ get_header();
 <div>
 <hr>
 <h2>LE grabuge</h2>
+<hr>
 <p>45 Rue Solferino
 59000 Lille
 03.21.45.86.59.
