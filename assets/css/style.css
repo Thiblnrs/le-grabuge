@@ -281,6 +281,7 @@ header > nav ul li a {
 }
 #menu-contenu #menu-principal li a:hover {
   color: lightgray;
+  text-decoration: underline;
 }
 #menu-contenu #mention ul {
   -moz-columns: 2;
