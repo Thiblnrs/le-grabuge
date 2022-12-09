@@ -1428,6 +1428,7 @@ footer {
 .page-id-107 #zone-contact #contact-form {
   width: 70%;
   border: 1px solid white;
+  padding: 20px;
 }
 .page-id-107 #zone-contact #contact-form form {
   display: flex;
@@ -1435,6 +1436,13 @@ footer {
 }
 .page-id-107 #zone-contact #contact-form form label {
   color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.page-id-107 #zone-contact #contact-form form input,
+.page-id-107 #zone-contact #contact-form form textarea {
+  width: 100%;
 }
 .page-id-107 #zone-contact #zonecta {
   width: 20%;
