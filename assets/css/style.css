@@ -1301,7 +1301,7 @@ h2 {
 }
 .page-id-103 hr {
   width: 100%;
-  margin: 5% 0;
+  padding: 50px 0 0 0;
 }
 .page-id-103 .h1-hr {
   width: 100%;
@@ -1311,7 +1311,7 @@ h2 {
   font-size: 40px;
   letter-spacing: 10px;
   text-align: center;
-  padding: 0 0 50px 0;
+  padding: 50px 0;
 }
 .page-id-103 p {
   text-align: justify;
@@ -1356,6 +1356,7 @@ h2 {
 .page-id-103 #diapo-2 {
   border-top: #fff 1px solid;
   overflow-x: hidden;
+  padding: 25px 0;
 }
 .page-id-103 #diapo-2 img {
   margin: 20px;
@@ -1368,7 +1369,7 @@ h2 {
 }
 .page-id-103 .container-apropos img {
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 3/0;
   -o-object-fit: cover;
      object-fit: cover;
 }
