@@ -675,7 +675,7 @@ header > nav ul li a {
   color: rgb(231, 231, 231);
   padding: 20px 0;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
 }
 
 #articles div p {
@@ -1006,7 +1006,7 @@ h3 > span {
   color: #e7e7e7;
   padding: 20px 0;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
 }
 .blog .container img {
   width: 100%;
