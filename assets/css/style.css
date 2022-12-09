@@ -1422,14 +1422,17 @@ footer {
   text-transform: uppercase;
   border: solid 1px white;
 }
-.page-id-107 #contact-form {
+.page-id-107 #zonecta #contact-form {
   width: 60%;
   flex-direction: column;
 }
-.page-id-107 #zone-contact {
+.page-id-107 #zonecta #zone-contact {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
   gap: 10%;
+}
+.page-id-107 #zonecta .espace-hr {
+  margin: 50px 0;
 }/*# sourceMappingURL=style.css.map */

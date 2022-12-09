@@ -27,24 +27,24 @@ get_header();
 <section>
 <div>
 <hr>
-<h2>LE grabuge</h2>
+<h2>Le grabuge</h2>
 <hr>
 <p>45 Rue Solferino
 59000 Lille
 03.21.45.86.59.
 </p>
 <div class="cta-apropos"><a href="#">A propos</a></div>
-<hr>
+<hr class="espace-hr">
 </div>
 <div>
 <h4>Envie d’en savoir plus sur le grabuge?</h4>
 <div class="cta-apropos"><a href="#">A propos</a></div>
-<hr>
+<hr class="espace-hr">
 </div>
-<h><h4>A la recherche d’informations ?</h4>
+<h4>A la recherche d’informations ?</h4>
 <div class="cta-apropos"><a href="#">A propos</a></div>
-<hr>
-</h>
+<hr class="espace-hr">
+
 </div>
 <!------ FORMULAIRE CONTACT----->
 <div id="contact-form">
