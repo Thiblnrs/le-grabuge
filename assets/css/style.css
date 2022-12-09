@@ -996,6 +996,7 @@ h3 > span {
   width: 100%;
 }
 .blog .container .grilleActu {
+  width: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
