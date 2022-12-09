@@ -1344,11 +1344,15 @@ h2 {
 .page-id-103 #liste-artiste {
   color: white;
   text-transform: uppercase;
-  font-size: 23px;
-  text-align: justify;
 }
 .page-id-103 #liste-artiste span:nth-of-type(odd) {
   color: grey;
+}
+.page-id-103 #liste-artiste {
+  font-size: 28px;
+  text-align: justify;
+  line-height: 66px;
+  letter-spacing: 5px;
 }
 .page-id-103 #diapo-2 {
   border-top: #fff 1px solid;
