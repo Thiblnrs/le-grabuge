@@ -1000,6 +1000,9 @@ h3 > span {
   letter-spacing: 10px;
   font-weight: 200;
 }
+.blog .container hr {
+  margin-bottom: 50px;
+}
 .blog .container h2 {
   font-size: 24px;
   font-weight: 600;
