@@ -13,6 +13,7 @@
 			display: none;
 		}
 		#menu-principal li {
+			justify-content: center;
 			a {
 				font-size: 20px;
 				letter-spacing: 10px;
@@ -24,9 +25,6 @@
 	}
 	header > nav ul li:first-of-type {
 		display: none;
-	}
-	#fermer {
-		justify-content: start;
 	}
 
 	#prochain-artiste > div {
