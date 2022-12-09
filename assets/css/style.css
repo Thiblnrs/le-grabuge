@@ -1384,7 +1384,7 @@ footer {
 .page-id-107 #mail {
   padding: 50px 0 150px 0;
 }
-.page-id-107 #mail h3 {
+.page-id-107 #mail > h3 {
   padding-top: 40px;
 }
 .page-id-107 #zonecta {
