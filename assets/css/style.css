@@ -1311,7 +1311,7 @@ h2 {
   font-size: 40px;
   letter-spacing: 10px;
   text-align: center;
-  padding: 50px 0;
+  padding: 0 0 50px 0;
 }
 .page-id-103 p {
   text-align: justify;
@@ -1352,7 +1352,6 @@ h2 {
   font-size: 28px;
   text-align: justify;
   line-height: 66px;
-  letter-spacing: 5px;
 }
 .page-id-103 #diapo-2 {
   border-top: #fff 1px solid;
