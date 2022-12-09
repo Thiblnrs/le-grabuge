@@ -996,15 +996,12 @@ h3 > span {
   width: 100%;
 }
 .blog .container .grilleActu {
-  width: 25%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
 }
 .blog .container .actualite {
-  width: 100%;
+  width: calc(33.3333333333% - 20px);
 }
 
 .post-type-archive-concert .mois > .moisJanvier ~ .moisJanvier,
