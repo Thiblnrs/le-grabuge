@@ -48,8 +48,8 @@ get_header();
 </section>
 
 <!------ mail----->
-	</main><!-- #main -->
-<h3>Direction ET PROGRAMMATION </h3>
+<section>
+	<h3>Direction ET PROGRAMMATION </h3>
 <p>Francois Theret - Directeur Financier
 f.theret(a)grabuge.com <br>
 Thibault Llinares - Directeur artistique
@@ -77,11 +77,7 @@ l.kevin(a)grabuge.com</p>
 <h3>BAR</h3>
 <p>
 Fernand Bar
-b.fernand(a)grabuge.com - Chef d'équipe restauration</p>
-
-
-
-
-
+b.fernand(a)grabuge.com - Chef d'équipe restauration</p></section>
+	</main><!-- #main -->
 <?php
 get_footer();
