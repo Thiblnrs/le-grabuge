@@ -23,14 +23,6 @@ get_header();
 
     </section>
 
-    <section>
-
-        <div>
-            <?php yarpp_related() ?>
-            <div class="cta-esp"><a href="<?php the_permalink() ?>">En lire plus</a></div>
-        </div>
-    </section>
-
     <section id="articles">
         <?php 
             $args = array(
