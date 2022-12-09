@@ -1443,6 +1443,12 @@ footer {
 .page-id-107 #zone-contact #contact-form form input,
 .page-id-107 #zone-contact #contact-form form textarea {
   width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.page-id-107 #zone-contact #contact-form form input[type=submit] {
+  background-color: #141414;
+  color: white;
 }
 .page-id-107 #zone-contact #zonecta {
   width: 20%;
