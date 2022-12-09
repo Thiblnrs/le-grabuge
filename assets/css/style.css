@@ -1288,7 +1288,7 @@ h2 {
   padding-top: 200px;
 }
 .page-id-103 .container-apropos {
-  max-width: 1165px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .page-id-103 h1 {
@@ -1307,7 +1307,7 @@ h2 {
   width: 100%;
   margin: 2% 0 5% 0;
 }
-.page-id-103 .container h2 {
+.page-id-103 .container-apropos h2 {
   font-size: 40px;
   letter-spacing: 10px;
   text-align: center;
@@ -1349,6 +1349,14 @@ h2 {
 }
 .page-id-103 #liste-artiste span:nth-of-type(odd) {
   color: grey;
+}
+.page-id-103 #diapo-2 {
+  border-top: #fff 1px solid;
+  overflow-x: hidden;
+}
+.page-id-103 #diapo-2 img {
+  margin: 20px;
+  border: 2px solid white;
 }
 
 .page-id-107 main section h1 {

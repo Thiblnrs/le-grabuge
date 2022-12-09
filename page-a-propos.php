@@ -44,7 +44,7 @@ get_header();
         </section>
     </div>
     <!-- SLIDE / SLICK--------------------------------------->
-    <section id="diapo">
+    <section id="diapo-2">
         <div class="multiple-items">
             <?php 
                 $galeries = get_field('galerie',7);
