@@ -992,13 +992,15 @@ h3 > span {
 .blog .container-actu {
   max-width: 1165px;
   margin: 0 auto;
-  margin-top: 55px h1;
-  margin-top-text-align: center;
-  margin-top-color: white;
-  margin-top-text-transform: uppercase;
-  margin-top-font-size: 40px;
-  margin-top-letter-spacing: 10px;
-  margin-top-font-weight: 200;
+  margin-top: 100px;
+}
+.blog .container-actu h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 10px;
+  font-weight: 200;
 }
 .blog .container-actu hr {
   margin: 25px 0 75px 0;
