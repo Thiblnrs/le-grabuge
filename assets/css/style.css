@@ -1391,6 +1391,10 @@ footer {
   width: 30%;
   flex-direction: column;
 }
+.page-id-107 #zonecta h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
 .page-id-107 #contact-form {
   width: 60%;
   flex-direction: column;

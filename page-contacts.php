@@ -36,14 +36,14 @@ get_header();
 <hr>
 </div>
 <div>
-<p>Envie d’en savoir plus sur le grabuge?</p>
+<h4>Envie d’en savoir plus sur le grabuge?</h4>
 <button></button>
 <hr>
 </div>
-<div><p>A la recherche d’informations ?</p>
+<h><h4>A la recherche d’informations ?</h4>
 <button></button>
 <hr>
-</div>
+</h>
 </div>
 <!------ FORMULAIRE CONTACT----->
 <div id="contact-form">
