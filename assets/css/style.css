@@ -1509,7 +1509,7 @@ h3 > span {
   margin: 25px 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   header h1 {
     display: none;
   }
