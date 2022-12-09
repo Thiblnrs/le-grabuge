@@ -1358,6 +1358,11 @@ h2 {
   margin: 20px;
   border: 2px solid white;
 }
+.page-id-103 h2 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 .page-id-107 main section h1 {
   text-align: center;
