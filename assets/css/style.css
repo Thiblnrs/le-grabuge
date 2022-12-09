@@ -1012,6 +1012,9 @@ h3 > span {
 .blog .wp-pagenavi {
   color: white;
 }
+.blog .wp-pagenavi span {
+  color: white;
+}
 
 .post-type-archive-concert .mois > .moisJanvier ~ .moisJanvier,
 .post-type-archive-concert .mois > .moisFevrier ~ .moisFevrier,
