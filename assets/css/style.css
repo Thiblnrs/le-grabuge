@@ -990,7 +990,7 @@ h3 > span {
 }
 
 .blog .container main {
-  padding-top: 900px;
+  margin-top: 900px;
 }
 .blog .container h1 {
   text-align: center;
