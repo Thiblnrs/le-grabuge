@@ -55,47 +55,49 @@ footer {
 	}
 }
 
-h2 {
-	font-size: 113px;
-	letter-spacing: 40px;
-	text-transform: uppercase;
-	color: white;
-	font-weight: 400;
-}
+#newsletter {
+	h2 {
+		font-size: 113px;
+		letter-spacing: 40px;
+		text-transform: uppercase;
+		color: white;
+		font-weight: 400;
+	}
 
-.mailpoet_form {
-	display: flex;
-	width: 100%;
-
-	.mailpoet_paragraph {
+	.mailpoet_form {
+		display: flex;
 		width: 100%;
-		&.last {
-			width: unset;
-		}
-		input {
-			padding: 15px;
-			background-color: black;
-			color: white;
-		}
-		input[type="email"] {
-			border: none;
-			border-bottom: 1px solid white;
-		}
-		input[type="submit"] {
-			border: 1px solid white !important;
+
+		.mailpoet_paragraph {
+			width: 100%;
+			&.last {
+				width: unset;
+			}
+			input {
+				padding: 15px;
+				background-color: black;
+				color: white;
+			}
+			input[type="email"] {
+				border: none;
+				border-bottom: 1px solid white;
+			}
+			input[type="submit"] {
+				border: 1px solid white !important;
+			}
 		}
 	}
-}
 
-#mailpoet_form_1 form.mailpoet_form {
-	margin-top: 54px;
-}
+	#mailpoet_form_1 form.mailpoet_form {
+		margin-top: 54px;
+	}
 
-.element.style {
-	border-bottom: 7px solid white;
-}
+	.element.style {
+		border-bottom: 7px solid white;
+	}
 
-#newsletter >div div p{
-	text-align: left;
-	width: 100%;
+	& > div div p {
+		text-align: left;
+		width: 100%;
+	}
 }
