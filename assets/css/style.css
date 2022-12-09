@@ -1552,4 +1552,8 @@ h3 > span {
   .post-type-archive-concert .mois .detailConcert {
     width: 100%;
   }
+  #newsletter h2 {
+    font-size: 30px;
+    letter-spacing: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */
