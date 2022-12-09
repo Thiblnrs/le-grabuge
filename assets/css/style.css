@@ -1388,7 +1388,7 @@ footer {
   padding-top: 40px;
 }
 .page-id-107 #zonecta {
-  width: 10%;
+  width: 15%;
   flex-direction: column;
 }
 .page-id-107 #zonecta h2 {
@@ -1396,7 +1396,7 @@ footer {
   text-transform: uppercase;
   font-weight: 700;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 .page-id-107 #zonecta p {
   color: #D9D9D9;
@@ -1405,6 +1405,7 @@ footer {
   font-size: 16px;
   font-weight: 400;
   color: #D9D9D9;
+  text-align: left;
 }
 .page-id-107 #contact-form {
   width: 60%;
