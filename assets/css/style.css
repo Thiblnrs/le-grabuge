@@ -1384,14 +1384,14 @@ footer {
 .page-id-107 #mail {
   padding: 50px 0 150px 0;
 }
-.page-id-107 #mail > h3 {
+.page-id-107 #mail h3 {
   padding-top: 40px;
 }
 .page-id-107 #zonecta {
   width: 30%;
   flex-direction: column;
 }
-.page-id-107 #zonecta h2 {
+.page-id-107 #zonecta > h2 section {
   font-size: 24px;
   text-transform: uppercase;
   font-weight: 700;
