@@ -992,6 +992,14 @@ h3 > span {
   letter-spacing: 10px;
   font-weight: 200;
 }
+.blog .container .grilleActu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog .container .actualite {
+  width: 100%;
+}
 
 .post-type-archive-concert .mois > .moisJanvier ~ .moisJanvier,
 .post-type-archive-concert .mois > .moisFevrier ~ .moisFevrier,
