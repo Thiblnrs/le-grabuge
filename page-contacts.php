@@ -33,16 +33,16 @@ get_header();
 59000 Lille
 03.21.45.86.59.
 </p>
-<div class="cta-bw"><a href="#">A propos</a></div>
+<div class="cta-apropos"><a href="#">A propos</a></div>
 <hr>
 </div>
 <div>
 <h4>Envie d’en savoir plus sur le grabuge?</h4>
-<div class="cta-bw"><a href="#">A propos</a></div>
+<div class="cta-apropos"><a href="#">A propos</a></div>
 <hr>
 </div>
 <h><h4>A la recherche d’informations ?</h4>
-<div class="cta-bw"><a href="#">A propos</a></div>
+<div class="cta-apropos"><a href="#">A propos</a></div>
 <hr>
 </h>
 </div>

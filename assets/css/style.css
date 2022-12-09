@@ -639,6 +639,7 @@ header > nav ul li a {
   margin-top: 20px;
   background: white;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 /************************Plus que des concerts Articles*****************************/
@@ -1407,6 +1408,17 @@ footer {
   font-weight: 400;
   color: #D9D9D9;
   text-align: left;
+}
+.page-id-107 #zonecta .cta-apropos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 45px;
+  margin-top: 20px;
+  background: white;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .page-id-107 #contact-form {
   width: 60%;
