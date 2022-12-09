@@ -1513,14 +1513,30 @@ h3 > span {
   header h1 {
     display: none;
   }
+  #menu-contenu {
+    padding: 30px;
+  }
   #menu-contenu > div {
     width: 100%;
   }
   #menu-contenu .cont-artiste-menu {
     display: none;
   }
+  #menu-contenu #menu-principal li {
+    justify-content: center;
+  }
+  #menu-contenu #menu-principal li a {
+    font-size: 20px;
+  }
+  #menu-contenu #mention ul {
+    -moz-columns: 1;
+         columns: 1;
+  }
   header > nav ul li:first-of-type {
     display: none;
+  }
+  #fermer {
+    justify-content: start;
   }
   #prochain-artiste > div {
     flex-direction: column;

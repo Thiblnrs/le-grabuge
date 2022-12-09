@@ -5,15 +5,28 @@
 
 	//Menu
 	#menu-contenu {
+		padding: 30px;
 		& > div {
 			width: 100%;
 		}
 		.cont-artiste-menu {
 			display: none;
 		}
+		#menu-principal li {
+			justify-content: center;
+			a {
+				font-size: 20px;
+			}
+		}
+		#mention ul {
+			columns: 1;
+		}
 	}
 	header > nav ul li:first-of-type {
 		display: none;
+	}
+	#fermer {
+		justify-content: start;
 	}
 
 	#prochain-artiste > div {
