@@ -207,3 +207,6 @@ function ptc_customize_wp_query( $query ) {
 		$query->set( 'meta_key', 'date' );
 	}
 }
+
+//Supprimer mise en forme CF7
+add_filter('wpcf7_autop_or_not','__return_false');
