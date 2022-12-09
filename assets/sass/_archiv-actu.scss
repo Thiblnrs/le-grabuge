@@ -33,15 +33,14 @@
     .wp-pagenavi{
         color: white;
         padding: 5px;
-        text-decoration: none;
-    border: 1px solid #BFBFBF;
-    padding: 10px 15px;
-    margin: 15px 0;
+
 
     span {
- text-decoration: none;
-        list-style: none;
         color: white;
+                text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin: 15px 0;
 
     }
     
@@ -51,4 +50,5 @@
         color: white;
     }
     
+}
 }

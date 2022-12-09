@@ -1011,6 +1011,14 @@ h3 > span {
 }
 .blog .wp-pagenavi {
   color: white;
+  padding: 5px;
+}
+.blog .wp-pagenavi span {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin: 15px 0;
 }
 .blog .wp-pagenavi a {
   text-decoration: none;
