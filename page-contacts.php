@@ -16,6 +16,7 @@ get_header();
 ?>
 
 	<main class="container">
+		<div id="zone-contact">
 		<div id="zonecta">
 <section>
 <!------ CTA----->
@@ -45,8 +46,9 @@ get_header();
 </div>
 </div>
 <!------ FORMULAIRE CONTACT----->
-<div>
+<div id="contact-form">
 	<?php echo do_shortcode( '[contact-form-7 id="363" title="Contactez nous"]' ); ?>
+</div>
 </div>
 </section>
 

@@ -15,9 +15,19 @@
 #zonecta{
 	width: 20%;
 	flex-direction: column;
-	
 }
 
+#contact-form{
+	width: 20%;
+	flex-direction: column;
+}
+
+#zone-contact{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+}
 
 
 

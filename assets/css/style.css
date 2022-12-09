@@ -1384,4 +1384,14 @@ footer {
 .page-id-107 #zonecta {
   width: 20%;
   flex-direction: column;
+}
+.page-id-107 #contact-form {
+  width: 20%;
+  flex-direction: column;
+}
+.page-id-107 #zone-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
 }/*# sourceMappingURL=style.css.map */
