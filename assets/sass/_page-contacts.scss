@@ -1,5 +1,4 @@
-.page-id-107{
-
+.page-id-107 {
 	main section h1 {
 		text-align: center;
 		color: white;
@@ -8,69 +7,67 @@
 		letter-spacing: 10px;
 		font-weight: 200;
 	}
-    .apropos-main{
+	.apropos-main {
 		padding-top: 200px;
 	}
 
-	#mail{
+	#mail {
 		padding: 50px 0 150px 0;
 
-	 h3{
-		padding-top: 40px;
+		h3 {
+			padding-top: 40px;
+		}
 	}
+	#zone-contact {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: nowrap;
+		gap: 10%;
+
+		h2 {
+			font-size: 24px;
+			text-transform: uppercase;
+			font-weight: 700;
+			color: white;
+			text-align: left;
+		}
+
+		p {
+			color: #d9d9d9;
+			text-align: left;
+		}
+
+		h4 {
+			font-size: 16px;
+			font-weight: 400;
+			color: #d9d9d9;
+			text-align: left;
+		}
+
+		.cta-apropos {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 45px;
+			margin-top: 20px;
+			background: #141414;
+			color: white;
+			font-weight: 700;
+			text-transform: uppercase;
+			border: solid 1px white;
+		}
+
+		#contact-form {
+			width: 70%;
+		}
+
+		#zonecta {
+			width: 20%;
+		}
+		.espace-hr {
+			margin: 25px 0;
+		}
 	}
-#zonecta{
-	width: 15%;
-	flex-direction: column;
-
-	h2 {
-		font-size: 24px;
-		text-transform: uppercase;
-		font-weight: 700;
-		color: white;
-		text-align: left ;
-	}
-
-	p{
-		color:#D9D9D9;
-		text-align: left;
-	}
-
-	h4{
-		font-size: 16px;
-		font-weight: 400;
-		color:#D9D9D9;
-		text-align: left;
-	}
-
-	.cta-apropos {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 45px;
-	margin-top: 20px;
-	background:#141414;
-	color: white;
-	font-weight: 700;
-	text-transform: uppercase;
-	border: solid 1px white;
-}
-
-#contact-form{
-	width: 60%;
-	flex-direction: column;
-}
-
-#zone-contact{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: nowrap;
-	gap: 10%;
-}
-.espace-hr{
-	margin: 25px 0;
-}
-}
 }
