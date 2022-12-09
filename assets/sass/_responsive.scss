@@ -12,6 +12,9 @@
 			display: none;
 		}
 	}
+	header > nav ul li:first-of-type {
+		display: none;
+	}
 
 	#prochain-artiste > div {
 		flex-direction: column;

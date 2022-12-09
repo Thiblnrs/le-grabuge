@@ -1519,6 +1519,9 @@ h3 > span {
   #menu-contenu .cont-artiste-menu {
     display: none;
   }
+  header > nav ul li:first-of-type {
+    display: none;
+  }
   #prochain-artiste > div {
     flex-direction: column;
   }
