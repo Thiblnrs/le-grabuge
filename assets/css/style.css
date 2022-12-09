@@ -1287,6 +1287,10 @@ h2 {
 .page-id-103 main {
   padding-top: 200px;
 }
+.page-id-103 .container-apropos {
+  max-width: 1165px;
+  margin: 0 auto;
+}
 .page-id-103 h1 {
   text-align: center;
   color: white;

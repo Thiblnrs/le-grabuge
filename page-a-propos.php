@@ -17,7 +17,7 @@ get_header();
 
 <main>
 
-    <div class="container">
+    <div class="container-apropos">
         <section>
             <h1>LE GRABUGE C'EST QUOI ?</h1>
             <hr class="h1-hr">
