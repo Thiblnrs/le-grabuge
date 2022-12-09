@@ -992,6 +992,9 @@ h3 > span {
   letter-spacing: 10px;
   font-weight: 200;
 }
+.blog .container img {
+  width: 100%;
+}
 .blog .container .grilleActu {
   display: flex;
   justify-content: center;

@@ -19,7 +19,7 @@ get_header();
 				the_post(); ?>
 				<div class="actualite">
 					<div>
-						<?php the_post_thumbnail() ?>
+						<img src="<?php the_post_thumbnail() ?>" alt="">
 						<h4><?php the_title() ?></h4>
 						<?php the_excerpt() ?>
 						<div class=" cta-esp"><a href="<?php the_permalink() ?>">En lire plus</a>
