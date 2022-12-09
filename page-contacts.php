@@ -17,6 +17,8 @@ get_header();
 
 	<main class="container">
 <section>
+
+<!------ CTA----->
 	<h1>Nous contacter</h1>
 	<hr>
 </section>
@@ -39,12 +41,47 @@ get_header();
 <hr>
 
 </div>
-
+<!------ FORMULAIRE CONTACT----->
 <div>
 	<?php echo do_shortcode( '[contact-form-7 id="363" title="Contactez nous"]' ); ?>
 </div>
 </section>
+
+<!------ mail----->
 	</main><!-- #main -->
+<h3>Direction ET PROGRAMMATION </h3>
+<p>Francois Theret - Directeur Financier
+f.theret(a)grabuge.com <br>
+Thibault Llinares - Directeur artistique
+t.llinares(a)grabuge.com</p>
+
+<h3>ADMINISTRATION </h3>
+<p>Gaëlle Lafait - Secrétaire
+l.gaelle(a)grabuge.com</p>
+
+<h3>COMMUNICATION </h3>
+<p>
+Julien Lahé
+l.julien(a)grabuge.com - Chargé de communication <br>
+Elise Penet
+p.elise(a)grabuge.com - Chargé de communication</p>
+
+<h3>PRODUCTION ET REGIE</h3>
+<p>
+Lucas Delhi
+d.lucas(a)grabuge.com - Technique
+<br>
+Kevin Lanoix - Programmateur
+l.kevin(a)grabuge.com</p>
+
+<h3>BAR</h3>
+<p>
+Fernand Bar
+b.fernand(a)grabuge.com - Chef d'équipe restauration</p>
+
+
+
+
 
 <?php
 get_footer();
