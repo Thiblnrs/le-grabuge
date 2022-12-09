@@ -1522,9 +1522,6 @@ h3 > span {
   #menu-contenu .cont-artiste-menu {
     display: none;
   }
-  #menu-contenu #menu-principal li {
-    justify-content: center;
-  }
   #menu-contenu #menu-principal li a {
     font-size: 20px;
     letter-spacing: 10px;
