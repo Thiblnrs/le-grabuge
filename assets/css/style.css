@@ -674,6 +674,8 @@ header > nav ul li a {
   font-weight: 600;
   color: rgb(231, 231, 231);
   padding: 20px 0;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 #articles div p {
@@ -997,6 +999,14 @@ h3 > span {
   font-size: 40px;
   letter-spacing: 10px;
   font-weight: 200;
+}
+.blog .container h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #e7e7e7;
+  padding: 20px 0;
+  text-transform: uppercase;
+  text-align: center;
 }
 .blog .container img {
   width: 100%;

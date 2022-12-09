@@ -12,6 +12,7 @@ get_header();
 
 	<main class="container">
 		<h1>Actualité</h1>
+		<hr>
 		<div class="grilleActu">
 			<?php
 			/* Start the Loop */
@@ -20,7 +21,7 @@ get_header();
 				<div class="actualite">
 					<div>
 						<?php the_post_thumbnail('medium') ?>
-						<h4><?php the_title() ?></h4>
+						<h2><?php the_title() ?></h2>
 						<?php the_excerpt() ?>
 						<div class=" cta-esp"><a href="<?php the_permalink() ?>">En lire plus</a>
 						</div>
