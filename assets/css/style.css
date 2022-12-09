@@ -1012,7 +1012,7 @@ h3 > span {
 .blog .wp-pagenavi {
   color: white;
 }
-.blog .wp-pagenavi span {
+.blog .wp-pagenavi span a {
   color: white;
 }
 
