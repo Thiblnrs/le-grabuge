@@ -29,40 +29,8 @@ get_header();
 	<?php the_content() ?>
 	<hr>
 </section>
-<section id="apparition-photo">
+<section id="liste-artiste">
 	<h2>ILS VONT PASSER AU GRABUGE</h2>
-    <ul>
-        <li class="item-li" data-loc="laurent-garnier">LAURENT GARNIER - </li>
-        <li class="item-li" data-loc="laurent-garnier">BRUTALISMUS3000 - </li>
-        <li class="item-li" data-loc="laurent-garnier">THE BLOODY BEETROOTS - </li>
-        <li class="item-li" data-loc="laurent-garnier">HI-LO - </li>
-        <li class="item-li" data-loc="laurent-garnier">CASUAL GABBERZ - </li>
-        <li class="item-li" data-loc="laurent-garnier">BILLX - </li>
-        <li class="item-li" data-loc="laurent-garnier">DARKTEK - </li>
-        <li class="item-li" data-loc="laurent-garnier">LNRS - </li>
-        <li class="item-li" data-loc="laurent-garnier">VANDAL</li>
-        <li class="item-li" data-loc="laurent-garnier">LEBASK -</li>
-        <li class="item-li" data-loc="laurent-garnier">COONE -</li>
-        <li class="item-li" data-loc="laurent-garnier">SEFA -</li>
-        <li class="item-li" data-loc="laurent-garnier">AMELIE LENS  -</li>
-        <li class="item-li" data-loc="laurent-garnier">VON BIKRAV -</li>
-        <li class="item-li" data-loc="laurent-garnier">GARGANTUA -</li>
-        <li class="item-li" data-loc="laurent-garnier">CHARLOTTE DE WITTE -</li>
-        <li class="item-li" data-loc="laurent-garnier">REBEKKA WARRIOR -</li>
-        <li class="item-li" data-loc="laurent-garnier">ALRT -</li>
-        <li class="item-li" data-loc="laurent-garnier">JOYRIDE - </li>
-        <li class="item-li" data-loc="laurent-garnier">APASHE -</li>
-        <li class="item-li" data-loc="laurent-garnier">MANDIDEXTROUS - </li>
-        <li class="item-li" data-loc="laurent-garnier">DEADMAU5 -</li>
-        <li class="item-li" data-loc="laurent-garnier">SOLOMUM -</li>
-        <li class="item-li" data-loc="laurent-garnier">BOYS NOIZE -</li>
-        <li class="item-li" data-loc="laurent-garnier">MR OIZO -</li>
-        <li class="item-li" data-loc="laurent-garnier">MISS KITTIN -</li>
-        <li class="item-li" data-loc="laurent-garnier">JAUZ -</li>
-        <li class="item-li" data-loc="laurent-garnier">MASSANE -</li>
-        <li class="item" data-loc="laurent-garnier">JOYHAUSSER ...</li>
-    </ul>
-
 </section>
 <section class="cta-prog">
 	<hr>
