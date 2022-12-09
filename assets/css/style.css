@@ -1001,7 +1001,7 @@ h3 > span {
   font-weight: 200;
 }
 .blog .container hr {
-  margin-bottom: 50px;
+  margin-bottom: 25px 100px;
 }
 .blog .container h2 {
   font-size: 24px;
