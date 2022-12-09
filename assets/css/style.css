@@ -272,7 +272,7 @@ header > nav ul li a {
   flex-wrap: wrap;
 }
 #menu-contenu #menu-principal li a {
-  color: #e1e1e1;
+  color: white;
   font-size: 25px;
   font-weight: bold;
   letter-spacing: 15px;
@@ -280,7 +280,7 @@ header > nav ul li a {
   text-transform: uppercase;
 }
 #menu-contenu #menu-principal li a:hover {
-  text-transform: lowercase;
+  color: lightgray;
 }
 #menu-contenu #mention ul {
   -moz-columns: 2;

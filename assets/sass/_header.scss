@@ -132,14 +132,14 @@ header {
 			justify-content: flex-start;
 			flex-wrap: wrap;
 			a {
-				color: #e1e1e1;
+				color: white;
 				font-size: 25px;
 				font-weight: bold;
 				letter-spacing: 15px;
 				line-height: 277%;
 				text-transform: uppercase;
 				&:hover {
-					text-transform: lowercase;
+					color: lightgray;
 					//-webkit-animation: flip 6s 1;
 					//animation: flip 6s 1;
 					// animation-iteration-count: 1;
