@@ -1449,6 +1449,8 @@ footer {
 .page-id-107 #zone-contact #contact-form form input[type=submit] {
   background-color: #141414;
   color: white;
+  border: 1px solid white;
+  margin-bottom: 0;
 }
 .page-id-107 #zone-contact #zonecta {
   width: 20%;
