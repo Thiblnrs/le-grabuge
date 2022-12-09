@@ -32,6 +32,10 @@ jQuery(document).ready(function ($) {
 	$(".btn-menu").click(function () {
 		$(".menu").addClass("open");
 	});
+	$("#fermer a").click(function () {
+		$(".menu").removeClass("open");
+	});
+
 	// Tab page infos pratiques
 	$("#btn-billet").click(function () {
 		$("section").removeClass("active");
