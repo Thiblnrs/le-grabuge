@@ -33,10 +33,17 @@
     .wp-pagenavi{
         color: white;
 
-    span a{
+    span {
+ text-decoration: none;
+        list-style: none;
+        color: white;
+
+    }
+    
+    a{
         text-decoration: none;
         list-style: none;
         color: white;
     }
-    }
+    
 }
