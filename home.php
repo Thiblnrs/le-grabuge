@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-	<main class="container-actu">
+	<main class="container">
 		<h1>Actualité</h1>
 		<hr>
 		<div class="grilleActu">
