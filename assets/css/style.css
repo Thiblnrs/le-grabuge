@@ -281,7 +281,7 @@ header > nav ul li a {
 }
 #menu-contenu #menu-principal li a:hover {
   color: rgb(158, 158, 158);
-  text-decoration: overline;
+  text-decoration: line-through;
 }
 #menu-contenu #mention ul {
   -moz-columns: 2;
