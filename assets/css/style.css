@@ -1431,6 +1431,7 @@ footer {
 }
 .page-id-107 #zone-contact #contact-form form {
   display: flex;
+  flex-direction: column;
 }
 .page-id-107 #zone-contact #contact-form form label {
   color: white;

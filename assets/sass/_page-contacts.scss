@@ -64,6 +64,7 @@
 			border: 1px solid white;
 			form {
 				display: flex;
+				flex-direction: column;
 				label {
 					color: white;
 				}
