@@ -11,14 +11,20 @@ get_header();
 ?>
 
 	<main>
-		<h1><?php the_archive_title() ?></h1>
+		<h1><?php the_title() ?></h1>
 		<div class="grilleActu">
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) :
 				the_post(); ?>
 				<div class="actualite">
-
+					<div>
+						<?php the_post_thumbnail() ?>
+						<h4><?php the_title() ?></h4>
+						<?php the_excerpt() ?>
+						<div class=" cta-esp"><a href="<?php the_permalink() ?>">En lire plus</a>
+						</div>
+					</div>
 				</div>
 			<?php endwhile;
 
