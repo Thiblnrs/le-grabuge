@@ -150,7 +150,9 @@ hr {
 }
 /*************************HEADER*****************************/
 header {
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   width: 100%;
   height: 90px;
   display: flex;
@@ -356,6 +358,10 @@ header > nav ul li a {
   letter-spacing: 3px;
   line-height: 160%;
   color: white;
+}
+
+.home header {
+  position: fixed;
 }
 
 /************************* DEBUT COVER*****************************/
