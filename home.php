@@ -11,7 +11,7 @@ get_header();
 ?>
 
 	<main>
-		<h1><?php the_title() ?></h1>
+		<h1>Actualité</h1>
 		<div class="grilleActu">
 			<?php
 			/* Start the Loop */
