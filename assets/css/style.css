@@ -1366,6 +1366,12 @@ h2 {
   text-align: center;
   text-transform: uppercase;
 }
+.page-id-103 .container-apropos img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 .page-id-107 main section h1 {
   text-align: center;

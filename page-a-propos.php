@@ -21,7 +21,7 @@ get_header();
         <section>
             <h1>LE GRABUGE C'EST QUOI ?</h1>
             <hr class="h1-hr">
-            <?php the_post_thumbnail() ?>
+           <img src="<?php the_post_thumbnail() ?>" alt=""> 
         </section>
 
         <section>
