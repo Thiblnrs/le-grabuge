@@ -362,6 +362,100 @@ header > nav ul li a {
   color: white;
 }
 
+/************************FOOTER***************************/
+footer {
+  background: black;
+}
+
+#footer-nav > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 25px 96px;
+  text-align: left;
+  color: lightgrey;
+}
+
+.flex-mention {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#mentionfooter nav {
+  width: 100%;
+  -moz-columns: 2;
+  columns: 2;
+}
+
+#mentionfooter nav ul {
+  width: 45%;
+  flex-wrap: wrap;
+}
+
+#mentionfooter nav ul li a {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  line-height: 160%;
+  color: lightgrey;
+}
+
+#newsletter {
+  box-sizing: border-box;
+  padding: 100px 80px;
+  border-top: 1px solid white;
+}
+#newsletter > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#newsletter p {
+  width: 58%;
+  text-align: left;
+}
+
+#newsletter h2 {
+  font-size: 113px;
+  letter-spacing: 40px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+}
+#newsletter .mailpoet_form {
+  display: flex;
+  width: 100%;
+}
+#newsletter .mailpoet_form .mailpoet_paragraph {
+  width: 100%;
+}
+#newsletter .mailpoet_form .mailpoet_paragraph.last {
+  width: unset;
+}
+#newsletter .mailpoet_form .mailpoet_paragraph input {
+  padding: 15px;
+  background-color: black;
+  color: white;
+}
+#newsletter .mailpoet_form .mailpoet_paragraph input[type=email] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+#newsletter .mailpoet_form .mailpoet_paragraph input[type=submit] {
+  border: 1px solid white !important;
+}
+#newsletter #mailpoet_form_1 form.mailpoet_form {
+  margin-top: 54px;
+}
+#newsletter .element.style {
+  border-bottom: 7px solid white;
+}
+#newsletter > div div p {
+  text-align: left;
+  width: 100%;
+}
+
 .home header {
   position: fixed;
 }
@@ -1237,125 +1331,6 @@ h3 > span {
   height: auto;
 }
 
-/************************FOOTER***************************/
-footer {
-  background: black;
-}
-
-#footer-nav > div {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 25px 96px;
-  text-align: left;
-  color: lightgrey;
-}
-
-.flex-mention {
-  width: 40%;
-  display: flex;
-  justify-content: space-between;
-}
-
-#mentionfooter nav {
-  width: 100%;
-  -moz-columns: 2;
-  columns: 2;
-}
-
-#mentionfooter nav ul {
-  width: 45%;
-  flex-wrap: wrap;
-}
-
-#mentionfooter nav ul li a {
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 3px;
-  line-height: 160%;
-  color: lightgrey;
-}
-
-#newsletter {
-  box-sizing: border-box;
-  padding: 100px 80px;
-  border-top: 1px solid white;
-}
-#newsletter > div {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-#newsletter p {
-  width: 58%;
-  text-align: left;
-}
-
-#newsletter h2 {
-  font-size: 113px;
-  letter-spacing: 40px;
-  text-transform: uppercase;
-  color: white;
-  font-weight: 400;
-}
-#newsletter .mailpoet_form {
-  display: flex;
-  width: 100%;
-}
-#newsletter .mailpoet_form .mailpoet_paragraph {
-  width: 100%;
-}
-#newsletter .mailpoet_form .mailpoet_paragraph.last {
-  width: unset;
-}
-#newsletter .mailpoet_form .mailpoet_paragraph input {
-  padding: 15px;
-  background-color: black;
-  color: white;
-}
-#newsletter .mailpoet_form .mailpoet_paragraph input[type=email] {
-  border: none;
-  border-bottom: 1px solid white;
-}
-#newsletter .mailpoet_form .mailpoet_paragraph input[type=submit] {
-  border: 1px solid white !important;
-}
-#newsletter #mailpoet_form_1 form.mailpoet_form {
-  margin-top: 54px;
-}
-#newsletter .element.style {
-  border-bottom: 7px solid white;
-}
-#newsletter > div div p {
-  text-align: left;
-  width: 100%;
-}
-
-@media screen and (max-width: 480px) {
-  header h1 {
-    display: none;
-  }
-  #menu-contenu > div {
-    width: 100%;
-  }
-  #menu-contenu .cont-artiste-menu {
-    display: none;
-  }
-  #prochain-artiste > div {
-    flex-direction: column;
-  }
-  .cont-artiste {
-    width: 90%;
-  }
-  #desc {
-    width: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .post-type-archive-concert .mois .detailConcert {
-    width: 100%;
-  }
-}
 .page-id-103 main {
   padding-top: 200px;
 }
@@ -1532,4 +1507,30 @@ footer {
 }
 .page-id-107 #zone-contact .espace-hr {
   margin: 25px 0;
+}
+
+@media screen and (max-width: 480px) {
+  header h1 {
+    display: none;
+  }
+  #menu-contenu > div {
+    width: 100%;
+  }
+  #menu-contenu .cont-artiste-menu {
+    display: none;
+  }
+  #prochain-artiste > div {
+    flex-direction: column;
+  }
+  .cont-artiste {
+    width: 90%;
+  }
+  #desc {
+    width: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .post-type-archive-concert .mois .detailConcert {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

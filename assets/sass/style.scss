@@ -1,13 +1,16 @@
 @import "regles";
 @import "polices";
+
 @import "header";
+@import "footer";
+
 @import "home";
 @import "concert";
 @import "article";
 @import "archiv-actu";
 @import "_archive-concert";
 @import "page-infos-pratiques";
-@import "footer";
-@import "responsive";
 @import "apropos";
-@import "page-contacts"
+@import "page-contacts";
+
+@import "responsive";
