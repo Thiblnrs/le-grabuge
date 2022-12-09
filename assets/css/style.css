@@ -1527,6 +1527,7 @@ h3 > span {
   }
   #menu-contenu #menu-principal li a {
     font-size: 20px;
+    letter-spacing: 10px;
   }
   #menu-contenu #mention ul {
     -moz-columns: 1;
