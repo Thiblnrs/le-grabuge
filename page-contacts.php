@@ -48,7 +48,7 @@ get_header();
 </section>
 
 <!------ mail----->
-<section>
+<section id="mail">
 	<h3>Direction ET PROGRAMMATION </h3>
 <p>Francois Theret - Directeur Financier
 f.theret(a)grabuge.com <br>
