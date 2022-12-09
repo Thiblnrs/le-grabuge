@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-	<main>
+	<main class=container>
 		<h1>Actualité</h1>
 		<div class="grilleActu">
 			<?php
