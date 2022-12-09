@@ -61,6 +61,13 @@
 
 		#contact-form {
 			width: 70%;
+			border: 1px solid white;
+			form {
+				display: flex;
+				label {
+					color: white;
+				}
+			}
 		}
 
 		#zonecta {
