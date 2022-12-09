@@ -22,7 +22,11 @@ get_header();
         <p class="tag"><?php the_tags()?></p>
 
     </section>
+<section>
+<hr>
+<h2>ARTICLES SIMILAIRES</h2>
 
+</section>
     <section id="articles">
         <?php 
             $args = array(
