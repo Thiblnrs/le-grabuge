@@ -254,8 +254,8 @@ header > nav ul li a {
 
 /*************************Contenu*****************************/
 #menu-contenu {
-  width: 100%;
-  padding: 0 25px;
+  width: 108%;
+  padding: 55px 129px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -275,8 +275,8 @@ header > nav ul li a {
   color: #e1e1e1;
   font-size: 25px;
   font-weight: bold;
-  letter-spacing: 16px;
-  line-height: 250%;
+  letter-spacing: 15px;
+  line-height: 277%;
   text-transform: uppercase;
 }
 #menu-contenu #menu-principal li a:hover {
