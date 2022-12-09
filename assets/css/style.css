@@ -1382,11 +1382,11 @@ footer {
   padding-top: 40px;
 }
 .page-id-107 #zonecta {
-  width: 20%;
+  width: 30%;
   flex-direction: column;
 }
 .page-id-107 #contact-form {
-  width: 20%;
+  width: 60%;
   flex-direction: column;
 }
 .page-id-107 #zone-contact {
@@ -1394,4 +1394,5 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
+  gap: 10%;
 }/*# sourceMappingURL=style.css.map */
