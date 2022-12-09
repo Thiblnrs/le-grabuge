@@ -280,8 +280,7 @@ header > nav ul li a {
   text-transform: uppercase;
 }
 #menu-contenu #menu-principal li a:hover {
-  -webkit-animation: flip 6s 1;
-  animation: flip 6s 1;
+  text-transform: lowercase;
 }
 #menu-contenu #mention ul {
   -moz-columns: 2;

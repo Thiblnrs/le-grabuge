@@ -139,8 +139,9 @@ header {
 				line-height: 277%;
 				text-transform: uppercase;
 				&:hover {
-					-webkit-animation: flip 6s 1;
-					animation: flip 6s 1;
+					text-transform: lowercase;
+					//-webkit-animation: flip 6s 1;
+					//animation: flip 6s 1;
 					// animation-iteration-count: 1;
 				}
 			}
