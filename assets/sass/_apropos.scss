@@ -27,7 +27,7 @@ h1{
     font-size: 40px;
     letter-spacing: 10px;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 50px 0;
 }
     p{
         text-align: justify;
@@ -62,19 +62,4 @@ h1{
     transition: .25s linear all;
 }
 
-
-	/************************* UL ****************************/
-
-	ul{
-text-decoration: none;
-list-style-type: none;
-	}
-
-	ul li {
-color: white;
-text-transform: uppercase;
-
-
-
-}
 }
