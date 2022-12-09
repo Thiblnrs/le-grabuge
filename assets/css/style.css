@@ -981,6 +981,10 @@ h3 > span {
   font-weight: 400;
 }
 
+.blog main {
+  padding-top: 200px;
+}
+
 .post-type-archive-concert .mois > .moisJanvier ~ .moisJanvier,
 .post-type-archive-concert .mois > .moisFevrier ~ .moisFevrier,
 .post-type-archive-concert .mois > .moisMars ~ .moisMars,
