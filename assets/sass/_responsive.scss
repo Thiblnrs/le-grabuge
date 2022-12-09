@@ -1,7 +1,17 @@
 @media screen and (max-width: 480px) {
-header h1{
-display: none;
-}
+	header h1 {
+		display: none;
+	}
+
+	//Menu
+	#menu-contenu {
+		& > div {
+			width: 100%;
+		}
+		.cont-artiste-menu {
+			display: none;
+		}
+	}
 
 	#prochain-artiste > div {
 		flex-direction: column;
@@ -13,5 +23,10 @@ display: none;
 		width: 95%;
 		left: 50%;
 		transform: translate(-50%, -50%);
+	}
+
+	//archives concert
+	.post-type-archive-concert .mois .detailConcert {
+		width: 100%;
 	}
 }

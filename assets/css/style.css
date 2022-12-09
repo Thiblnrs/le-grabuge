@@ -1334,6 +1334,12 @@ footer {
   header h1 {
     display: none;
   }
+  #menu-contenu > div {
+    width: 100%;
+  }
+  #menu-contenu .cont-artiste-menu {
+    display: none;
+  }
   #prochain-artiste > div {
     flex-direction: column;
   }
@@ -1344,6 +1350,9 @@ footer {
     width: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+  .post-type-archive-concert .mois .detailConcert {
+    width: 100%;
   }
 }
 .page-id-103 main {
