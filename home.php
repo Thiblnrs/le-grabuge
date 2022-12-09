@@ -28,7 +28,7 @@ get_header();
 				</div>
 			<?php endwhile;
 
-			the_posts_navigation();
+			wp_pagenavi();
 		?>
 		</div>
 	</main><!-- #main -->
