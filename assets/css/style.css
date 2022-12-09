@@ -1378,8 +1378,11 @@ footer {
   letter-spacing: 10px;
   font-weight: 200;
 }
+.page-id-107 #mail {
+  padding: 25px 0 100px 0;
+}
 .page-id-107 #mail h3 {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 .page-id-107 #zonecta {
   width: 30%;
