@@ -280,8 +280,8 @@ header > nav ul li a {
   text-transform: uppercase;
 }
 #menu-contenu #menu-principal li a:hover {
-  color: lightgray;
-  text-decoration: underline;
+  color: rgb(158, 158, 158);
+  text-decoration: overline;
 }
 #menu-contenu #mention ul {
   -moz-columns: 2;
