@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-	<main class="container">
+	<main class="container apropos-main">
 
 <section>
 <!------ CTA----->
