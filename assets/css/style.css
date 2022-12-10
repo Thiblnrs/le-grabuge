@@ -1016,15 +1016,15 @@ h3 > span {
 }
 .single-post main .width-thumbnail img {
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 31/9;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .single-post main h1 {
   color: white;
-  text-align: center;
+  text-align: left;
   font-weight: 500;
-  padding: 20px 0;
+  padding: 20px 0 10px;
   font-size: 32px;
 }
 .single-post main p {
@@ -1083,6 +1083,7 @@ h3 > span {
   letter-spacing: 5px;
   color: white;
   font-weight: 400;
+  text-align: center;
 }
 
 .blog .container main {
