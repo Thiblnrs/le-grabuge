@@ -118,7 +118,7 @@ get_header();
         </div>
 
         <section class="cta-prog">
-            <div><a href="https://cdui.amigrafdev.com/thibault/concert/">PROGRAMMATION COMPLÉTE</a></div>
+            <div><a href="https://cdui.amigrafdev.com/thibault/concert/">PROGRAMMATION COMPLÈTE</a></div>
 
             <hr />
         </section>
@@ -142,10 +142,10 @@ get_header();
             <img src="<?php echo get_template_directory_uri() ?>/assets/img/grabuge-ext.jpg" alt="" />
             <div class="desc-salle-texte">
                 <h4>Le grabuge c'est quoi?</h4>
-                <p>Située sur Lille LE GRABUGE est une salle de spectacle dédiée aux musiques électroniques.</p>
+                <p>Situé sur Lille LE GRABUGE est une salle de spectacle dédiée aux musiques électroniques.</p>
                 <p>Retrouvez une line-up aux multiples sonoritées tous les Samedis soir de 20.00 à 00.00.</p>
 
-                <div class="cta-bw"><a href="#">A propos</a></div>
+                <div class="cta-bw"><a href="#">À propos</a></div>
             </div>
         </div>
     </section>
@@ -184,7 +184,7 @@ get_header();
 
     </section>
     <section class="cta-prog">
-        <div><a href="#">Plus d’article</a></div>
+        <div><a href="#">Plus d’articles</a></div>
     </section>
 
 
