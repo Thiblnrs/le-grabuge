@@ -24,7 +24,7 @@
         </div>
     </section>
     <!-- footer--------------------------------------->
-    <section id="footer-nav" class="container">
+    <section id="footer-nav">
         <div>
             <div class="flex-mention">
 
