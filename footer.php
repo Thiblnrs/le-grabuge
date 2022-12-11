@@ -17,7 +17,7 @@
         <div class="container">
             <h2 >Newsletter</h2>
             <div>
-            <p>Inscrivez vous à notre news letter pour ne rater aucune information sur notre  programmation et bien d’autres choses. 10 % de réduction sur votre premiere visite chez nous en vous inscrivant.</p>
+            <p>Inscrivez-vous à notre news letter pour ne rater aucune information sur notre  programmation et bien d’autres choses. 10 % de réduction sur votre premiere visite chez nous en vous inscrivant.</p>
             <p>J’accepte de recevoir les news du grabuge</p>
             <?php echo do_shortcode('[mailpoet_form id="1"]') ?>
             </div>
@@ -52,9 +52,9 @@
             <div>
                 <p>LE GRABUGE
                 </p>
-                <p>22 Rue de la villaine</p>
-                <p>59000 LILLE
-                </p>
+                <p>45 Rue Solferino</p>
+                <p>59000 LILLE</p>
+                <p>03.21.45.86.59.</p>
             </div>
         </div>
         </div>
