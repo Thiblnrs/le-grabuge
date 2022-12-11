@@ -38,7 +38,7 @@ get_header();
 </div>
 <div>
 <h4>Envie d’en savoir plus sur le grabuge?</h4>
-<div class="cta-apropos"><a href="#">A propos</a></div>
+<div class="cta-apropos"><a href="#">à propos</a></div>
 <hr class="espace-hr">
 </div>
 <h4>A la recherche d’informations ?</h4>
