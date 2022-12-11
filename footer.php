@@ -24,7 +24,7 @@
         </div>
     </section>
     <!-- footer--------------------------------------->
-    <section id="footer-nav">
+    <section id="footer-nav" class="container">
         <div>
             <div class="flex-mention">
 
@@ -39,7 +39,7 @@
 
 
 
-                <nav class="container">
+                <nav>
                     <?php wp_nav_menu( array(
 					'theme_location' => 'menu-secondaire',
 					'container' => '',
