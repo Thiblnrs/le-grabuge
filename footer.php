@@ -59,6 +59,7 @@
         </div>
         </div>
     </section>
+    <section><img src="../le-grabuge/assets/img/GRABUGE.png" alt=""></section>
 </footer>
 <?php wp_footer(); ?>
 
