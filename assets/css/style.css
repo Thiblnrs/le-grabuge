@@ -1500,12 +1500,14 @@ h3 > span {
   width: 100%;
   padding: 15px;
   margin-bottom: 20px;
+  border: 5px solid blue;
 }
 .page-id-107 #zone-contact #contact-form form input[type=submit] {
   background-color: #141414;
   color: white;
   border: 1px solid white;
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 .page-id-107 #zone-contact #zonecta {
   width: 20%;
