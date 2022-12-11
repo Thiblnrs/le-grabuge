@@ -33,7 +33,7 @@ get_header();
 59000 Lille
 03.21.45.86.59.
 </p>
-<div class="cta-apropos"><a href="#">A propos</a></div>
+<div class="cta-apropos"><a href="#">ITINéraire</a></div>
 <hr class="espace-hr">
 </div>
 <div>
@@ -42,7 +42,7 @@ get_header();
 <hr class="espace-hr">
 </div>
 <h4>A la recherche d’informations ?</h4>
-<div class="cta-apropos"><a href="#">A propos</a></div>
+<div class="cta-apropos"><a href="#">INFOS PRATIQUES</a></div>
 <hr class="espace-hr">
 
 </div>
