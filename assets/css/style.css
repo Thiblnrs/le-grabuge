@@ -1431,7 +1431,7 @@ h3 > span {
   font-weight: 200;
 }
 .page-id-107 .apropos-main {
-  padding-top: 200px;
+  padding-top: 100px;
 }
 .page-id-107 #mail {
   padding: 50px 0 150px 0;
@@ -1442,16 +1442,17 @@ h3 > span {
 .page-id-107 #zone-contact {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: nowrap;
   gap: 10%;
+  margin-top: 100px;
 }
 .page-id-107 #zone-contact h2 {
-  font-size: 24px;
+  font-size: 34px;
   text-transform: uppercase;
   font-weight: 700;
-  color: white;
-  text-align: left;
+  color: #fff;
+  text-align: center;
 }
 .page-id-107 #zone-contact p {
   color: #d9d9d9;
@@ -1462,6 +1463,9 @@ h3 > span {
   font-weight: 400;
   color: #d9d9d9;
   text-align: left;
+}
+.page-id-107 #zone-contact a {
+  color: white;
 }
 .page-id-107 #zone-contact .cta-apropos {
   display: flex;
