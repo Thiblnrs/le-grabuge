@@ -766,6 +766,7 @@ footer {
 }
 #desc-salle > div img {
   border: #fff solid 1px;
+  border-top: 7px solid white;
   width: 20%;
   margin: 0 90px;
   transform: scale(1.2);
