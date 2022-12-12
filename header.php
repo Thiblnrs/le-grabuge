@@ -33,7 +33,7 @@
         <!--NAV--------------------------------------->
         <nav>
             <ul>
-                <li><a href="https://cdui.amigrafdev.com/thibault/concert/">Programmation</a></li>
+                <li><a href="<?php echo home_url()?>/programmation">Programmation</a></li>
                 <li class="btn-menu"><a href="#">Menu</a></li>
             </ul>
         </nav>
