@@ -13,10 +13,10 @@ get_header();
 	<main class="container">
 
 <section id="section404" class="error-404 not-found">
-<img src="/assets/img/danny_big.webp" alt="">
+<img src="<?php echo get_template_directory_uri() ?>/assets/img/danny_big.webp" alt="">
 <div>
 <p>Vous êtes perdu ?</p>
-<p>Pas de panique rendez-vous sur notre <a href="https://cdui.amigrafdev.com/thibault/">page d'accueil</a></p></div>
+<p>Pas de panique rendez-vous sur notre <a href="<?php echo home_url() ?>">page d'accueil</a></p></div>
 		</section><!-- .error-404 -->
 
 	</main><!-- #main -->
