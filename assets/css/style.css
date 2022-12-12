@@ -1375,7 +1375,7 @@ h3 > span {
   background-color: black;
   color: white;
   cursor: pointer;
-  padding: 18px;
+  padding: 25px 0 25px 0;
   width: 100%;
   text-align: left;
   border: none;
