@@ -14,9 +14,13 @@ get_header();
 
 		<section class="error-404 not-found">
 			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'vas niquer ta daronne.', 'le-grabuge' ); ?></h1>
+				<h1 class="page-title"><?php esc_html_e( '', 'le-grabuge' ); ?></h1>
 			</header><!-- .page-header -->
 <!-- .page-content -->
+
+<img src="/assets/img/image 22.png" alt="">
+
+<p>Houston, nous avons un problème!</p>
 		</section><!-- .error-404 -->
 
 	</main><!-- #main -->
