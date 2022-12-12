@@ -206,6 +206,10 @@ header > nav ul li a {
   font-weight: 200;
   text-transform: uppercase;
   color: white;
+  transition: 0.25s ease-in-out all;
+}
+header > nav ul li a:hover {
+  text-decoration: underline;
 }
 
 .darkHeader {
