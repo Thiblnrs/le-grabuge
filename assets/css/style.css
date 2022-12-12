@@ -759,6 +759,10 @@ footer {
   box-shadow: 2px -1px 0 2px #fff;
   border: 1px solid white;
   margin: 100px 0 150px 0;
+  transition: 0.25s ease-in-out all;
+}
+#desc-salle > div:hover {
+  box-shadow: 5px -5px 0 4px white;
 }
 #desc-salle > div img {
   border: #fff solid 1px;
