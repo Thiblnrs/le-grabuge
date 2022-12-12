@@ -459,6 +459,10 @@ footer {
   width: 100%;
 }
 
+.mailpoet_checkbox_label {
+  color: #fff;
+}
+
 /***********************footer********************************/
 #menu-menu-principal-1 a {
   color: white;
