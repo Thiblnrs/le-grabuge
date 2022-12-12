@@ -70,7 +70,7 @@ Thibault Llinares - Directeur artistique <br>
 <p>
 Julien Lahé <br> 
 <span>l.julien(a)grabuge.com</span>
-<h3>PRODUCTION ET REGIE</h3>
+<h3>PRODUCTION ET RéGIE</h3>
 <p>
 Lucas Delhi <br> 
 d.lucas(a)grabuge.com </span>
