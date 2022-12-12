@@ -10,10 +10,8 @@
 get_header();
 ?>
 <main>
-    <section class="container">
-        <a class="retour-artiste" href="https://cdui.amigrafdev.com/thibault/concert/">Retour</a>
-    </section>
     <section  class="container">
+         <a class="retour-artiste" href="https://cdui.amigrafdev.com/thibault/concert/">Retour</a>
     <div id="detail-concert">
         <div>
             <div class="cover-date-concert">
