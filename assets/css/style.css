@@ -1326,6 +1326,7 @@ h3 > span {
 .page-id-105 main section {
   display: none;
   background-color: black;
+  border-top: 1px solid white;
 }
 .page-id-105 main section.active {
   display: block;
@@ -1368,6 +1369,7 @@ h3 > span {
 .page-id-105 main .tabs {
   display: flex;
   align-items: flex-start;
+  padding-bottom: 50px;
 }
 .page-id-105 main .accordion {
   background-color: black;
