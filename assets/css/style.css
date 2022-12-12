@@ -494,6 +494,13 @@ footer {
   padding: 20px;
 }
 
+#footer-rs {
+  text-align: center;
+  color: white;
+  font-size: 85px;
+  padding: 50px 0;
+}
+
 .home header {
   position: fixed;
 }
