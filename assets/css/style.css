@@ -773,6 +773,10 @@ footer {
   aspect-ratio: 3/4;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: 0.25s ease-in-out all;
+}
+#desc-salle > div img:hover {
+  box-shadow: 5px -5px 0 4px white;
 }
 #desc-salle > div h4 {
   padding: 30px 0;
