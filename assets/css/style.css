@@ -1588,6 +1588,9 @@ h3 > span {
 .page-id-107 #mail {
   text-transform: uppercase;
 }
+.page-id-107 #mail p {
+  color: white;
+}
 .page-id-107 #mail h3 {
   font-size: 20px;
 }
