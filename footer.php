@@ -24,7 +24,9 @@
     </section>
        <!-- RS--------------------------------------->
        <Section>
-
+        <div>
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-instagram"></i></div>
        </Section>
     <!-- footer--------------------------------------->
     <section id="footer-nav">
