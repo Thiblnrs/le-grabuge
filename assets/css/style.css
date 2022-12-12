@@ -260,7 +260,6 @@ header > nav ul li a {
 
 /*************************Contenu*****************************/
 #menu-contenu {
-  width: 108%;
   padding: 55px 129px;
   display: flex;
   justify-content: space-between;
@@ -302,7 +301,7 @@ header > nav ul li a {
 #menu-contenu .cont-artiste-menu {
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   transition: 0.25s ease-in-out all;
 }

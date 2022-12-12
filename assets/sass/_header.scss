@@ -115,7 +115,6 @@ header {
 
 /*************************Contenu*****************************/
 #menu-contenu {
-	width: 108%;
 	padding: 55px 129px;
 	display: flex;
 	justify-content: space-between;
@@ -162,7 +161,7 @@ header {
 	.cont-artiste-menu {
 		width: 50%;
 		display: flex;
-		justify-content: center;
+		justify-content: end;
 		align-items: center;
 		transition: 0.25s ease-in-out all;
 
