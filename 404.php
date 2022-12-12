@@ -13,7 +13,7 @@ get_header();
 	<main class="container">
 
 <section id="section404" class="error-404 not-found">
-<img src="/assets/img/image 22.png" alt="">
+<img src="/assets/img/danny_big.webp" alt="">
 
 <p>Houston, nous avons un problème!</p>
 		</section><!-- .error-404 -->
