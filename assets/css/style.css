@@ -1074,6 +1074,10 @@ h3 > span {
   justify-content: space-between;
 }
 
+.stron-up {
+  text-transform: uppercase;
+}
+
 .single-post main {
   padding-top: 90px;
 }
