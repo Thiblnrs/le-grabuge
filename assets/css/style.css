@@ -1386,7 +1386,6 @@ h3 > span {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 0 18px;
   background-color: white;
   overflow: hidden;
   height: 0;
@@ -1396,6 +1395,9 @@ h3 > span {
 }
 .panel.ouvert {
   height: auto;
+}
+.panel.ouvert div {
+  padding: 18px;
 }
 
 .page-id-103 main {
