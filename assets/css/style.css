@@ -44,6 +44,11 @@ hr {
   padding-top: 90px;
 }
 
+.aligncenter {
+  margin: 0 auto;
+  display: block;
+}
+
 /*************************FONTS*****************************/
 @font-face {
   font-family: "Montserrat";
@@ -1323,6 +1328,7 @@ h3 > span {
 }
 .page-id-105 section {
   display: none;
+  background-color: black;
 }
 .page-id-105 section.active {
   display: block;

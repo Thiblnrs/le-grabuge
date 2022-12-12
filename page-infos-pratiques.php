@@ -15,41 +15,50 @@
 get_header();
 ?>
 
-<main class="container"><div>
-    <h1><?php the_title() ?></h1>
-    <hr>
+<main>
+    <div class="container">
+        <h1><?php the_title() ?></h1>
+        <hr>
     </div>
-    <div class="tabs">
+    <div class="tabs container">
         <button id="btn-billet">Acheter son billet</button>
         <button id="btn-handicap">Personnes en situation de handicap</button>
         <button id="btn-reglement">Règlement intérieur</button>
         <button id="btn-faq">FAQ</button>
     </div>
     <section id="billet" class="active">
-        <h2>Acheter son billet</h2>
-        <section class="bg-black"></section>
-        <?php the_field('billet') ?>
+        <div class="container">
+            <h2>Acheter son billet</h2>
+            <section class="bg-black"></section>
+            <?php the_field('billet') ?>
+        </div>
     </section>
     <section id="handicap">
-        <h2>Personnes en situation de handicap</h2>
-        <?php the_field('handicap') ?>
+        <div class="container">
+            <h2>Personnes en situation de handicap</h2>
+            <?php the_field('handicap') ?>
+        </div>
     </section>
     <section id="reglement">
-        <h2>Règlement intérieur</h2>
-        <?php the_field('reglement') ?>
+        <div class="container">
+            <h2>Règlement intérieur</h2>
+            <?php the_field('reglement') ?>
+        </div>
     </section>
 
 /* ACCORDEON FAQ */
 
     <section id="faq">
-        <h2>FAQ</h2>
-        <?php while( have_rows('faq') ) : the_row(); ?>
-            <button class="accordion"><?php the_sub_field ("question") ?></button>
+        <div class="container">
+            <h2>FAQ</h2>
+            <?php while( have_rows('faq') ) : the_row(); ?>
+                <button class="accordion"><?php the_sub_field ("question") ?></button>
 
-            <div class="panel">
-                <?php the_sub_field ("reponse") ?>
-            </div>
-           <?php endwhile; ?>
+                <div class="panel">
+                    <?php the_sub_field ("reponse") ?>
+                </div>
+            <?php endwhile; ?>
+        </div>
     </section>
 </main>
 
