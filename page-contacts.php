@@ -56,29 +56,30 @@ get_header();
 <!------ mail----->
 <section id="mail">
 	<h3>Direction ET PROGRAMMATION </h3>
-<p>Francois Theret - Directeur Financier
-f. : theret(a)grabuge.com <br>
-Thibault Llinares - Directeur artistique : t.llinares(a)grabuge.com</p>
+<p>Francois Theret - Directeur Financier <br>
+f.theret(a)grabuge.com <br>
+Thibault Llinares - Directeur artistique <br>
+t.llinares(a)grabuge.com</p>
 
 <h3>ADMINISTRATION </h3>
-<p>Gaëlle Lafait - Secrétaire : 
+<p>Gaëlle Lafait <br> 
 l.gaelle(a)grabuge.com</p>
 
 <h3>COMMUNICATION </h3>
 <p>
-Julien Lahé - Chargé de communication : 
+Julien Lahé <br> 
 l.julien(a)grabuge.com
 <h3>PRODUCTION ET REGIE</h3>
 <p>
-Lucas Delhi - Technique : 
+Lucas Delhi <br> 
 d.lucas(a)grabuge.com 
 <br>
-Kevin Lanoix - Programmateur : 
+Kevin Lanoix <br> 
 l.kevin(a)grabuge.com</p>
 
 <h3>BAR</h3>
 <p>
-Fernand Bar - Chef d'équipe restauration : 
+Fernand Bar <br> 
 b.fernand(a)grabuge.com </p></section>
 	</main><!-- #main -->
 <?php
