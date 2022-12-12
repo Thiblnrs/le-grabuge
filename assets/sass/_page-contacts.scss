@@ -125,11 +125,15 @@
 		}
 	}
 
-#mail h3{
+#mail{
+
+	text-transform: uppercase;
+ h3{
 		font-size: 20px;
 	}
 
 	span{
 		color: lightgray;
 	}
+}
 }

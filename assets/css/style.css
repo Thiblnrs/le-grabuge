@@ -1585,10 +1585,13 @@ h3 > span {
 .page-id-107 #zone-contact .espace-hr {
   margin: 40px 0;
 }
+.page-id-107 #mail {
+  text-transform: uppercase;
+}
 .page-id-107 #mail h3 {
   font-size: 20px;
 }
-.page-id-107 span {
+.page-id-107 #mail span {
   color: lightgray;
 }
 
