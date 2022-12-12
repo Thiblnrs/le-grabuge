@@ -949,7 +949,7 @@ footer {
   transition: 0.25s ease-in-out all;
 }
 #detail-concert img:hover {
-  box-shadow: 16px 16px 39px white;
+  box-shadow: 3px 5px 22px white;
 }
 
 .position-ytb {
