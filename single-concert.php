@@ -34,6 +34,7 @@ get_header();
                 <?php while( have_rows('line_up') ) : the_row(); ?>
                     <?php the_sub_field('heure_debut') ?> - <?php the_sub_field('heure_fin') ?> : <?php the_sub_field('nom_artiste') ?> <br>
                 <?php endwhile; ?>
+                <?php the_field('heure_debut') ?> - <?php the_sub_field('heure_fin') ?> : <?php the_title() ?> 
             </p>
             <hr>
             <p><?php the_content()?></p>
