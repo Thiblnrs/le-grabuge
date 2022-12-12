@@ -91,7 +91,9 @@
                         <hr class="hr-desc" />
 
                         <h3><?php the_title() ?><br />
-                            <span><?php the_field('premiere-partie') ?></span>
+                            <span><?php while( have_rows('line_up') ) : the_row(); ?>
+                                <?php the_sub_field('nom_artiste') ?><br>
+                            <?php endwhile; ?></span> 
                         </h3>
 
                         <div class="cta-esp"><a href="<?php the_permalink() ?>">En savoir plus</a></div>
