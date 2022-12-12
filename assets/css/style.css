@@ -428,13 +428,13 @@ footer {
   flex-wrap: wrap;
   width: 100%;
 }
-#newsletter .mailpoet_form .mailpoet_paragraph:first-child {
+#newsletter .mailpoet_form .mailpoet_paragraph:first-of-type {
   width: 80%;
 }
-#newsletter .mailpoet_form .mailpoet_paragraph:nth-child(2) {
+#newsletter .mailpoet_form .mailpoet_paragraph:nth-of-type(2) {
   width: 20%;
 }
-#newsletter .mailpoet_form .mailpoet_paragraph:last-child {
+#newsletter .mailpoet_form .mailpoet_paragraph:last-of-type {
   width: 100%;
   color: white;
 }
