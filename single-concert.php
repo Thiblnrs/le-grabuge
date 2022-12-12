@@ -22,6 +22,10 @@ get_header();
                 </p>
                 <p class="bold-date"><?php the_field("style_")?></p> 
             </div>
+            <br>
+            <div class="ouverture">
+                <p>Ouverture 19.30 - Fermeture 00.30</p>
+            </div>
             <hr>
             <h1 class="h1-concert-page"><?php the_title()?></h1>
             <hr>
