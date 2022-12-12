@@ -60,7 +60,7 @@
 			background-color: black;
 			color: white;
 			cursor: pointer;
-			padding: 25px 5px 25px 5px;
+			padding: 30px 5px 30px 5px;
 			width: 100%;
 			text-align: left;
 			border: none;
@@ -92,6 +92,10 @@
 				height: auto;
 				div {
 					padding: 18px;
+				}
+
+				li{
+					color: lightgray;
 				}
 			}
 		}
