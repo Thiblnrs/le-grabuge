@@ -74,7 +74,7 @@
 				if ( $concertsAVenir->have_posts() ) :
 					while ( $concertsAVenir->have_posts() ) : $concertsAVenir->the_post(); ?>
 
-                <div class="cont-artiste-menu">
+                <div class="cont-artiste-menu upermenu">
                     <div>
                         <?php $photo = get_field('photo_artiste') ?>
                         <img src="<?php echo $photo['sizes']['large'] ?>" alt="<?php echo $photo['alt'] ?>" />

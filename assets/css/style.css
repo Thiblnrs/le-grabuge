@@ -368,6 +368,10 @@ header > nav ul li a {
   color: white;
 }
 
+.upermenu {
+  text-transform: uppercase;
+}
+
 /************************FOOTER***************************/
 footer {
   background: black;
