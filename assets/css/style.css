@@ -1392,12 +1392,12 @@ h3 > span {
   content: "↑";
 }
 .page-id-105 main .panel {
-  background-color: white;
+  background-color: #141414;
   overflow: hidden;
   height: 0;
 }
 .page-id-105 main .panel p {
-  color: black;
+  color: lightgrey;
 }
 .page-id-105 main .panel.ouvert {
   height: auto;

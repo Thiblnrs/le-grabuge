@@ -81,12 +81,12 @@
 		}
 		/* Style the accordion panel. Note: hidden by default */
 		.panel {
-			background-color: white;
+			background-color: #141414;
 			overflow: hidden;
 			height: 0;
 
 			p {
-				color: black;
+				color: lightgrey;
 			}
 			&.ouvert {
 				height: auto;
