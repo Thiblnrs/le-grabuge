@@ -84,6 +84,8 @@
 	background: #141414;
 	border: 1px solid #535353;
 	font-weight: 600;
+		transition: 0.25s linear all;
+
 
 	& > a {
 		letter-spacing: 5px;
@@ -91,6 +93,13 @@
 		text-transform: uppercase;
 		color: white;
 	}
+	&:hover {
+		background-color: transparent;
+		border: 2px solid white;
+
+		a {
+			color: white;
+		
 }
 
 .cta-b {

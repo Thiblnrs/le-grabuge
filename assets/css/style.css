@@ -551,6 +551,7 @@ footer {
   background: #141414;
   border: 1px solid #535353;
   font-weight: 600;
+  transition: 0.25s linear all;
 }
 .cta-esp > a {
   letter-spacing: 5px;
