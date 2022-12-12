@@ -187,6 +187,7 @@ header > div:first-child strong {
   letter-spacing: 5px;
   color: white;
   text-transform: uppercase;
+  font-size: 32px;
 }
 header > div:first-child img {
   width: 50px;
