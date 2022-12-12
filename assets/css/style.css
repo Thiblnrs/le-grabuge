@@ -428,6 +428,9 @@ footer {
   flex-wrap: wrap;
   width: 100%;
 }
+#newsletter .mailpoet_form .mailpoet_paragraph {
+  color: white;
+}
 #newsletter .mailpoet_form .mailpoet_paragraph:first-of-type {
   width: 80%;
 }
@@ -436,7 +439,6 @@ footer {
 }
 #newsletter .mailpoet_form .mailpoet_paragraph:last-of-type {
   width: 100%;
-  color: white;
 }
 #newsletter .mailpoet_form .mailpoet_paragraph input {
   padding: 15px;
