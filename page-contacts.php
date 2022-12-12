@@ -58,6 +58,7 @@ get_header();
 	<h3>Direction ET PROGRAMMATION </h3>
 <p>Francois Theret - Directeur Financier <br>
 f.theret(a)grabuge.com <br>
+<br>
 Thibault Llinares - Directeur artistique <br>
 t.llinares(a)grabuge.com</p>
 
