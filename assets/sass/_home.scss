@@ -331,6 +331,14 @@
 	background: white;
 	font-weight: 600;
 	text-transform: uppercase;
+						transition: 0.25s ease-in-out all;
+
+	&:hover {
+		border-bottom: solid 1px white;
+		color: #ffffff;
+		background: #141414;
+
+	}
 }
 /************************Plus que des concerts Articles*****************************/
 
