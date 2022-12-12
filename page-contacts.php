@@ -56,8 +56,8 @@ get_header();
 <!------ mail----->
 <section id="mail">
 	<h3>Direction ET PROGRAMMATION </h3>
-<span><p>Francois Theret - Directeur Financier <br></span>
-f.theret(a)grabuge.com <br>
+<p>Francois Theret - Directeur Financier <br>
+<span>f.theret(a)grabuge.com <br></span>
 <br>
 Thibault Llinares - Directeur artistique <br>
 <span>t.llinares(a)grabuge.com</p></span>
@@ -73,7 +73,7 @@ Julien Lahé <br>
 <h3>PRODUCTION ET RéGIE</h3>
 <p>
 Lucas Delhi <br> 
-d.lucas(a)grabuge.com </span>
+<span>d.lucas(a)grabuge.com </span>
 <br>
 Kevin Lanoix <br> 
 <span>l.kevin(a)grabuge.com</p></span>
