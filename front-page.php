@@ -210,7 +210,7 @@ get_header();
 								'container' => '',
 								'menu_class' => '',
 									)
-								) <i class="fa-light fa-arrow-right"></i> ?> 
+								)?> 
     </nav>
 </main>
 <?php
