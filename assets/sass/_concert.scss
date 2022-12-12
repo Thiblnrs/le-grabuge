@@ -27,6 +27,11 @@
 		object-fit: cover;
 		-o-object-position: top center;
 		object-position: top center;
+		transition: 0.25s ease-in-out all;
+
+	&:hover {
+		box-shadow: 5px -5px 0 4px white;
+	}
 	}
 }
 
