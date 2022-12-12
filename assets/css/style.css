@@ -209,7 +209,7 @@ header > nav ul li a {
   transition: 0.25s ease-in-out all;
 }
 header > nav ul li a:hover {
-  border-bottom: solid 1px white;
+  border-bottom: solid 1px #375179;
   color: white;
 }
 
