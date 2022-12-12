@@ -6,7 +6,8 @@
                 $dateFR = strtotime( get_field('date') ); echo date_i18n( "j M Y", $dateFR ); ?> 
             </p>
             <p>
-                <?php the_field("style_")?>
+                <?php $genre = get_the_term_list( $post->ID, 'genre', '', ' - ', '' ); $genre = strip_tags( $genre );
+                            echo $genre ?>
             </p>
             <p>
                 <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?>
