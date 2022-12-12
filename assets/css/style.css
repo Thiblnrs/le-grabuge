@@ -1069,6 +1069,11 @@ h3 > span {
   text-transform: uppercase;
 }
 
+.ouverture {
+  display: flex;
+  justify-content: space-between;
+}
+
 .single-post main {
   padding-top: 90px;
 }

@@ -24,8 +24,8 @@ get_header();
             </div>
             <br>
             <div class="ouverture">
-                <p>Ouverture 19.30</p> 
-                <p>Fermeture 00.30 </p> 
+                <p>OUVERTURE : 19.30</p> 
+                <p>FERMETURE : 00.30 </p> 
             </div>
             <hr>
             <h1 class="h1-concert-page"><?php the_title()?></h1>
