@@ -933,6 +933,7 @@ footer {
 #detail-concert h2 {
   color: white;
   font-size: 65px;
+  box-shadow: 23px 32px 46px black;
 }
 #detail-concert h2,
 #detail-concert p {
