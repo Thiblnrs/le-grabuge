@@ -1,102 +1,97 @@
 .page-id-105 {
-	section {
-		display: none;
-		background-color: black;
-		&.active {
-			display: block;
-		}
-	}
-	h1 {
-		text-align: center;
-		color: white;
-		text-transform: uppercase;
-		font-size: 40px;
-		letter-spacing: 10px;
-		font-weight: 200;
-	}
-	hr {
-		width: 100%;
-		margin: 5% 0;
-	}
-	h2 {
-		font-size: 36px;
-		letter-spacing: 10px;
-		text-transform: uppercase;
-		text-align: center;
-		color: white;
-		font-weight: 200;
-		padding: 5% 0;
-	}
-
-	button {
-		background: transparent;
-		color: lightgray;
-		border: none;
-		text-transform: uppercase;
-		width: 25%;
-		font-size: 16px;
-		font-weight: 400;
-		transition: 0.25s linear all;
-
-		&:hover {
-			button {
-				font-weight: 800;
-				color: white;
+	main {
+		section {
+			display: none;
+			background-color: black;
+			&.active {
+				display: block;
 			}
 		}
-	}
-
-	.tabs {
-		display: flex;
-		align-items: flex-start;
-	}
-
-	/*Accordeon*/
-	/* Style the buttons that are used to open and close the accordion panel */
-	.accordion {
-		background-color: black;
-		color: white;
-		cursor: pointer;
-		padding: 18px;
-		width: 100%;
-		text-align: left;
-		border: none;
-		outline: none;
-		transition: 0.4s;
-		border-bottom: solid 1px white;
-		display: flex;
-		justify-content: space-between;
-
-		&:after{
-			content: "+";
+		h1 {
+			text-align: center;
+			color: white;
+			text-transform: uppercase;
+			font-size: 40px;
+			letter-spacing: 10px;
+			font-weight: 200;
 		}
-		&.acctive{
-			&::after{
-				content: "-";
+		hr {
+			width: 100%;
+			margin: 5% 0;
+		}
+		h2 {
+			font-size: 36px;
+			letter-spacing: 10px;
+			text-transform: uppercase;
+			text-align: center;
+			color: white;
+			font-weight: 200;
+			padding: 5% 0;
+		}
+
+		button {
+			background: transparent;
+			color: lightgray;
+			border: none;
+			text-transform: uppercase;
+			width: 25%;
+			font-size: 16px;
+			font-weight: 400;
+			transition: 0.25s linear all;
+
+			&:hover {
+				button {
+					font-weight: 800;
+					color: white;
+				}
 			}
 		}
-	}
 
-	/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-	/*.acctive,
-	.accordion:hover {
-		background-color: #ccc;
-        color:rgb(29, 29, 29);*/
-}
+		.tabs {
+			display: flex;
+			align-items: flex-start;
+		}
 
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-	background-color: white;
-	overflow: hidden;
-	height: 0;
-
-	p {
-		color: black;
-	}
-	&.ouvert {
-		height: auto;
-		div {
+		/*Accordeon*/
+		/* Style the buttons that are used to open and close the accordion panel */
+		.accordion {
+			background-color: black;
+			color: white;
+			cursor: pointer;
 			padding: 18px;
+			width: 100%;
+			text-align: left;
+			border: none;
+			outline: none;
+			transition: 0.4s;
+			border-bottom: solid 1px white;
+			display: flex;
+			justify-content: space-between;
+
+			&:after {
+				content: "+";
+			}
+			&.acctive {
+				&::after {
+					content: "-";
+				}
+			}
+		}
+		/* Style the accordion panel. Note: hidden by default */
+		.panel {
+			background-color: white;
+			overflow: hidden;
+			height: 0;
+
+			p {
+				color: black;
+			}
+			&.ouvert {
+				height: auto;
+				div {
+					padding: 18px;
+				}
+			}
 		}
 	}
 }

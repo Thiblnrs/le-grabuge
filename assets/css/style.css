@@ -1316,23 +1316,19 @@ h3 > span {
   font-weight: 200;
 }
 
-.page-id-105 {
+.page-id-105 main {
   /*Accordeon*/
   /* Style the buttons that are used to open and close the accordion panel */
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  /*.acctive,
-  .accordion:hover {
-  	background-color: #ccc;
-         color:rgb(29, 29, 29);*/
+  /* Style the accordion panel. Note: hidden by default */
 }
-.page-id-105 section {
+.page-id-105 main section {
   display: none;
   background-color: black;
 }
-.page-id-105 section.active {
+.page-id-105 main section.active {
   display: block;
 }
-.page-id-105 h1 {
+.page-id-105 main h1 {
   text-align: center;
   color: white;
   text-transform: uppercase;
@@ -1340,11 +1336,11 @@ h3 > span {
   letter-spacing: 10px;
   font-weight: 200;
 }
-.page-id-105 hr {
+.page-id-105 main hr {
   width: 100%;
   margin: 5% 0;
 }
-.page-id-105 h2 {
+.page-id-105 main h2 {
   font-size: 36px;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -1353,7 +1349,7 @@ h3 > span {
   font-weight: 200;
   padding: 5% 0;
 }
-.page-id-105 button {
+.page-id-105 main button {
   background: transparent;
   color: lightgray;
   border: none;
@@ -1363,15 +1359,15 @@ h3 > span {
   font-weight: 400;
   transition: 0.25s linear all;
 }
-.page-id-105 button:hover button {
+.page-id-105 main button:hover button {
   font-weight: 800;
   color: white;
 }
-.page-id-105 .tabs {
+.page-id-105 main .tabs {
   display: flex;
   align-items: flex-start;
 }
-.page-id-105 .accordion {
+.page-id-105 main .accordion {
   background-color: black;
   color: white;
   cursor: pointer;
@@ -1385,26 +1381,24 @@ h3 > span {
   display: flex;
   justify-content: space-between;
 }
-.page-id-105 .accordion:after {
+.page-id-105 main .accordion:after {
   content: "+";
 }
-.page-id-105 .accordion.acctive::after {
+.page-id-105 main .accordion.acctive::after {
   content: "-";
 }
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
+.page-id-105 main .panel {
   background-color: white;
   overflow: hidden;
   height: 0;
 }
-.panel p {
+.page-id-105 main .panel p {
   color: black;
 }
-.panel.ouvert {
+.page-id-105 main .panel.ouvert {
   height: auto;
 }
-.panel.ouvert div {
+.page-id-105 main .panel.ouvert div {
   padding: 18px;
 }
 
