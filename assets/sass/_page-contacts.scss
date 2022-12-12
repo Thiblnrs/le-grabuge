@@ -8,7 +8,7 @@
 		font-weight: 200;
 	}
 	.apropos-main {
-	    padding-top: 100px;
+		padding-top: 100px;
 	}
 
 	#mail {
@@ -60,26 +60,26 @@
 			border: solid 1px white;
 
 			& > a {
-	font-size: 16px;
-	text-transform: uppercase;
-	color: white;
-}
+				font-size: 16px;
+				text-transform: uppercase;
+				color: white;
+			}
 
-	&:hover {
-		background-color: white;
-		border: 1px solid #141414;
+			&:hover {
+				background-color: white;
+				border: 1px solid #141414;
 
-		a {
-			color: black;
-		
-}
+				a {
+					color: black;
+				}
+			}
 		}
-}
 
 		#contact-form {
 			width: 70%;
 			min-height: 80vh;
 			border: 1px solid white;
+			color: white;
 			padding: 20px;
 			border-left: 11px solid white;
 			border-bottom: 5px solid white;
@@ -87,7 +87,6 @@
 				display: flex;
 				flex-direction: column;
 				label {
-					color: white;
 					display: flex;
 					flex-direction: column;
 					width: 100%;
@@ -98,13 +97,13 @@
 					width: 100%;
 					padding: 15px;
 					margin-bottom: 20px;
-					background:#141414;
+					background: #141414;
 					border: 0px;
 					border-bottom: 1px solid white;
 					color: white;
 					font-size: 16px;
 				}
-				textarea{
+				textarea {
 					border: solid 1px white;
 				}
 				input[type="submit"] {
@@ -112,7 +111,7 @@
 					color: white;
 					border: 1px solid white;
 					margin-bottom: 0;
-					    text-transform: uppercase;
+					text-transform: uppercase;
 				}
 			}
 		}
