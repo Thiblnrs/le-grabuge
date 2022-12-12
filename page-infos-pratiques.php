@@ -55,7 +55,9 @@ get_header();
                 <button class="accordion"><?php the_sub_field ("question") ?></button>
 
                 <div class="panel">
-                    <?php the_sub_field ("reponse") ?>
+                    <div>
+                        <?php the_sub_field ("reponse") ?>
+                    </div>
                 </div>
             <?php endwhile; ?>
         </div>

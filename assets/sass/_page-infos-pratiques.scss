@@ -76,9 +76,13 @@
 /* Style the accordion panel. Note: hidden by default */
 .panel {
 	padding: 0 18px;
-	background-color: #141414;
+	background-color: white;
 	overflow: hidden;
 	height: 0;
+
+	p {
+		color: black;
+	}
 	&.ouvert {
 		height: auto;
 	}
