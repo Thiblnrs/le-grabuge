@@ -23,6 +23,16 @@
             </div>
         </div>
     </section>
+       <!-- RS--------------------------------------->
+       <Section>
+<div>
+<?php while( have_rows('rs-footer') ) : the_row(); ?>
+                    <a href="<?php the_sub_field('url')  ?>"  target="_blank">
+                        <?php the_sub_field('choix_du_rs')  ?>
+                    </a>
+                <?php endwhile; ?>
+</div>
+       </Section>
     <!-- footer--------------------------------------->
     <section id="footer-nav">
         <div>
