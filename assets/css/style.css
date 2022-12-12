@@ -859,6 +859,13 @@ footer {
   padding: 50px;
   color: #fff;
   transition: 0.25s ease-in-out all;
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+}
+#raccourcis ul li a:after {
+  content: "→";
+  font-size: 200%;
 }
 
 #raccourcis li:hover {
