@@ -381,14 +381,16 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 25px 96px;
+  padding: 105px 95px 0 95px;
   text-align: left;
   color: lightgrey;
 }
 
 .flex-mention {
-  width: 40%;
-  display: flex;
+  width: 60%;
+  -moz-column-count: 3;
+       column-count: 3;
+  line-height: 30px;
   justify-content: space-between;
 }
 
