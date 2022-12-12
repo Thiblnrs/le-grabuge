@@ -1590,6 +1590,7 @@ h3 > span {
 }
 .page-id-107 #mail p {
   color: white;
+  text-transform: none;
 }
 .page-id-107 #mail h3 {
   font-size: 20px;
