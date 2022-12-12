@@ -182,7 +182,7 @@ get_header();
             wp_reset_postdata();
         ?>
 
-    </section>
+    </section id="plus-article-home">
     <section class="cta-prog">
         <div><a href="#">Plus d’articles</a></div>
     </section>
