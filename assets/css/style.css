@@ -1598,6 +1598,9 @@ h3 > span {
 .page-id-107 #mail span {
   color: lightgray;
 }
+.page-id-107 img {
+  width: 100%;
+}
 
 @media screen and (max-width: 767px) {
   header h1 {
