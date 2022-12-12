@@ -71,11 +71,11 @@
 			justify-content: space-between;
 
 			&:after {
-				content: "+";
+				content: "↓";
 			}
 			&.acctive {
 				&::after {
-					content: "-";
+					content: "↑";
 				}
 			}
 		}
