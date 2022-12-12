@@ -625,8 +625,6 @@ footer {
 .cta-b:hover {
   background-color: white;
   border: 1px solid #375179;
-}
-.cta-b:hover a {
   color: #375179;
 }
 
