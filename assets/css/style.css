@@ -1564,6 +1564,11 @@ h3 > span {
   background: #141414;
   border: 0px;
   border-bottom: 1px solid white;
+  color: white;
+  font-size: 16px;
+}
+.page-id-107 #zone-contact #contact-form form textarea {
+  border: solid 1px white;
 }
 .page-id-107 #zone-contact #contact-form form input[type=submit] {
   background-color: #141414;
