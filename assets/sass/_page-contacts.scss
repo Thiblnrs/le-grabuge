@@ -77,7 +77,6 @@
 
 		#contact-form {
 			width: 70%;
-			min-height: 80vh;
 			border: 1px solid white;
 			color: white;
 			padding: 20px;
@@ -102,9 +101,11 @@
 					border-bottom: 1px solid white;
 					color: white;
 					font-size: 16px;
+					margin-top: 10px;
 				}
 				textarea {
 					border: solid 1px white;
+					font-family: "Montserrat";
 				}
 				input[type="submit"] {
 					background-color: #141414;
