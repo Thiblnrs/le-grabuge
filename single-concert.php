@@ -36,7 +36,7 @@ get_header();
                     <?php the_sub_field('heure_debut') ?> - <?php the_sub_field('heure_fin') ?> : <?php the_sub_field('nom_artiste') ?> <br>
                 <?php endwhile; ?>
                 <strong class="stron-up">
-                    <?php the_field('heure-artiste-principal-début')?>  - <?php the_field('heure-artiste-principal-fin')?> : <?php the_title() ?>
+                    <?php the_field('heure-artiste-principal')?>  - <?php the_field('heure-artiste-principal-fin')?> : <?php the_title() ?>
                 </strong>
             </p>
             <hr>
