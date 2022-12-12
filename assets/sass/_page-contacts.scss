@@ -46,10 +46,6 @@
 			text-align: left;
 		}
 
-		a{
-			color: white;
-		}
-
 		.cta-apropos {
 			display: flex;
 			justify-content: center;
@@ -62,7 +58,24 @@
 			font-weight: 700;
 			text-transform: uppercase;
 			border: solid 1px white;
+
+			& > a {
+	letter-spacing: 5px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: white;
+}
+
+	&:hover {
+		background-color: white;
+		border: 1px solid #141414;
+
+		a {
+			color: black;
+		
+}
 		}
+}
 
 		#contact-form {
 			width: 70%;
