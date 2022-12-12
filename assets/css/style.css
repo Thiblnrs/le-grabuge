@@ -210,7 +210,7 @@ header > nav ul li a {
 }
 header > nav ul li a:hover {
   border-bottom: solid 1px #375179;
-  color: #375179;
+  color: #689cea;
 }
 
 .darkHeader {
