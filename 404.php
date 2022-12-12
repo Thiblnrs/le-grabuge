@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-	<main>
+	<main class="container">
 
 <section id="section404" class="error-404 not-found">
 <img src="/assets/img/image 22.png" alt="">
