@@ -14,9 +14,9 @@ get_header();
 
 <section id="section404" class="error-404 not-found">
 <img src="/assets/img/danny_big.webp" alt="">
-
+<div>
 <p>Vous êtes perdu ?</p>
-<p>Pas de panique rendez-vous sur notre <a href="https://cdui.amigrafdev.com/thibault/">page d'accueil</a></p>
+<p>Pas de panique rendez-vous sur notre <a href="https://cdui.amigrafdev.com/thibault/">page d'accueil</a></p></div>
 		</section><!-- .error-404 -->
 
 	</main><!-- #main -->
