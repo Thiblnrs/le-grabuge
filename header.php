@@ -26,7 +26,9 @@
     <header>
         <div>
             <?php the_custom_logo( ) ?>
-            <h1>Le grabuge</h1>
+            <a href="<?php echo home_url() ?>">
+                <strong>Le grabuge</strong>
+            </a>
         </div>
         <!--NAV--------------------------------------->
         <nav>
