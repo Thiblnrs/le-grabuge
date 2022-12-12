@@ -29,12 +29,23 @@
 
 	button {
 		background: transparent;
-		color: white;
+		color: lightgray;
 		border: none;
 		text-transform: uppercase;
 		width: 25%;
 		font-size: 16px;
+		font-weight: 400;
+
+	&:hover {
+
+		a {
+		font-weight: 800;
+		color: white;	
+		
+}
+		}
 	}
+	
 	.tabs {
 		display: flex;
 		align-items: flex-start;

@@ -1331,11 +1331,16 @@ h3 > span {
 }
 .page-id-105 button {
   background: transparent;
-  color: white;
+  color: lightgray;
   border: none;
   text-transform: uppercase;
   width: 25%;
   font-size: 16px;
+  font-weight: 400;
+}
+.page-id-105 button:hover a {
+  font-weight: 800;
+  color: white;
 }
 .page-id-105 .tabs {
   display: flex;
@@ -1513,7 +1518,6 @@ h3 > span {
   border: solid 1px white;
 }
 .page-id-107 #zone-contact .cta-apropos > a {
-  letter-spacing: 5px;
   font-size: 16px;
   text-transform: uppercase;
   color: white;
