@@ -30,7 +30,6 @@
     <section id="footer-nav">
         <div>
             <div class="flex-mention">
-
                 <nav id="mentionfooter">
                     <?php wp_nav_menu( array(
 					'theme_location' => 'menu-principal',
