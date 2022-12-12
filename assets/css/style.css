@@ -1365,6 +1365,14 @@ h3 > span {
   font-weight: 200;
   padding: 100px 0 50px 0;
 }
+.page-id-105 main h3 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 30px 0 10px 0;
+}
 .page-id-105 main button {
   background: transparent;
   color: lightgray;
@@ -1424,7 +1432,7 @@ h3 > span {
 }
 .page-id-105 strong {
   font-size: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 }
 
 .page-id-103 main {
