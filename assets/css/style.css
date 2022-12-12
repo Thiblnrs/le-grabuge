@@ -1338,7 +1338,7 @@ h3 > span {
   font-size: 16px;
   font-weight: 400;
 }
-.page-id-105 button:hover a {
+.page-id-105 button:hover button {
   font-weight: 800;
   color: white;
 }
