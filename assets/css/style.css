@@ -1420,6 +1420,7 @@ h3 > span {
 }
 .page-id-105 li {
   color: lightgray;
+  list-style: inside;
 }
 .page-id-105 strong {
   font-size: 20px;
