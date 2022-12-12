@@ -658,6 +658,8 @@ footer {
   height: 50px;
   display: flex;
   margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
   justify-content: center;
   align-items: center;
   background: white;
