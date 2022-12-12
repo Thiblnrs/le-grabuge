@@ -580,6 +580,7 @@ footer {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 5px;
+  transition: 0.25s linear all;
 }
 .cta-b > a {
   letter-spacing: 5px;
@@ -1337,6 +1338,7 @@ h3 > span {
   width: 25%;
   font-size: 16px;
   font-weight: 400;
+  transition: 0.25s linear all;
 }
 .page-id-105 button:hover button {
   font-weight: 800;
