@@ -444,6 +444,8 @@ footer {
 }
 #newsletter .mailpoet_form .mailpoet_paragraph input[type=submit] {
   border: 1px solid white !important;
+  border-bottom: 2px solid white;
+  border-top: 4px solid #fff !important;
 }
 #newsletter #mailpoet_form_1 form.mailpoet_form {
   margin-top: 54px;
