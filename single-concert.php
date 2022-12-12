@@ -20,7 +20,8 @@ get_header();
 								echo date_i18n( "j M Y", $dateFR ); ?><br /></span>
                     <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin')?>
                 </p>
-                <p class="bold-date"><?php echo get_the_term_list( $post->ID, 'genre', '', ' - ', '' ) ?></p> 
+                <p class="bold-date"><?php $genre = get_the_term_list( $post->ID, 'genre', '', ' - ', '' ); $genre = strip_tags( $genre );
+                            echo $genre ?></p> 
             </div>
             <br>
             <div class="ouverture">
@@ -125,7 +126,8 @@ get_header();
                             <?php the_field('heure_de_debut') ?> - <?php the_field('heure_de_fin') ?>
                         </p>
                         <p> 
-                            <?php echo get_the_term_list( $post->ID, 'genre', '', ' - ', '' ) ?>
+                            <?php $genre = get_the_term_list( $post->ID, 'genre', '', ' - ', '' ); $genre = strip_tags( $genre );
+                            echo $genre ?>
                         </p>
                     </div>
 
