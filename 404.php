@@ -15,7 +15,8 @@ get_header();
 <section id="section404" class="error-404 not-found">
 <img src="/assets/img/danny_big.webp" alt="">
 
-<p>Houston, nous avons un problème!</p>
+<p>Vous êtes perdu ?</p>
+<p>Pas de panique rendez-vous sur notre <a href="https://cdui.amigrafdev.com/thibault/">page d'accueil</a></p>
 		</section><!-- .error-404 -->
 
 	</main><!-- #main -->
