@@ -1382,6 +1382,14 @@ h3 > span {
   outline: none;
   transition: 0.4s;
   border-bottom: solid 1px white;
+  display: flex;
+  justify-content: space-between;
+}
+.page-id-105 .accordion:after {
+  content: "+";
+}
+.page-id-105 .accordion.acctive::after {
+  content: "-";
 }
 
 /* Style the accordion panel. Note: hidden by default */
