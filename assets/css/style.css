@@ -896,13 +896,6 @@ footer {
   color: black;
 }
 
-.retour-artiste {
-  color: white;
-  text-decoration: underline;
-  font-size: 20px;
-  padding-left: 29px;
-}
-
 #detail-concert {
   display: flex;
   justify-content: center;
