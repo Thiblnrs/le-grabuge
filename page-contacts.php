@@ -56,32 +56,32 @@ get_header();
 <!------ mail----->
 <section id="mail">
 	<h3>Direction ET PROGRAMMATION </h3>
-<p>Francois Theret - Directeur Financier <br>
+<span><p>Francois Theret - Directeur Financier <br></span>
 f.theret(a)grabuge.com <br>
 <br>
 Thibault Llinares - Directeur artistique <br>
-t.llinares(a)grabuge.com</p>
+<span>t.llinares(a)grabuge.com</p></span>
 
 <h3>ADMINISTRATION </h3>
 <p>Gaëlle Lafait <br> 
-l.gaelle(a)grabuge.com</p>
+<span>l.gaelle(a)grabuge.com</p></span>
 
 <h3>COMMUNICATION </h3>
 <p>
 Julien Lahé <br> 
-l.julien(a)grabuge.com
+<span>l.julien(a)grabuge.com</span>
 <h3>PRODUCTION ET REGIE</h3>
 <p>
 Lucas Delhi <br> 
-d.lucas(a)grabuge.com 
+d.lucas(a)grabuge.com </span>
 <br>
 Kevin Lanoix <br> 
-l.kevin(a)grabuge.com</p>
+<span>l.kevin(a)grabuge.com</p></span>
 
 <h3>BAR</h3>
 <p>
 Fernand Bar <br> 
-b.fernand(a)grabuge.com </p></section>
+<span>b.fernand(a)grabuge.com </p></section>
 	</main><!-- #main -->
 <?php
 get_footer();

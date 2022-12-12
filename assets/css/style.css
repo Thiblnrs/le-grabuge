@@ -1585,8 +1585,11 @@ h3 > span {
 .page-id-107 #zone-contact .espace-hr {
   margin: 40px 0;
 }
-.page-id-107 h3 {
+.page-id-107 #mail h3 {
   font-size: 20px;
+}
+.page-id-107 span {
+  color: lightgray;
 }
 
 @media screen and (max-width: 767px) {
