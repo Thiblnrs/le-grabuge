@@ -11,7 +11,7 @@ get_header();
 ?>
 <main>
     <section class="container">
-        <a href="https://cdui.amigrafdev.com/thibault/concert/">Retour</a>
+        <a class="retour-artiste" href="https://cdui.amigrafdev.com/thibault/concert/">Retour</a>
     </section>
     <section  class="container">
     <div id="detail-concert">
