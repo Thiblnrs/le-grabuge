@@ -1540,7 +1540,7 @@ h3 > span {
 }
 .page-id-107 #zone-contact #contact-form {
   width: 70%;
-  height: 80vh;
+  min-height: 80vh;
   border: 1px solid white;
   padding: 20px;
   border-left: 11px solid white;
@@ -1555,6 +1555,7 @@ h3 > span {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 30px;
 }
 .page-id-107 #zone-contact #contact-form form input,
 .page-id-107 #zone-contact #contact-form form textarea {
