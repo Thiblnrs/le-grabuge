@@ -437,6 +437,7 @@ footer {
   padding: 15px;
   background-color: black;
   color: white;
+  border-bottom: solid white 7px !important;
 }
 #newsletter .mailpoet_form .mailpoet_paragraph input[type=email] {
   border: none;
