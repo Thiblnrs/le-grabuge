@@ -15,7 +15,6 @@
 	h2 {
 		color: white;
 		font-size: 65px;
-		box-shadow: 23px 32px 46px black;
 	}
 	h2,
 	p {
@@ -28,6 +27,13 @@
 		object-fit: cover;
 		-o-object-position: top center;
 		object-position: top center;
+		box-shadow: 23px 32px 46px black;
+		transition: 0.25s ease-in-out all;
+
+	&:hover {
+		box-shadow: 23px 32px 46px white;
+
+	}
 	}
 }
 
