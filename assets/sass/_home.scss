@@ -104,8 +104,6 @@
 	}
 }
 
-/
-
 
 .cta-b {
 	display: flex;
@@ -128,6 +126,17 @@
 	text-transform: uppercase;
 	color: white;
 }
+
+	&:hover {
+		background-color: white;
+		border: 1px solid #375179;
+
+		a {
+			color: #375179;
+		
+
+			}
+			}
 /************************PROCHAINEMENT*****************************/
 .prochainement {
 	display: flex;
