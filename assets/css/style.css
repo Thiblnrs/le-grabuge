@@ -1682,4 +1682,50 @@ h3 > span {
     font-size: 30px;
     letter-spacing: 15px;
   }
+}
+@media screen and (max-width: 767px) {
+  header h1 {
+    display: none;
+  }
+  #menu-contenu {
+    padding: 30px;
+  }
+  #menu-contenu > div {
+    width: 100%;
+  }
+  #menu-contenu .cont-artiste-menu {
+    display: none;
+  }
+  #menu-contenu #menu-principal li {
+    justify-content: center;
+  }
+  #menu-contenu #menu-principal li a {
+    font-size: 20px;
+    letter-spacing: 10px;
+  }
+  #menu-contenu #mention ul {
+    -moz-columns: 1;
+         columns: 1;
+  }
+  header > nav ul li:first-of-type {
+    display: none;
+  }
+  #prochain-artiste > div {
+    flex-direction: column;
+  }
+  .cont-artiste {
+    width: 90%;
+  }
+  #desc {
+    width: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .post-type-archive-concert .mois .detailConcert {
+    width: 100%;
+  }
+  #newsletter h2 {
+    font-size: 30px;
+    letter-spacing: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */
