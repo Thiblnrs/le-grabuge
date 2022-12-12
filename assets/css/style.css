@@ -203,14 +203,14 @@ header > nav ul li {
 header > nav ul li a {
   letter-spacing: 5px;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 400;
   text-transform: uppercase;
-  color: white;
+  color: lightgray;
   transition: 0.25s ease-in-out all;
 }
 header > nav ul li a:hover {
   border-bottom: solid 1px #375179;
-  color: #689cea;
+  color: #ffffff;
 }
 
 .darkHeader {
