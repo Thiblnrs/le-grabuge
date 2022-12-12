@@ -427,6 +427,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  padding: 0;
 }
 #newsletter .mailpoet_form .mailpoet_paragraph {
   color: white;
