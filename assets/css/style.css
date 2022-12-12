@@ -425,13 +425,18 @@ footer {
 }
 #newsletter .mailpoet_form {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
-#newsletter .mailpoet_form .mailpoet_paragraph {
-  width: 100%;
+#newsletter .mailpoet_form .mailpoet_paragraph:first-child {
+  width: 80%;
 }
-#newsletter .mailpoet_form .mailpoet_paragraph.last {
-  width: unset;
+#newsletter .mailpoet_form .mailpoet_paragraph:nth-child(2) {
+  width: 20%;
+}
+#newsletter .mailpoet_form .mailpoet_paragraph:last-child {
+  width: 100%;
+  color: white;
 }
 #newsletter .mailpoet_form .mailpoet_paragraph input {
   padding: 15px;
@@ -457,10 +462,6 @@ footer {
 #newsletter > div div p {
   text-align: left;
   width: 100%;
-}
-
-.mailpoet_checkbox {
-  color: #fff;
 }
 
 /***********************footer********************************/

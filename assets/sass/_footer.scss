@@ -66,12 +66,19 @@ footer {
 
 	.mailpoet_form {
 		display: flex;
+		flex-wrap: wrap;
 		width: 100%;
 
 		.mailpoet_paragraph {
-			width: 100%;
-			&.last {
-				width: unset;
+			&:first-child {
+				width: 80%;
+			}
+			&:nth-child(2) {
+				width: 20%;
+			}
+			&:last-child {
+				width: 100%;
+				color: white;
 			}
 			input {
 				padding: 15px;
@@ -103,10 +110,6 @@ footer {
 		text-align: left;
 		width: 100%;
 	}
-}
-
-.mailpoet_checkbox{
-color: #fff;
 }
 
 /***********************footer********************************/
