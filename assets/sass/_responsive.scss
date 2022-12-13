@@ -164,6 +164,10 @@
 		padding: 20px 0 20px 0;
 	}
 
+	#footer-nav div {
+		width: 100%;
+	}
+
 	#footer-nav > div {
 		padding: 25px 0;
 		text-align: center;
@@ -174,6 +178,7 @@
 		column-count: 1;
 		flex-direction: column;
 		text-align: center;
+		width: 100%;
 	}
 
 	/////actualité

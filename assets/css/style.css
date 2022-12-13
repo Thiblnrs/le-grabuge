@@ -1846,6 +1846,9 @@ h3 > span {
   #footer-rs {
     padding: 20px 0 20px 0;
   }
+  #footer-nav div {
+    width: 100%;
+  }
   #footer-nav > div {
     padding: 25px 0;
     text-align: center;
@@ -1856,6 +1859,7 @@ h3 > span {
          column-count: 1;
     flex-direction: column;
     text-align: center;
+    width: 100%;
   }
   .page-id-103 h1 {
     text-align: center;
