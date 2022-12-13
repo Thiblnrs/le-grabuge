@@ -82,8 +82,7 @@ Kevin Lanoix <br>
 <p>
 Fernand Bar <br> 
 <span>b.fernand(a)grabuge.com </p>
-
-<img src="/assets/img/logo-grab.png" alt=""></section>
+</section>
 	</main><!-- #main -->
 <?php
 get_footer();
