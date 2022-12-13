@@ -1563,6 +1563,9 @@ h3 > span {
 
 .page-id-107 {
   background-image: url("../img/logo-grab.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: bottom right;
 }
 .page-id-107 main section h1 {
   text-align: center;
