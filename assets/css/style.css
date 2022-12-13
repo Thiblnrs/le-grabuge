@@ -1850,18 +1850,12 @@ h3 > span {
     flex-direction: column;
     text-align: center;
   }
-  .grilleAct {
-    flex: none;
-    flex-direction: column;
-    gap: 50px;
-  }
-  .grilleAct div {
-    width: 95%;
-    margin: auto;
-    margin-top: 15px;
-  }
-  .grilleAct div h4 {
-    font-size: 21px;
+  .page-id-103 #liste-artiste p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 35px;
+    width: 100%;
+    padding: 0 25px;
   }
 }
 #section404 img {

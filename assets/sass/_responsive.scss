@@ -176,19 +176,12 @@
 
 /////actualité
 
-	.grilleAct {
-		flex: none;
-		flex-direction: column;
-		gap: 50px;
-		div {
-			width: 95%;
-			margin: auto;
-			    margin-top: 15px;
-			h4{
-				font-size: 21px;
-			}
-		}
-	}
-
-
+/////A PROPOS
+.page-id-103 #liste-artiste p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 35px;
+    width: 100%;
+    padding: 0 25px;
+}
 }
