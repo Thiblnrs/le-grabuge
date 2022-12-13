@@ -1846,8 +1846,10 @@ h3 > span {
     width: 100%;
   }
   #footer-nav div:last-of-type {
-    text-align: center;
     margin-top: 25px;
+  }
+  #footer-nav div:last-of-type p {
+    text-align: center;
   }
   #footer-nav div p {
     padding: 0;

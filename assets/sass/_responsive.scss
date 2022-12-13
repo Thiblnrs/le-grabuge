@@ -176,8 +176,10 @@
 		width: 100%;
 
 		&:last-of-type {
-			text-align: center;
 			margin-top: 25px;
+			p {
+				text-align: center;
+			}
 		}
 
 		p {
