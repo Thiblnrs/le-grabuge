@@ -1750,6 +1750,9 @@ h3 > span {
   .cont-artiste hr {
     width: 100%;
   }
+  .cont-artiste-3 {
+    width: 100%;
+  }
   .coverdate {
     margin-top: 15px;
   }
