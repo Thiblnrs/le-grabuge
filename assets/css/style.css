@@ -978,7 +978,7 @@ footer {
   letter-spacing: 5px;
   color: white;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
 }
 
@@ -1924,23 +1924,29 @@ h3 > span {
     letter-spacing: 5px;
   }
   .cover-date {
-    align-items: center;
-    flex-direction: column;
     gap: 20px;
   }
-  .cont-artiste-3 {
+  .cover-date > p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  .cover-date .cont-artiste-3 {
     width: 100%;
   }
-  .single-post main {
+  .cover-date #prochain-artiste {
+    padding-bottom: 1px;
+  }
+  .cover-date .single-post main {
     padding-top: 0px;
   }
-  .single-post main h1 {
+  .cover-date .single-post main h1 {
     font-size: 20px;
   }
-  .blog .container .actualite {
+  .cover-date .blog .container .actualite {
     width: 100%;
   }
-  .blog .container .actualite hr {
+  .cover-date .blog .container .actualite hr {
     margin: 9px 0 23px 0;
   }
 }
