@@ -501,15 +501,11 @@ footer {
   padding: 20px;
 }
 
-#footer-rs {
+#footer-rs a {
   text-align: center;
   color: white;
   font-size: 60px;
   padding: 100px 0 100px 0;
-}
-
-.rs-footer {
-  gap: 20%;
 }
 
 .home header {
