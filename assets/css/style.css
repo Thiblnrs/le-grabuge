@@ -1952,13 +1952,14 @@ h3 > span {
   #detail-concert {
     flex-direction: column-reverse;
     padding: 20px 0 50px 0;
+    gap: 30px;
   }
   #detail-concert > div,
 #detail-concert img {
     width: 100%;
   }
   #detail-concert img {
-    aspect-ratio: 16/9;
+    aspect-ratio: 12/9;
   }
   .h3-concert-page {
     font-size: 20px;

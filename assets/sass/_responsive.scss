@@ -310,12 +310,13 @@
 	#detail-concert {
 		flex-direction: column-reverse;
 		padding: 20px 0 50px 0;
+		gap: 30px;
 		& > div,
 		img {
 			width: 100%;
 		}
 		img {
-			aspect-ratio: 16/9;
+			aspect-ratio: 12/9;
 		}
 	}
 
