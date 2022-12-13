@@ -1867,6 +1867,9 @@ h3 > span {
   .blog .container .actualite {
     width: 100%;
   }
+  .blog .container img {
+    padding-top: 30px;
+  }
   .page-id-103 h1 {
     text-align: center;
     color: #fff;
