@@ -1824,6 +1824,7 @@ h3 > span {
   }
   .h2-concert-page {
     font-size: 27px;
+    padding: 45px 0 0 0;
   }
   #articles {
     flex-direction: column;
