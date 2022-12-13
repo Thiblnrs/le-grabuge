@@ -1712,6 +1712,9 @@ h3 > span {
     max-width: 91%;
     text-align: center;
   }
+  header {
+    width: 70%;
+  }
   header strong {
     display: none;
   }
