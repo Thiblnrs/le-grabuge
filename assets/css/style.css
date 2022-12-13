@@ -1814,6 +1814,10 @@ h3 > span {
 #articles div {
   width: 95%;
 }
+#articles #raccourcis li {
+  padding: 25px 10%;
+  font-size: 24px;
+}
 
 #section404 img {
   padding-top: 100px;
