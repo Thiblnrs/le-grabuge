@@ -1179,6 +1179,7 @@ h3 > span {
 }
 .blog .container img {
   width: 100%;
+  filter: grayscale(1);
 }
 .blog .container .grilleActu {
   display: flex;
@@ -1875,6 +1876,7 @@ h3 > span {
   }
   .blog .container img {
     padding-top: 30px;
+    filter: grayscale(1);
   }
   .blog .container hr {
     margin: 25px 0 0px 0;
