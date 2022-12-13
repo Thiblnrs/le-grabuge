@@ -40,7 +40,7 @@ get_header();
                 while ( $query->have_posts() ) : $query->the_post(); ?>
         <div>
             <?php the_post_thumbnail() ?>
-            <h3><?php the_title() ?></h3>
+            <h3 class="title-padding"><?php the_title() ?></h3>
             <?php the_excerpt() ?>
             <div class=" cta-esp"><a href="<?php the_permalink() ?>">En lire plus</a>
             </div>

@@ -1122,6 +1122,7 @@ h3 > span {
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 15px;
+  filter: grayscale(1);
 }
 .single-post main h1 {
   color: white;
@@ -1152,6 +1153,9 @@ h3 > span {
   font-weight: 400;
   text-align: center;
   padding: 45px 0 45px 0;
+}
+.single-post .title-padding {
+  padding-top: 25px;
 }
 
 .blog .container main {

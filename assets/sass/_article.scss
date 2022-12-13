@@ -8,6 +8,7 @@
 				aspect-ratio: 31/9;
 				object-fit: cover;
 				margin-bottom: 15px;
+				    filter: grayscale(1);
 
 			}
 		}
@@ -78,5 +79,9 @@
 		font-weight: 400;
 		text-align: center;
 		padding: 45px 0 45px 0
+	}
+
+	.title-padding{
+		padding-top: 25px;
 	}
 }
