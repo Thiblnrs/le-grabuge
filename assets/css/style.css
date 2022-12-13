@@ -1777,6 +1777,10 @@ h3 > span {
   #diapo img {
     margin: auto;
   }
+  #citation div p {
+    padding: 0 25px;
+    font-size: 18px;
+  }
   .post-type-archive-concert .mois .detailConcert {
     width: 100%;
   }
@@ -1835,6 +1839,10 @@ h3 > span {
   }
   #footer-rs {
     padding: 20px 0 20px 0;
+  }
+  #footer-nav > div {
+    padding: 25px 0;
+    text-align: center;
   }
   .flex-mention {
     -moz-column-count: 1;
