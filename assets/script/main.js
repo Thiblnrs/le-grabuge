@@ -58,4 +58,16 @@ jQuery(document).ready(function ($) {
 		$(this).toggleClass("acctive");
 		$(this).next().toggleClass("ouvert");
 	});
+
+	//Filtres genres
+	var $btns = $("#titre-programmation span").click(function () {
+		if (this.id == "all") {
+			$("#filtre > div").fadeIn(450);
+		} else {
+			var $el = $("." + this.id).fadeIn(450);
+			$("#filtre > div").not($el).hide();
+		}
+		$btns.removeClass("active");
+		$(this).addClass("active");
+	});
 });
