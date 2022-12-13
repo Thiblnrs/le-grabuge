@@ -50,11 +50,9 @@
 			font-weight: 400;
 			transition: 0.25s linear all;
 
-			&:hover {
-				btn-billet {
-					font-weight: 800;
-					color: white;
-				}
+			&.active {
+				font-weight: 800;
+				color: white;
 			}
 		}
 
