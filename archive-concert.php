@@ -13,6 +13,14 @@ get_header();
     <div id="titre-programmation">
         <h1><?php the_archive_title() ?></h1>
         <hr>
+        <?php
+        $genres_musicaux = get_the_terms( $post->ID, 'genre');
+        if ($genres_musicaux && ! is_wp_error($genres_musicaux)): ?>
+            <?php foreach($genres_musicaux as $genre_musical): ?>
+                <!-- The slug is the URL of taxonomy,  defined at the time of registration taxonomy within 'rewrite'.-->
+                <a href="<?php echo get_term_link( $genre_musical->slug, 'genre'); ?>" rel="tag" class="custom <?php echo $genre_musical->slug; ?>"><?php echo $genre_musical->name; ?></a>
+            <?php endforeach; ?>
+        <?php endif; ?>
     </div>
 
     <div class="mois">
