@@ -38,20 +38,24 @@ jQuery(document).ready(function ($) {
 
 	// Tab page infos pratiques
 	$("#btn-billet").click(function () {
-		$("section").removeClass("active");
+		$("section,button").removeClass("active");
 		$("#billet").addClass("active");
+		$(this).addClass("active");
 	});
 	$("#btn-handicap").click(function () {
-		$("section").removeClass("active");
+		$("section,button").removeClass("active");
 		$("#handicap").addClass("active");
+		$(this).addClass("active");
 	});
 	$("#btn-reglement").click(function () {
-		$("section").removeClass("active");
+		$("section,button").removeClass("active");
 		$("#reglement").addClass("active");
+		$(this).addClass("active");
 	});
 	$("#btn-faq").click(function () {
-		$("section").removeClass("active");
+		$("section,button").removeClass("active");
 		$("#faq").addClass("active");
+		$(this).addClass("active");
 	});
 	//Accordeon
 	$(".accordion").click(function () {
