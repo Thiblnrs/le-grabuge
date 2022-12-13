@@ -1121,6 +1121,7 @@ h3 > span {
   aspect-ratio: 31/9;
   -o-object-fit: cover;
      object-fit: cover;
+  margin-bottom: 15px;
 }
 .single-post main h1 {
   color: white;
@@ -1150,6 +1151,7 @@ h3 > span {
   color: white;
   font-weight: 400;
   text-align: center;
+  padding: 45px 0 45px 0;
 }
 
 .blog .container main {
