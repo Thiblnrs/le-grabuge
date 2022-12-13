@@ -1850,6 +1850,18 @@ h3 > span {
     flex-direction: column;
     text-align: center;
   }
+  .grilleAct {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .grilleAct div {
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+  }
+  .grilleAct div h4 {
+    font-size: 21px;
+  }
 }
 #section404 img {
   padding-top: 100px;
