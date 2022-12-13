@@ -838,7 +838,6 @@ footer {
   object-fit: cover;
   filter: grayscale(1);
   border: 1px solid white;
-  box-shadow: 9px 4px 26px black;
 }
 
 #articles div h4 {
