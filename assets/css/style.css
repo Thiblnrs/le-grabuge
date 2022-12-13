@@ -1132,42 +1132,6 @@ h3 > span {
 .single-post main p {
   padding: 20px 0;
 }
-.single-post main .yarpp {
-  border-top: 1px solid white;
-  padding-top: 1em;
-}
-.single-post main .yarpp h3 {
-  color: white;
-  text-align: center;
-  font-weight: 200;
-  padding: 20px 0 50px 0;
-  font-size: 40px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-}
-.single-post main .yarpp .yarpp-thumbnails-horizontal {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 130px;
-}
-.single-post main .yarpp .yarpp-thumbnails-horizontal > a {
-  width: 25%;
-  height: auto;
-  color: rgb(231, 231, 231);
-}
-.single-post main .yarpp .yarpp-thumbnails-horizontal img {
-  width: 100%;
-  aspect-ratio: 16/9;
-  -o-object-fit: cover;
-     object-fit: cover;
-  filter: grayscale(1);
-  border: 1px solid white;
-}
-.single-post main .yarpp .yarpp-thumbnails-horizontal span {
-  font-size: 24px;
-  font-weight: 600;
-}
 .single-post .container-contenu {
   width: 60%;
   margin: auto;

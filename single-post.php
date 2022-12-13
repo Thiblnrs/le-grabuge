@@ -50,7 +50,7 @@ get_header();
             
             wp_reset_postdata();
         ?>
-    <?php echo do_shortcode('[yarpp template="yarpp-template-posts"]') ?>
+    <?php echo do_shortcode('[yarpp template="yarpp-template-posts" limit=3]') ?>
     </section>
 
 
