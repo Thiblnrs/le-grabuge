@@ -1752,6 +1752,9 @@ h3 > span {
     font-size: 30px;
     letter-spacing: 15px;
   }
+  #desc-salle {
+    padding: 0;
+  }
   #desc-salle > div {
     flex-direction: column;
   }
@@ -1769,6 +1772,7 @@ h3 > span {
 .prochainement h2 {
   font-size: 28px;
   text-align: center;
+  padding: 30px 0 15px;
 }
 
 #section404 img {

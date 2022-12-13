@@ -51,7 +51,12 @@
 	}
 
 	//accueil
-	#desc-salle > div {
+	
+	#desc-salle{
+
+	padding: 0;
+
+	 > div {
 		flex-direction: column;
 		img{
 			display: none;
@@ -59,6 +64,7 @@
 		h4{
 			font-size: 38px;
 		}
+	}
 	}
 
 	.desc-salle-texte{
@@ -69,5 +75,6 @@
 .prochainement h2 {
     font-size: 28px;
     text-align: center;
+	padding: 30px 0 15px;
 }
 
