@@ -1785,6 +1785,7 @@ h3 > span {
   }
   #desc-salle > div {
     flex-direction: column;
+    margin: 50px 0;
   }
   #desc-salle > div img {
     display: none;
