@@ -1,8 +1,4 @@
 @media screen and (max-width: 767px) {
-	.container {
-		min-width: 100%;
-		width: 100%;
-	}
 	.cta-prog div {
 		max-width: 91%;
 		text-align: center;
@@ -170,7 +166,7 @@
 	#footer-nav div {
 		width: 100%;
 
-		p{
+		p {
 			padding: 0;
 		}
 	}
@@ -232,8 +228,18 @@
 			padding: 25px;
 		}
 
-		.cta-prog div{
+		.cta-prog div {
 			max-width: 75%;
-		}  
+		}
+	}
+	.page-id-105 main {
+		.tabs {
+			flex-direction: column;
+			padding-bottom: 0;
+		}
+		button {
+			width: 100%;
+			padding: 20px;
+		}
 	}
 }
