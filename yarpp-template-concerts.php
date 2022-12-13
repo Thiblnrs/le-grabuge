@@ -1,7 +1,7 @@
 <?php
 /*
-YARPP Template: Articles
-Description: Template des articles.
+YARPP Template: Concerts
+Description: Template des concerts.
 Author: Thibault
 */
 ?>
@@ -26,10 +26,15 @@ Notes:
 ?>
 
 <!-- YARPP Thumbnails -->
-<div>
-            <?php the_post_thumbnail() ?>
-            <h3><?php the_title() ?></h3>
+<h3>Articles similaires :</h3>
+<div class="yarpp-thumbnails-horizontal">
+<?php
+    while ( have_posts() ) :
+        the_post();
+        ?>
+        <a class="yarpp-thumbnail" rel="norewrite" href="<?php the_permalink() ?>" >
+            <?php the_post_thumbnail() ?><span class="yarpp-thumbnail-title"><?php the_title() ?></span>
             <?php the_excerpt() ?>
-            <div class=" cta-esp"><a href="<?php the_permalink() ?>">En lire plus</a>
-            </div>
-        </div>
+        </a>
+    <?php endwhile; ?>
+</div>

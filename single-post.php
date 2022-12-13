@@ -50,8 +50,9 @@ get_header();
             
             wp_reset_postdata();
         ?>
-
+    <?php echo do_shortcode(['[yarpp template="yarpp-template-posts"]']) ?>
     </section>
+
 
     <!-- Partie article--------------------------------------->
 
