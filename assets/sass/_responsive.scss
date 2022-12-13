@@ -82,7 +82,7 @@
 	}
 
 	#citation {
-		height: 50vh;
+		height: 30vh;
 		div p {
 			padding: 0 25px;
 			font-size: 18px;
@@ -231,5 +231,9 @@
 			text-align: justify;
 			padding: 25px;
 		}
+
+		.cta-prog div{
+max-width: 75%;
+		}  
 	}
 }

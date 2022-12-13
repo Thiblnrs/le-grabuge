@@ -1778,7 +1778,7 @@ h3 > span {
     margin: auto;
   }
   #citation {
-    height: 50vh;
+    height: 30vh;
   }
   #citation div p {
     padding: 0 25px;
@@ -1902,6 +1902,9 @@ h3 > span {
   .page-id-103 p {
     text-align: justify;
     padding: 25px;
+  }
+  .page-id-103 .cta-prog div {
+    max-width: 75%;
   }
 }
 #section404 img {
