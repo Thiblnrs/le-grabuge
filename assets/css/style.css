@@ -1937,6 +1937,10 @@ h3 > span {
   .cover-date #prochain-artiste {
     padding-bottom: 1px;
   }
+  .cover-date #detail-concert h2, .cover-date #detail-concert p {
+    padding: 5px;
+    line-height: 20px;
+  }
   .cover-date .single-post main {
     padding-top: 0px;
   }
