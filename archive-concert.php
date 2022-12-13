@@ -14,7 +14,11 @@ get_header();
         <h1><?php the_archive_title() ?></h1>
         <hr>
         <?php
-        $genres_musicaux = get_the_terms( $post->ID, 'genre');
+        $genres_musicaux = get_terms( array(
+          'taxonomy' => 'genre', // set your taxonomy here
+          'hide_empty' => false, // default: true
+        ) );
+
         if ($genres_musicaux && ! is_wp_error($genres_musicaux)): ?>
             <?php foreach($genres_musicaux as $genre_musical): ?>
                 <!-- The slug is the URL of taxonomy,  defined at the time of registration taxonomy within 'rewrite'.-->
