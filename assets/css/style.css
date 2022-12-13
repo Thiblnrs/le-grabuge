@@ -1708,6 +1708,10 @@ h3 > span {
 }
 
 @media screen and (max-width: 767px) {
+  .container {
+    min-width: 100%;
+    width: 100%;
+  }
   .cta-prog div {
     max-width: 91%;
     text-align: center;
