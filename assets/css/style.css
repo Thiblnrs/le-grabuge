@@ -1908,6 +1908,12 @@ h3 > span {
   .cont-artiste-3 {
     width: 100%;
   }
+  .single-post main {
+    padding-top: 0px;
+  }
+  .single-post main h1 {
+    font-size: 20px;
+  }
 }
 #section404 img {
   padding-top: 100px;
