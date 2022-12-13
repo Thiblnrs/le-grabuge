@@ -3,9 +3,9 @@ jQuery(document).ready(function ($) {
 	$(window).scroll(function () {
 		var scroll = $(window).scrollTop();
 		if (scroll >= 20) {
-			$("header").addClass("darkHeader");
+			$("body > header").addClass("darkHeader");
 		} else if (scroll < 20) {
-			$("header").removeClass("darkHeader");
+			$("body > header").removeClass("darkHeader");
 		}
 	});
 	// Paramétrage slider accueil
