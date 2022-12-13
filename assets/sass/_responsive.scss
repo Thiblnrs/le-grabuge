@@ -254,4 +254,15 @@
 			width: 100%;
 		}
 	}
+	//Concert
+	#detail-concert {
+		flex-direction: column-reverse;
+		& > div,
+		img {
+			width: 100%;
+		}
+		img {
+			aspect-ratio: 16/9;
+		}
+	}
 }

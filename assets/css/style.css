@@ -1920,6 +1920,16 @@ h3 > span {
 .page-id-107 #zone-contact #contact-form {
     width: 100%;
   }
+  #detail-concert {
+    flex-direction: column-reverse;
+  }
+  #detail-concert > div,
+#detail-concert img {
+    width: 100%;
+  }
+  #detail-concert img {
+    aspect-ratio: 16/9;
+  }
 }
 #section404 img {
   padding-top: 100px;

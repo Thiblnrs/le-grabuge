@@ -33,16 +33,16 @@ get_header();
 59000 Lille
 03.21.45.86.59.
 </p>
-<div class="cta-apropos"><a href="#">ITINéraire</a></div>
+<div class="cta-apropos"><a href="https://goo.gl/maps/w8TzRwB8sMf5tn1EA" target="_blank">ITINéraire</a></div>
 <hr class="espace-hr">
 </div>
 <div>
 <h4>Envie d’en savoir plus sur le grabuge?</h4>
-<div class="cta-apropos"><a href="https://cdui.amigrafdev.com/thibault/a-propos/">à propos</a></div>
+<div class="cta-apropos"><a href="<?php echo home_url() ?>/a-propos/">à propos</a></div>
 <hr class="espace-hr">
 </div>
 <h4>A la recherche d’informations ?</h4>
-<div class="cta-apropos"><a href="https://cdui.amigrafdev.com/thibault/infos-pratiques/">INFOS PRATIQUES</a></div>
+<div class="cta-apropos"><a href="<?php echo home_url() ?>/infos-pratiques/">INFOS PRATIQUES</a></div>
 <hr class="espace-hr">
 
 </div>
