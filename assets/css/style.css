@@ -1815,6 +1815,9 @@ h3 > span {
     padding: 25px 10%;
     font-size: 24px;
   }
+  #raccourcis ul li a {
+    padding: 0;
+  }
 }
 #section404 img {
   padding-top: 100px;
