@@ -41,8 +41,12 @@
 		flex-direction: column;
 		gap
 	}
+
 	.cont-artiste {
 		    width: 100%;
+			div{
+padding: 0 15px;
+			}
 
 .coverdate{
 	    margin-top: 15px;
@@ -51,7 +55,8 @@
 			    margin-top: 10px;
 }
 		}
-}
+
+
 	#desc {
 		width: 95%;
 		left: 50%;
