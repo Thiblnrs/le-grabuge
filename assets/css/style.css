@@ -22,7 +22,8 @@ body {
   font-family: "Montserrat";
 }
 
-.container {
+.container,
+.site-main {
   max-width: 1165px;
   width: 95%;
   margin: 0 auto;
@@ -1676,6 +1677,22 @@ h3 > span {
   color: lightgray;
 }
 
+.site-main #cmplz-document {
+  max-width: none;
+}
+.site-main h1,
+.site-main h2,
+.site-main h3,
+.site-main h4,
+.site-main h5,
+.site-main h6 {
+  color: white;
+  text-transform: uppercase;
+}
+.site-main h1 {
+  text-align: center;
+}
+
 @media screen and (max-width: 767px) {
   .page main {
     padding-top: 0;
@@ -1916,6 +1933,9 @@ h3 > span {
   }
   .blog .container .actualite {
     width: 100%;
+  }
+  .blog .container .actualite hr {
+    margin: 9px 0 23px 0;
   }
 }
 #section404 img {
