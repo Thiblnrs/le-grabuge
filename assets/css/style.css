@@ -1870,6 +1870,9 @@ h3 > span {
   .blog .container img {
     padding-top: 30px;
   }
+  .blog .container hr {
+    margin: 25px 0 0px 0;
+  }
   .page-id-103 h1 {
     text-align: center;
     color: #fff;
