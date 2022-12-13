@@ -9,7 +9,10 @@
 
 get_header();
 ?>
+
 <main class="container">
+<?php while (have_posts() ) :the_post(); ?> ?>
+
     <div class="width-thumbnail">
         <?php the_post_thumbnail()?>
     </div>
@@ -42,7 +45,7 @@ get_header();
 
 
 
-
+<?php endwhile; ?>
 </main><!-- #main -->
 
 <?php
