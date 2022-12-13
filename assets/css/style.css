@@ -1718,6 +1718,9 @@ h3 > span {
   header strong {
     display: none;
   }
+  #cover {
+    height: 80vh;
+  }
   #menu-contenu {
     text-align: center;
     padding: 30px;
