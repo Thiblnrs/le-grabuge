@@ -1808,9 +1808,14 @@ h3 > span {
   }
   #articles {
     flex-direction: column;
+    gap: 50px;
   }
   #articles div {
     width: 95%;
+    margin: auto;
+  }
+  #articles div h4 {
+    font-size: 21px;
   }
   #raccourcis ul li {
     padding: 25px 10%;

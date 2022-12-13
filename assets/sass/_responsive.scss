@@ -120,8 +120,13 @@
 
 	#articles {
 		flex-direction: column;
+		gap: 50px;
 		div {
 			width: 95%;
+			margin: auto;
+			h4{
+				font-size: 21px;
+			}
 		}
 	}
 	#raccourcis ul li {
