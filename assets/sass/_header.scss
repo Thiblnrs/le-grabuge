@@ -52,13 +52,13 @@ header {
 				font-weight: 400;
 				text-transform: uppercase;
 				color: lightgray;
-					transition: 0.25s ease-in-out all;
+				transition: 0.25s ease-in-out all;
 
-	&:hover {
-		border: 1px solid white;
-		color: #ffffff;
-
-	}
+				&:hover {
+					border: 1px solid white;
+					color: #ffffff;
+					padding: 5px;
+				}
 			}
 		}
 	}
@@ -238,6 +238,6 @@ header {
 	color: white;
 }
 
-.upermenu{
+.upermenu {
 	text-transform: uppercase;
 }

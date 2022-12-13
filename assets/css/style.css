@@ -211,6 +211,7 @@ header > nav ul li a {
 header > nav ul li a:hover {
   border: 1px solid white;
   color: #ffffff;
+  padding: 5px;
 }
 
 .darkHeader {
@@ -1707,7 +1708,7 @@ h3 > span {
 }
 
 @media screen and (max-width: 767px) {
-  header h1 {
+  header strong {
     display: none;
   }
   #menu-contenu {
@@ -1751,7 +1752,25 @@ h3 > span {
     font-size: 30px;
     letter-spacing: 15px;
   }
+  #desc-salle > div {
+    flex-direction: column;
+  }
+  #desc-salle > div img {
+    display: none;
+  }
+  #desc-salle > div h4 {
+    font-size: 38px;
+  }
+  .desc-salle-texte {
+    flex-direction: column;
+    padding: 20px;
+  }
 }
+.prochainement h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
 #section404 img {
   padding-top: 100px;
   width: 100%;

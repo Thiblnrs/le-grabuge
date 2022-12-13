@@ -1,5 +1,5 @@
 @media screen and (max-width: 767px) {
-	header h1 {
+	header strong {
 		display: none;
 	}
 
@@ -49,4 +49,25 @@
 		font-size: 30px;
 		letter-spacing: 15px;
 	}
+
+	//accueil
+	#desc-salle > div {
+		flex-direction: column;
+		img{
+			display: none;
+		}
+		h4{
+			font-size: 38px;
+		}
+	}
+
+	.desc-salle-texte{
+		flex-direction: column;
+		padding: 20px;
+	}
 }
+.prochainement h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
