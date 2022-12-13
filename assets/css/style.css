@@ -1833,10 +1833,14 @@ h3 > span {
   #raccourcis ul li a {
     padding: 0;
   }
+  #footer-rs {
+    padding: 20px 0 20px 0;
+  }
   .flex-mention {
     -moz-column-count: 3;
          column-count: 3;
     flex-direction: column;
+    text-align: center;
   }
 }
 #section404 img {
