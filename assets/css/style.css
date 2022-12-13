@@ -1716,6 +1716,7 @@ h3 > span {
     display: none;
   }
   #menu-contenu {
+    text-align: center;
     padding: 30px;
   }
   #menu-contenu > div {
@@ -1777,6 +1778,10 @@ h3 > span {
   font-size: 28px;
   text-align: center;
   padding: 30px 0 15px;
+}
+
+#articles {
+  flex-direction: column;
 }
 
 #section404 img {
