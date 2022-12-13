@@ -1352,6 +1352,18 @@ h3 > span {
   margin-top: auto;
 }
 
+#titre-programmation div {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+#titre-programmation div span {
+  color: white;
+}
+#titre-programmation div span.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
 #titre-programmation h1 {
   text-align: center;
   color: white;

@@ -90,7 +90,7 @@
 				justify-content: space-between;
 				& p:last-of-type {
 					width: 100%;
-									}
+				}
 			}
 
 			> span {
@@ -115,11 +115,25 @@
 	}
 }
 
-#titre-programmation   h1{
-        text-align: center;
-        color: white;
-        text-transform: uppercase;
-        font-size: 40px;
-    letter-spacing: 10px; 
-    font-weight: 200;
-    }
+#titre-programmation {
+	div {
+		display: flex;
+		gap: 20px;
+		flex-wrap: wrap;
+		span {
+			color: white;
+			&.active {
+				font-weight: bold;
+				text-decoration: underline;
+			}
+		}
+	}
+	h1 {
+		text-align: center;
+		color: white;
+		text-transform: uppercase;
+		font-size: 40px;
+		letter-spacing: 10px;
+		font-weight: 200;
+	}
+}
