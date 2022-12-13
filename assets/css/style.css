@@ -1745,6 +1745,9 @@ h3 > span {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  #desc h2 {
+    text-align: center;
+  }
   .post-type-archive-concert .mois .detailConcert {
     width: 100%;
   }
