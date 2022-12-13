@@ -1849,6 +1849,7 @@ h3 > span {
   #footer-nav > div {
     padding: 25px 0;
     text-align: center;
+    flex-direction: column;
   }
   .flex-mention {
     -moz-column-count: 1;
