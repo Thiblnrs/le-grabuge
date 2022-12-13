@@ -1931,6 +1931,14 @@ h3 > span {
   #detail-concert img {
     aspect-ratio: 16/9;
   }
+  .cover-date {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cont-artiste-3 {
+    width: 100%;
+  }
 }
 #section404 img {
   padding-top: 100px;
