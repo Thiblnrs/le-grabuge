@@ -120,7 +120,7 @@ get_header();
         </div>
 
         <section class="cta-prog">
-            <div><a href="https://cdui.amigrafdev.com/thibault/concert/">PROGRAMMATION COMPLÈTE</a></div>
+            <div><a href="<?php echo home_url() ?>/concert/">PROGRAMMATION COMPLÈTE</a></div>
 
             <hr />
         </section>

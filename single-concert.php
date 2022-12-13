@@ -93,7 +93,7 @@ get_header();
     <div id="background-aimeriez">
         
     <section class="container prochainement">
-        <h2>Vous aimerez</h2>
+        <h2>LES PROCHAIN ARTISTES</h2>
         <hr>
     </section>
 

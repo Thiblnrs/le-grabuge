@@ -24,7 +24,7 @@ get_header();
     </section>
 <section>
 <hr>
-<h2>ARTICLES SIMILAIRES</h2>
+<h2>AUTRES ARTICLES</h2>
 
 </section>
     <section id="articles">
