@@ -177,13 +177,19 @@
 /////actualité
 
 /////A PROPOS
-.page-id-103 #liste-artiste p {
+.page-id-103{
+
+main {
+ padding-top: 200px;
+}
+
+ #liste-artiste p {
     font-size: 20px;
     text-align: justify;
     line-height: 35px;
     width: 100%;
     padding: 0 25px;
-
+}
 .container-apropos h2 {
     font-size: 20px;
     letter-spacing: 10px;
