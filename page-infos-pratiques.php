@@ -21,7 +21,7 @@ get_header();
         <hr>
     </div>
     <div class="tabs container">
-        <button id="btn-billet">Acheter son billet</button>
+        <button id="btn-billet active">Acheter son billet</button>
         <button id="btn-handicap">Personnes en situation de handicap</button>
         <button id="btn-reglement">Règlement intérieur</button>
         <button id="btn-faq">FAQ</button>
