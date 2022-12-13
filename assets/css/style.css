@@ -816,7 +816,7 @@ footer {
 }
 .cta-bw:hover {
   border: solid 1px white;
-  color: white;
+  color: #fff;
   background: #141414;
 }
 
@@ -948,11 +948,8 @@ footer {
   object-fit: cover;
   -o-object-position: top center;
   object-position: top center;
-  box-shadow: 3px 5px 38px black;
+  box-shadow: 4px 8px 16px #000;
   transition: 0.25s ease-in-out all;
-}
-#detail-concert img:hover {
-  box-shadow: 3px 5px 18px white;
 }
 
 .position-ytb {
@@ -1456,7 +1453,7 @@ h3 > span {
 }
 
 .page-id-103 main {
-  padding-top: 200px;
+  padding-top: 100px;
 }
 .page-id-103 .container-apropos {
   max-width: 1000px;
@@ -1584,7 +1581,7 @@ h3 > span {
   text-align: left;
 }
 .page-id-107 #zone-contact h4 {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 400;
   color: #d9d9d9;
   text-align: left;
