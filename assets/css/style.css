@@ -1893,6 +1893,9 @@ h3 > span {
     letter-spacing: 1px;
     font-weight: 200;
   }
+  .page-id-103 #diapo img {
+    margin: 0;
+  }
   .page-id-103 .h1-hr {
     width: 92%;
     margin: auto;
