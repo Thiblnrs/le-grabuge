@@ -141,7 +141,7 @@ get_header();
     <!-- DESCRIPTION SALLE--------------------------------------->
     <section id="desc-salle">
         <div>
-            <img src="<?php echo get_template_directory_uri() ?>/assets/img/grabuge-ext.jpg" alt="" />
+            <img src="<?php echo get_template_directory_uri() ?>/assets/img/grabuge-ext.webp" alt="" />
             <div class="desc-salle-texte">
                 <h4>Le grabuge c'est quoi ?</h4>
                 <p>Situé sur Lille LE GRABUGE est une salle de spectacle dédiée aux musiques électroniques. <br>
