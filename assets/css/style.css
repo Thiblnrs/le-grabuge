@@ -1746,7 +1746,10 @@ h3 > span {
     flex-direction: column;
   }
   .cont-artiste {
-    width: 90%;
+    width: 100%;
+  }
+  .cont-artiste .coverdate {
+    margin-top: 15px;
   }
   #desc {
     width: 95%;
