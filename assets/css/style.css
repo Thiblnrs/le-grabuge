@@ -1777,12 +1777,18 @@ h3 > span {
   #diapo img {
     margin: auto;
   }
+  #citation {
+    height: 50vh;
+  }
   #citation div p {
     padding: 0 25px;
     font-size: 18px;
   }
   .post-type-archive-concert .mois .detailConcert {
     width: 100%;
+  }
+  #newsletter {
+    padding: 25px;
   }
   #newsletter > div div p {
     margin-top: 25px;
@@ -1807,7 +1813,7 @@ h3 > span {
   }
   .desc-salle-texte {
     flex-direction: column;
-    padding: 0 gpx;
+    padding: 20px;
   }
   .prochainement {
     padding: 30px 0 0;
