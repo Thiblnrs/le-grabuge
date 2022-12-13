@@ -1756,6 +1756,9 @@ h3 > span {
   .cont-artiste {
     width: 100%;
   }
+  .cont-artiste div {
+    width: 100%;
+  }
   .cont-artiste hr {
     width: 100%;
   }
@@ -1807,6 +1810,9 @@ h3 > span {
 
 #articles {
   flex-direction: column;
+}
+#articles div {
+  width: 95%;
 }
 
 #section404 img {

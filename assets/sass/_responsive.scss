@@ -1,29 +1,28 @@
 @media screen and (max-width: 767px) {
-
-	.container{
-min-width: 100%;
+	.container {
+		min-width: 100%;
 		width: 100%;
 	}
-	.cta-prog div{
+	.cta-prog div {
 		max-width: 91%;
 		text-align: center;
 	}
-	
-	header{
-    width: 100%;
 
- strong {
-		display: none;
-	}
+	header {
+		width: 100%;
+
+		strong {
+			display: none;
 		}
+	}
 
-	#cover{
-		    height: 80vh;
+	#cover {
+		height: 80vh;
 	}
 
 	//Menu
 	#menu-contenu {
-		    text-align: center;
+		text-align: center;
 		padding: 30px;
 		& > div {
 			width: 100%;
@@ -52,21 +51,23 @@ min-width: 100%;
 	}
 
 	.cont-artiste {
-		    width: 100%;
-			}
-
-		.cont-artiste hr{
-				width: 100%;
-			}
-
-.coverdate{
-	    margin-top: 15px;
-
-		hr{
-			    margin-top: 10px;
-}
+		width: 100%;
+		div {
+			width: 100%;
 		}
+	}
 
+	.cont-artiste hr {
+		width: 100%;
+	}
+
+	.coverdate {
+		margin-top: 15px;
+
+		hr {
+			margin-top: 10px;
+		}
+	}
 
 	#desc {
 		width: 95%;
@@ -86,40 +87,40 @@ min-width: 100%;
 	}
 
 	//accueil
-	
-	#desc-salle{
 
-	padding: 0;
+	#desc-salle {
+		padding: 0;
 
-	 > div {
-		flex-direction: column;
-		img{
-			display: none;
-		}
-		h4{
-			font-size: 38px;
+		> div {
+			flex-direction: column;
+			img {
+				display: none;
+			}
+			h4 {
+				font-size: 38px;
+			}
 		}
 	}
-	}
 
-	.desc-salle-texte{
+	.desc-salle-texte {
 		flex-direction: column;
 		padding: 20px;
 	}
 }
-.prochainement{
-padding: 30px 0 0 
+.prochainement {
+	padding: 30px 0 0;
 }
 
- .prochainement h2 {
-    font-size: 25px;
-    text-align: center;
+.prochainement h2 {
+	font-size: 25px;
+	text-align: center;
 	padding: 0px 0 15px;
 	margin: 0px 0 -5px;
 }
 
-
-#articles{
+#articles {
 	flex-direction: column;
+	div {
+		width: 95%;
+	}
 }
-
