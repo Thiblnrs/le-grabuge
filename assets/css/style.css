@@ -1922,6 +1922,7 @@ h3 > span {
   }
   #detail-concert {
     flex-direction: column-reverse;
+    padding: 20px 0;
   }
   #detail-concert > div,
 #detail-concert img {
