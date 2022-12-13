@@ -125,24 +125,23 @@
 		}
 	}
 
-#mail{
+	#mail {
+		text-transform: uppercase;
+		background-image: url("../img/logo-grab.png");
+		background-repeat: no-repeat;
+		background-size: 80%;
+		background-position: bottom right;
 
-	text-transform: uppercase;
+		p {
+			color: white;
+			text-transform: none;
+		}
+		h3 {
+			font-size: 20px;
+		}
 
-	p{
-		color: white;
-		text-transform: none;
+		span {
+			color: lightgray;
+		}
 	}
- h3{
-		font-size: 20px;
-	}
-
-	span{
-		color: lightgray;
-	}
-}
-background-image: url('../img/logo-grab.png');
-background-repeat: no-repeat;
-background-size: 80%;
-background-position: bottom right;
 }
