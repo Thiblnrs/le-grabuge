@@ -108,14 +108,16 @@ min-width: 100%;
 }
 .prochainement{
 padding: 30px 0 0 
+}
 
- h2 {
+ .prochainement h2 {
     font-size: 25px;
     text-align: center;
 	padding: 30px 0 15px;
 	margin: 0px 0 -5px;
 }
-}
+
+
 #articles{
 	flex-direction: column;
 }

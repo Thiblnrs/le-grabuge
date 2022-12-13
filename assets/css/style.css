@@ -1794,11 +1794,14 @@ h3 > span {
   }
 }
 .prochainement {
-  padding: 30px 0 0 h2;
-  padding-font-size: 25px;
-  padding-text-align: center;
-  padding-padding: 30px 0 15px;
-  padding-margin: 0px 0 -5px;
+  padding: 30px 0 0;
+}
+
+.prochainement h2 {
+  font-size: 25px;
+  text-align: center;
+  padding: 30px 0 15px;
+  margin: 0px 0 -5px;
 }
 
 #articles {
