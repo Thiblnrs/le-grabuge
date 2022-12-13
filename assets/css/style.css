@@ -1914,6 +1914,9 @@ h3 > span {
   .single-post main h1 {
     font-size: 20px;
   }
+  .blog .container .actualite {
+    width: 100%;
+  }
 }
 #section404 img {
   padding-top: 100px;
