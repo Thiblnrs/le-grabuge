@@ -1850,12 +1850,41 @@ h3 > span {
     flex-direction: column;
     text-align: center;
   }
+  .page-id-103 h1 {
+    text-align: center;
+    color: #fff;
+    padding: 25px 0 15px 0;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 200;
+  }
+  .page-id-103 .h1-hr {
+    width: 92%;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  .page-id-103 main {
+    padding-top: 0px;
+  }
   .page-id-103 #liste-artiste p {
     font-size: 20px;
     text-align: justify;
     line-height: 35px;
     width: 100%;
     padding: 0 25px;
+  }
+  .page-id-103 .container-apropos h2 {
+    font-size: 20px;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 25px 0 15px 0;
+    color: #fff;
+    font-weight: 400;
+  }
+  .page-id-103 p {
+    text-align: justify;
+    padding: 25px;
   }
 }
 #section404 img {
