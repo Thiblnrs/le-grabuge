@@ -1837,8 +1837,8 @@ h3 > span {
     padding: 20px 0 20px 0;
   }
   .flex-mention {
-    -moz-column-count: 3;
-         column-count: 3;
+    -moz-column-count: 1;
+         column-count: 1;
     flex-direction: column;
     text-align: center;
   }
