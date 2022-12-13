@@ -1748,8 +1748,17 @@ h3 > span {
   .cont-artiste {
     width: 100%;
   }
-  .cont-artiste .coverdate {
+  .cont-artiste div {
+    padding: 0 15px;
+  }
+  .cont-artiste hr {
+    width: 100%;
+  }
+  .coverdate {
     margin-top: 15px;
+  }
+  .coverdate hr {
+    margin-top: 10px;
   }
   #desc {
     width: 95%;
@@ -1784,6 +1793,7 @@ h3 > span {
   font-size: 28px;
   text-align: center;
   padding: 30px 0 15px;
+  margin: 0px 0 -5px;
 }
 
 #articles {

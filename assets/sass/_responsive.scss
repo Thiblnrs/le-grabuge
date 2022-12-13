@@ -39,19 +39,20 @@
 
 	#prochain-artiste > div {
 		flex-direction: column;
-		gap
 	}
 
 	.cont-artiste {
 		    width: 100%;
+			}
 
-			div{
+		.cont-artiste div{
 padding: 0 15px;
 			}
-			hr{
+
+		.cont-artiste hr{
 				width: 100%;
 			}
-}
+
 .coverdate{
 	    margin-top: 15px;
 
