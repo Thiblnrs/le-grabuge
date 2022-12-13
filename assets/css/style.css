@@ -1751,6 +1751,7 @@ h3 > span {
   }
   #prochain-artiste > div {
     flex-direction: column;
+    gap: 0;
   }
   .cont-artiste {
     width: 100%;
