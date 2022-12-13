@@ -1913,6 +1913,13 @@ h3 > span {
     width: 100%;
     padding: 20px;
   }
+  .page-id-107 #zone-contact {
+    flex-direction: column;
+  }
+  .page-id-107 #zone-contact #zonecta,
+.page-id-107 #zone-contact #contact-form {
+    width: 100%;
+  }
 }
 #section404 img {
   padding-top: 100px;

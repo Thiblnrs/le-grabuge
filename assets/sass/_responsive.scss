@@ -235,6 +235,7 @@
 			max-width: 75%;
 		}
 	}
+	//infos pratiques
 	.page-id-105 main {
 		.tabs {
 			flex-direction: column;
@@ -243,6 +244,14 @@
 		button {
 			width: 100%;
 			padding: 20px;
+		}
+	}
+	//Contact
+	.page-id-107 #zone-contact {
+		flex-direction: column;
+		#zonecta,
+		#contact-form {
+			width: 100%;
 		}
 	}
 }
