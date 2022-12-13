@@ -157,7 +157,7 @@ hr {
   font-display: swap;
 }
 /*************************HEADER*****************************/
-header {
+body > header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -170,19 +170,19 @@ header {
   transition: 0.25s linear all;
   /*************************NAV*****************************/
 }
-header > div:first-child {
+body > header > div:first-child {
   display: flex;
   align-items: center;
   margin: 25px;
 }
-header > div:first-child span {
+body > header > div:first-child span {
   margin-left: 25px;
   font-weight: 200;
   letter-spacing: 5px;
   color: white;
   text-transform: uppercase;
 }
-header > div:first-child strong {
+body > header > div:first-child strong {
   margin-left: 25px;
   font-weight: 200;
   letter-spacing: 5px;
@@ -190,18 +190,18 @@ header > div:first-child strong {
   text-transform: uppercase;
   font-size: 32px;
 }
-header > div:first-child img {
+body > header > div:first-child img {
   width: 50px;
 }
-header > nav ul {
+body > header > nav ul {
   display: flex;
   margin-right: 25px;
 }
-header > nav ul li {
+body > header > nav ul li {
   display: block;
   padding: 25px;
 }
-header > nav ul li a {
+body > header > nav ul li a {
   letter-spacing: 5px;
   font-size: 16px;
   font-weight: 400;
@@ -209,7 +209,7 @@ header > nav ul li a {
   color: lightgray;
   transition: 0.25s ease-in-out all;
 }
-header > nav ul li a:hover {
+body > header > nav ul li a:hover {
   border: 1px solid white;
   color: #ffffff;
   padding: 5px;
