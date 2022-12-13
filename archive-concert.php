@@ -18,7 +18,7 @@ get_header();
           <?php
           $genres_musicaux = get_terms( array(
             'taxonomy' => 'genre', // set your taxonomy here
-            'hide_empty' => false, // default: true
+            'hide_empty' => true, // default: true
           ) );
           if ($genres_musicaux && ! is_wp_error($genres_musicaux)): ?>
               <?php foreach($genres_musicaux as $genre_musical): ?>
