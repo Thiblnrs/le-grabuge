@@ -25,8 +25,8 @@
        <!-- RS--------------------------------------->
        <Section class="rs-footer">
         <div>
-<a href="https://www.facebook.com/profile.php?id=100086564177454"><i class="fa-brands fa-facebook"></i></a>
-<a href="https://www.instagram.com/grabugelille/"><i class="fa-brands fa-instagram"></i></a></div>
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-instagram"></i></div>
        </Section>
     <!-- footer--------------------------------------->
     <section id="footer-nav">
