@@ -1860,6 +1860,10 @@ h3 > span {
     text-align: center;
     width: 100%;
   }
+  .blog .container .grilleActu {
+    display: block;
+    width: 100%;
+  }
   .page-id-103 h1 {
     text-align: center;
     color: #fff;
