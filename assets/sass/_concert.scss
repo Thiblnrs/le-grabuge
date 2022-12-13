@@ -27,7 +27,7 @@
 		object-fit: cover;
 		-o-object-position: top center;
 		object-position: top center;
-		box-shadow: 3px 5px 38px  black;
+			box-shadow: 2px -1px 0 2px rgb(0, 0, 0);
 		transition: 0.25s ease-in-out all;
 
 	&:hover {
@@ -35,6 +35,7 @@
 	}
 	}
 }
+box-shadow: 3px 5px 38px  black;
 box-shadow: 3px 5px 22px white
 .position-ytb {
 	position: relative;
