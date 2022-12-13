@@ -14,7 +14,7 @@ get_header();
         <h1><?php the_archive_title() ?></h1>
         <hr>
         <div>
-          <span id="all">Tous</span>
+          <span id="all" class="active">Tous</span>
           <?php
           $genres_musicaux = get_terms( array(
             'taxonomy' => 'genre', // set your taxonomy here

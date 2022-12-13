@@ -1356,6 +1356,7 @@ h3 > span {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 #titre-programmation div span {
   color: white;
