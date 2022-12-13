@@ -1798,6 +1798,9 @@ h3 > span {
     letter-spacing: 15px;
     margin-top: 15px;
   }
+  #newsletter .mailpoet_form .mailpoet_paragraph {
+    width: 100% !important;
+  }
   #desc-salle {
     padding: 0;
   }
