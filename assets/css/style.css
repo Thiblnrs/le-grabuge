@@ -209,6 +209,7 @@ header > nav ul li a {
   transition: 0.25s ease-in-out all;
 }
 header > nav ul li a:hover {
+  border: 1px solid white;
   color: #ffffff;
 }
 
@@ -950,7 +951,7 @@ footer {
   transition: 0.25s ease-in-out all;
 }
 #detail-concert img:hover {
-  box-shadow: 3px 5px 22px white;
+  box-shadow: 5px -5px 0 1px white;
 }
 
 .position-ytb {
