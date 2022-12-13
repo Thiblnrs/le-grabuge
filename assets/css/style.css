@@ -1860,6 +1860,9 @@ h3 > span {
     text-align: center;
     width: 100%;
   }
+  .blog .container h1 {
+    padding-top: 25px;
+  }
   .blog .container .grilleActu {
     display: block;
     width: 100%;
