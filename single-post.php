@@ -28,28 +28,7 @@ get_header();
 
 </section>
     <section id="articles">
-        <?php 
-            $args = array(
-                'post_type' => 'post',
-                'posts_per_page' => 3,
-            );
-            
-            $query = new WP_Query($args);
-            
-            if ( $query->have_posts() ) :
-                while ( $query->have_posts() ) : $query->the_post(); ?>
-        <div>
-            <?php the_post_thumbnail() ?>
-            <h3><?php the_title() ?></h3>
-            <?php the_excerpt() ?>
-            <div class=" cta-esp"><a href="<?php the_permalink() ?>">En lire plus</a>
-            </div>
-        </div>
-        <?php endwhile;
-            endif;
-            
-            wp_reset_postdata();
-        ?>
+       
     <?php echo do_shortcode('[yarpp template="yarpp-template-posts" limit=3]') ?>
     </section>
 
