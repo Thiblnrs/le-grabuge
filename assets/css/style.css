@@ -1845,6 +1845,10 @@ h3 > span {
   #footer-nav div {
     width: 100%;
   }
+  #footer-nav div:last-of-type {
+    text-align: center;
+    margin-top: 25px;
+  }
   #footer-nav div p {
     padding: 0;
   }
@@ -1962,7 +1966,8 @@ h3 > span {
   .cover-date #prochain-artiste {
     padding-bottom: 1px;
   }
-  .cover-date #detail-concert h2, .cover-date #detail-concert p {
+  .cover-date #detail-concert h2,
+.cover-date #detail-concert p {
     padding: 5px;
     line-height: 20px;
   }

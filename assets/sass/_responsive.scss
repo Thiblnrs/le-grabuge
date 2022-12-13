@@ -62,8 +62,8 @@
 	}
 
 	.cont-artiste-3 {
-    width: 100%;
-}
+		width: 100%;
+	}
 	.coverdate {
 		margin-top: 15px;
 
@@ -141,13 +141,13 @@
 	.prochainement h2 {
 		font-size: 25px;
 		text-align: center;
-		padding: 0 0 15px ;
+		padding: 0 0 15px;
 		margin: 0px 0 -5px;
 	}
 
 	.h2-concert-page {
-    font-size: 27px;
-}
+		font-size: 27px;
+	}
 	#articles {
 		flex-direction: column;
 		gap: 50px;
@@ -175,6 +175,11 @@
 	#footer-nav div {
 		width: 100%;
 
+		&:last-of-type {
+			text-align: center;
+			margin-top: 25px;
+		}
+
 		p {
 			padding: 0;
 		}
@@ -195,27 +200,27 @@
 
 	/////actualité
 	.blog .container h1 {
-    padding-top: 25px;
+		padding-top: 25px;
 	}
 	.blog .container .grilleActu {
-     display: block;;
-    width: 100%;
+		display: block;
+		width: 100%;
 	}
 
-.blog .container .actualite {
- width:100%;
-}
+	.blog .container .actualite {
+		width: 100%;
+	}
 
-.blog .container img {
-    padding-top: 30px;
-}
+	.blog .container img {
+		padding-top: 30px;
+	}
 
-.blog .container hr {
-    margin: 25px 0 0px 0;
-}
-.blog #newsletter {
-     padding: 0px 0px;
-}
+	.blog .container hr {
+		margin: 25px 0 0px 0;
+	}
+	.blog #newsletter {
+		padding: 0px 0px;
+	}
 
 	/////A PROPOS
 	.page-id-103 {
@@ -296,45 +301,46 @@
 	}
 
 	.h3-concert-page {
-    font-size: 20px;
-    letter-spacing: 5px;
-}
+		font-size: 20px;
+		letter-spacing: 5px;
+	}
 	.cover-date {
 		gap: 20px;
 
-	>p {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 17px;
-	}
+		> p {
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 17px;
+		}
 
-	.cont-artiste-3 {
-		width: 100%;
-	}
+		.cont-artiste-3 {
+			width: 100%;
+		}
 
-	#prochain-artiste {
-    padding-bottom: 1px;
-}
-#detail-concert h2, #detail-concert p {
-    padding: 5px;
-    line-height: 20px;
-}
+		#prochain-artiste {
+			padding-bottom: 1px;
+		}
+		#detail-concert h2,
+		#detail-concert p {
+			padding: 5px;
+			line-height: 20px;
+		}
 
-	//Article
-	.single-post main {
-		padding-top: 0px;
+		//Article
+		.single-post main {
+			padding-top: 0px;
 
-		h1 {
-			font-size: 20px;
+			h1 {
+				font-size: 20px;
+			}
+		}
+
+		//Archive Article
+		.blog .container .actualite {
+			width: 100%;
+			hr {
+				margin: 9px 0 23px 0;
+			}
 		}
 	}
-
-	//Archive Article
-	.blog .container .actualite {
-		width: 100%;
-		hr {
-			margin: 9px 0 23px 0;
-		}
-	}
-}
 }
