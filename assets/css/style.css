@@ -1864,6 +1864,9 @@ h3 > span {
     display: block;
     width: 100%;
   }
+  .blog .container .actualite {
+    width: 100%;
+  }
   .page-id-103 h1 {
     text-align: center;
     color: #fff;
