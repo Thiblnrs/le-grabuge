@@ -23,10 +23,10 @@
         </div>
     </section>
        <!-- RS--------------------------------------->
-       <Section>
+       <Section class="rs-footer">
         <div id="footer-rs">
-<i class="fa-brands fa-facebook"></i>
-<i class="fa-brands fa-instagram"></i></div>
+<a href="https://www.facebook.com/profile.php?id=100086564177454"><i class="fa-brands fa-facebook"></i></a>
+<a href="https://www.instagram.com/grabugelille/"><i class="fa-brands fa-instagram"></i></a></div>
        </Section>
     <!-- footer--------------------------------------->
     <section id="footer-nav">
