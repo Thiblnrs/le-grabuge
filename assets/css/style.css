@@ -1779,6 +1779,7 @@ h3 > span {
   #newsletter h2 {
     font-size: 30px;
     letter-spacing: 15px;
+    margin-top: 15px;
   }
   #desc-salle {
     padding: 0;
