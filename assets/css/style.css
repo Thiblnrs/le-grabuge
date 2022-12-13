@@ -1833,6 +1833,11 @@ h3 > span {
   #raccourcis ul li a {
     padding: 0;
   }
+  .flex-mention {
+    -moz-column-count: 3;
+         column-count: 3;
+    flex-direction: column;
+  }
 }
 #section404 img {
   padding-top: 100px;
