@@ -1852,6 +1852,9 @@ h3 > span {
   #footer-nav div {
     width: 100%;
   }
+  #footer-nav div p {
+    padding: 0;
+  }
   #footer-nav > div {
     padding: 25px 0;
     text-align: center;
