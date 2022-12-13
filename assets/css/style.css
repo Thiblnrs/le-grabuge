@@ -1824,7 +1824,7 @@ h3 > span {
   }
   #articles {
     flex-direction: column;
-    gap: 50px;
+    gap: 25px;
   }
   #articles div {
     width: 95%;
