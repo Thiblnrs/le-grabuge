@@ -207,7 +207,6 @@ body > header > nav ul li a {
   font-weight: 400;
   text-transform: uppercase;
   color: lightgray;
-  transition: 0.25s ease-in-out all;
   padding: 5px;
 }
 body > header > nav ul li a:hover {
