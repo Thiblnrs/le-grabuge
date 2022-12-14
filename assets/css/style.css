@@ -208,11 +208,11 @@ body > header > nav ul li a {
   text-transform: uppercase;
   color: lightgray;
   transition: 0.25s ease-in-out all;
+  padding: 5px;
 }
 body > header > nav ul li a:hover {
   border: 1px solid white;
   color: #ffffff;
-  padding: 5px;
 }
 
 .darkHeader {

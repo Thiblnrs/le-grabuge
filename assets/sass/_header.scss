@@ -53,11 +53,11 @@ body > header {
 				text-transform: uppercase;
 				color: lightgray;
 				transition: 0.25s ease-in-out all;
+				padding: 5px;
 
 				&:hover {
 					border: 1px solid white;
 					color: #ffffff;
-					padding: 5px;
 				}
 			}
 		}
