@@ -207,12 +207,12 @@ body > header > nav ul li a {
   font-weight: 400;
   text-transform: uppercase;
   color: lightgray;
-  padding: 5px;
+  padding: 7px;
 }
 body > header > nav ul li a:hover {
   border: 1px solid white;
   color: #ffffff;
-  padding: 3px;
+  padding: 5px;
 }
 
 .darkHeader {
