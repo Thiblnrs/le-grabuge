@@ -149,13 +149,13 @@ body > header {
 			a {
 				color: white;
 				font-size: 25px;
-				font-weight: bold;
+				font-weight: 400;
 				letter-spacing: 15px;
 				line-height: 277%;
 				text-transform: uppercase;
 				&:hover {
 					color: rgb(158, 158, 158);
-					text-decoration: line-through;
+					font-weight: 800;
 					//-webkit-animation: flip 6s 1;
 					//animation: flip 6s 1;
 					// animation-iteration-count: 1;

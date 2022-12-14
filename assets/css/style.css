@@ -292,14 +292,14 @@ body > header > nav ul li a:hover {
 #menu-contenu #menu-principal li a {
   color: white;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 400;
   letter-spacing: 15px;
   line-height: 277%;
   text-transform: uppercase;
 }
 #menu-contenu #menu-principal li a:hover {
   color: rgb(158, 158, 158);
-  text-decoration: line-through;
+  font-weight: 800;
 }
 #menu-contenu #mention ul {
   -moz-columns: 2;
