@@ -301,6 +301,13 @@ body > header > nav ul li a:hover {
   color: white;
   font-weight: 800;
 }
+#menu-contenu #menu-contenu {
+  text-transform: uppercase;
+  background-image: url(../img/logo-grab.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: bottom right;
+}
 #menu-contenu #mention ul {
   -moz-columns: 2;
   columns: 2;
@@ -2016,6 +2023,11 @@ h3 > span {
   }
   #section404 div {
     padding: 25px 0 50px 0;
+  }
+  #section404 div img {
+    padding-top: 0;
+    width: 100%;
+    min-height: 0vh;
   }
 }
 #section404 img {

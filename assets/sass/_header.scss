@@ -164,6 +164,14 @@ body > header {
 		}
 	}
 
+	 #menu-contenu{
+    text-transform: uppercase;
+    background-image: url(../img/logo-grab.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: bottom right;
+}
+
 	#mention ul {
 		-moz-columns: 2;
 		columns: 2;
