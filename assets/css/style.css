@@ -278,6 +278,11 @@ body > header > nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  text-transform: uppercase;
+  background-image: url("../img/gps.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
 }
 #menu-contenu > div {
   width: 50%;
@@ -301,13 +306,6 @@ body > header > nav ul li a:hover {
 #menu-contenu #menu-principal li a:hover {
   color: white;
   font-weight: 800;
-}
-#menu-contenu #menu-contenu {
-  text-transform: uppercase;
-  background-image: url("../img/gps.webp");
-  background-repeat: no-repeat;
-  background-size: 60%;
-  background-position: bottom right;
 }
 #menu-contenu #mention ul {
   -moz-columns: 2;

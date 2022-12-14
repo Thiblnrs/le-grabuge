@@ -133,6 +133,11 @@ body > header {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+	text-transform: uppercase;
+	background-image: url("../img/gps.webp");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: bottom;
 
 	& > div {
 		width: 50%;
@@ -160,14 +165,6 @@ body > header {
 				}
 			}
 		}
-	}
-
-	#menu-contenu {
-		text-transform: uppercase;
-		background-image: url("../img/gps.webp");
-		background-repeat: no-repeat;
-		background-size: 60%;
-		background-position: bottom right;
 	}
 
 	#mention ul {
