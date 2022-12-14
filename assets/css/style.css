@@ -1769,6 +1769,7 @@ h3 > span {
     margin-top: 10px;
   }
   #desc {
+    margin-top: 52px;
     width: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
