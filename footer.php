@@ -23,12 +23,17 @@
         </div>
     </section>
        <!-- RS--------------------------------------->
-       <Section class="rs-footer">
+       <section class="rs-footer">
         <div>
-            <i class="fa-brands fa-facebook"></i></
-<i class="fa-brands fa-instagram"></i>
-</div>
-       </Section>
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+        </div>
+       </section>
     <!-- footer--------------------------------------->
     <section id="footer-nav">
         <div>
