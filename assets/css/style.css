@@ -298,7 +298,7 @@ body > header > nav ul li a:hover {
   text-transform: uppercase;
 }
 #menu-contenu #menu-principal li a:hover {
-  color: rgb(158, 158, 158);
+  color: white;
   font-weight: 800;
 }
 #menu-contenu #mention ul {
