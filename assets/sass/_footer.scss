@@ -135,9 +135,11 @@ footer {
 	}
 }
 
-.rs-footer div a i {
+.rs-footer {
 	text-align: center;
-	color: white;
-	font-size: 60px;
-	padding: 100px 0 100px 0;
+	div a i {
+		color: white;
+		font-size: 60px;
+		padding: 100px 20px;
+	}
 }

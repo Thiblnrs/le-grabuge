@@ -511,11 +511,13 @@ footer {
   padding: 20px;
 }
 
-.rs-footer div a i {
+.rs-footer {
   text-align: center;
+}
+.rs-footer div a i {
   color: white;
   font-size: 60px;
-  padding: 100px 0 100px 0;
+  padding: 100px 20px;
 }
 
 .home header {
