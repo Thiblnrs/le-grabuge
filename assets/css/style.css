@@ -2014,6 +2014,9 @@ h3 > span {
   .page-id-107 #zone-contact #contact-form {
     border: 1px solid white;
   }
+  #section404 div {
+    padding: 25px 0 50px 0;
+  }
 }
 #section404 img {
   padding-top: 100px;
