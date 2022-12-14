@@ -11,6 +11,8 @@ body > header {
 	z-index: 10;
 	transition: 0.25s linear all;
 
+
+
 	& > div:first-child {
 		display: flex;
 		align-items: center;
@@ -117,8 +119,14 @@ body > header {
 #fermer a {
 	font-size: 24px;
 	font-weight: 200;
-	color: white;
-	text-decoration: underline;
+	color: lightgray;
+						transition: 0.25s ease-in-out all;
+
+	&:hover {
+		border: solid 1px white;
+		color: #fff;
+
+	}
 }
 
 /*************************Contenu*****************************/

@@ -37,7 +37,7 @@ get_header();
 <hr class="espace-hr">
 </div>
 <div>
-<h4>Envie d’en savoir plus sur le grabuge?</h4>
+<h4>Envie d’en savoir plus sur le grabuge ?</h4>
 <div class="cta-apropos"><a href="<?php echo home_url() ?>/a-propos/">à propos</a></div>
 <hr class="espace-hr">
 </div>
