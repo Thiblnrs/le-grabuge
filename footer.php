@@ -25,10 +25,10 @@
        <!-- RS--------------------------------------->
        <section class="rs-footer">
         <div>
-            <a href="#">
+            <a href="https://www.facebook.com/profile.php?id=100086564177454">
                 <i class="fa-brands fa-facebook"></i>
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/grabugelille/">
                 <i class="fa-brands fa-instagram"></i>
             </a>
 
