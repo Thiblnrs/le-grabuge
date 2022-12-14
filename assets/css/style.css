@@ -268,7 +268,7 @@ body > header > nav ul li a:hover {
   transition: 0.25s ease-in-out all;
 }
 #fermer a:hover {
-  border: solid 1px white;
+  font-weight: 400;
   color: #fff;
 }
 
