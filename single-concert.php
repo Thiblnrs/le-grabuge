@@ -44,7 +44,7 @@ get_header();
             <hr>
             <p><?php the_content()?></p>
 
-            <a class="cta-b" href="#">Réservation</a></>
+            <a class="cta-b" href="<?php the_field('billeterie')?>">Réservation</a></>
             <div id="suivre-artiste">
                 <p>Suivre l'artiste</p>
                 <hr class="hr-suivre-a">

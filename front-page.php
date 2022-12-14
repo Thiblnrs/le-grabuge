@@ -110,7 +110,7 @@ get_header();
                 <?php endwhile; ?></span> </h3>
 
                     <div class="cta-esp"><a href="<?php the_permalink() ?>">En savoir plus</a></div>
-                    <div class="cta-b"><a href="">Billetterie</a></div>
+                    <div class="cta-b"><a href="<?php the_field('billeterie')?>">Billetterie</a></div>
                 </div>
             </div>
             <?php endwhile;
@@ -186,7 +186,7 @@ get_header();
 
     </section>
     <section class="cta-prog">
-        <div><a href="#">Plus d’articles</a></div>
+        <div><a href="<?php echo home_url() ?>/actualite/">Plus d’articles</a></div>
     </section>
 
 

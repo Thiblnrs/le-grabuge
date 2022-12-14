@@ -24,7 +24,7 @@
                 <a href="<?php the_permalink() ?>">En savoir plus</a>
             </div>
             <div class="cta-b">
-                <a href="">Billetterie</a>
+                <a href="<?php the_field('billeterie')?>">Billetterie</a>
             </div>
         </div>
 </div>
