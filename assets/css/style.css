@@ -263,8 +263,12 @@ body > header > nav ul li a:hover {
 #fermer a {
   font-size: 24px;
   font-weight: 200;
-  color: white;
-  text-decoration: underline;
+  color: lightgray;
+  transition: 0.25s ease-in-out all;
+}
+#fermer a:hover {
+  border: solid 1px white;
+  color: #fff;
 }
 
 /*************************Contenu*****************************/
