@@ -118,9 +118,8 @@ get_header();
 				
 				wp_reset_postdata(); ?>
         </div>
-
         <section class="cta-prog">
-            <div><a href="<?php echo home_url() ?>/concert/">PROGRAMMATION COMPLÈTE</a></div>
+            <div><a href="<?php echo home_url() ?>/programmation/">PROGRAMMATION COMPLÈTE</a></div>
 
             <hr />
         </section>
