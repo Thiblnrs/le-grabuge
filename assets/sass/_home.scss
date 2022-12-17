@@ -337,7 +337,7 @@
 	padding: 59px 97px;
 }
 
-.cta-bw {
+.cta-bw div {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -348,19 +348,6 @@
 	font-weight: 600;
 	text-transform: uppercase;
 						transition: 0.25s ease-in-out all;
-
-a {
-		transition: 0.25s linear all;
-		letter-spacing: 5px;
-		font-size: 16px;
-		text-transform: uppercase;
-		color: black;
-			width: 100%;
-		line-height: 22px;
-		display: block;
-		text-align: center;
-	}
-
 	&:hover {
 		border: solid 1px white;
 		background: #141414;
