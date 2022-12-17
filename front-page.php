@@ -147,7 +147,7 @@ get_header();
                Retrouvez une line-up aux multiples sonoritées tous les Samedis soir de 20.00 à 00.00.</p>
 
                 <div class="cta-bw">
-                    <div><a href="<?php echo home_url() ?>/a-propos/">À propos</a></div>
+                    <a href="<?php echo home_url() ?>/a-propos/">À propos</a>
                 </div>
             </div>
         </div>
