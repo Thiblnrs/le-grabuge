@@ -845,7 +845,7 @@ footer {
   text-transform: uppercase;
   transition: 0.25s ease-in-out all;
 }
-.cta-bw a {
+.cta-bw div a {
   transition: 0.25s linear all;
   letter-spacing: 5px;
   font-size: 16px;
@@ -861,7 +861,7 @@ footer {
   background: #141414;
   color: white;
 }
-.cta-bw:hover a {
+.cta-bw:hover div a {
   color: white;
 }
 

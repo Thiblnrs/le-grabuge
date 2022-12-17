@@ -348,7 +348,7 @@
 	font-weight: 600;
 	text-transform: uppercase;
 						transition: 0.25s ease-in-out all;
-	a {
+	div a {
 		transition: 0.25s linear all;
 		letter-spacing: 5px;
 		font-size: 16px;
@@ -365,7 +365,7 @@ border: solid 1px white;
 		background: #141414;
 		color: white;
 
-		a {
+		div a {
 			color: white;
 		}
 	}
