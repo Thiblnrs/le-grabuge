@@ -822,6 +822,10 @@ footer {
   font-size: 16px;
   text-transform: uppercase;
   color: black;
+  width: 100%;
+  line-height: 22px;
+  display: block;
+  text-align: center;
 }
 
 .desc-salle-texte {
