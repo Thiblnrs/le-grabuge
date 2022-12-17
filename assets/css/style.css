@@ -796,6 +796,9 @@ footer {
 #desc-salle > div:hover {
   box-shadow: 5px -5px 0 4px white;
 }
+#desc-salle > div:hover a {
+  color: #fff;
+}
 #desc-salle > div img {
   border: #fff solid 1px;
   border-top: 7px solid white;
