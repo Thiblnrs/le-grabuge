@@ -351,8 +351,11 @@
 
 	&:hover {
 		border: solid 1px white;
-		color: #fff;
 		background: #141414;
+
+		a {
+			color: white;
+		}
 
 	}
 }
