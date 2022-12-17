@@ -641,6 +641,10 @@ footer {
   font-size: 16px;
   text-transform: uppercase;
   color: white;
+  width: 100%;
+  line-height: 22px;
+  display: block;
+  text-align: center;
 }
 .cta-b:hover {
   background-color: white;
@@ -740,6 +744,10 @@ footer {
   font-size: 16px;
   text-transform: uppercase;
   color: black;
+  width: 100%;
+  line-height: 22px;
+  display: block;
+  text-align: center;
 }
 .cta-prog div:hover {
   background-color: transparent;
