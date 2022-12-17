@@ -859,7 +859,6 @@ footer {
 .cta-bw div:hover {
   border: solid 1px white;
   background: #141414;
-  color: white;
 }
 .cta-bw div:hover a {
   color: white;
