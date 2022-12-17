@@ -833,7 +833,7 @@ footer {
   padding: 59px 97px;
 }
 
-.cta-bw {
+.cta-bw div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -856,12 +856,12 @@ footer {
   display: block;
   text-align: center;
 }
-.cta-bw:hover {
+.cta-bw div:hover {
   border: solid 1px white;
   background: #141414;
   color: white;
 }
-.cta-bw:hover div a {
+.cta-bw div:hover a {
   color: white;
 }
 
