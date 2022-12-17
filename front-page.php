@@ -146,7 +146,7 @@ get_header();
                 <p>Situé sur Lille LE GRABUGE est une salle de spectacle dédiée aux musiques électroniques. <br>
                Retrouvez une line-up aux multiples sonoritées tous les Samedis soir de 20.00 à 00.00.</p>
 
-                <div class="cta-bw"><a href="#">À propos</a></div>
+                <div class="cta-bw"><a href="<?php echo home_url() ?>/a-propos/">À propos</a></div>
             </div>
         </div>
     </section>
