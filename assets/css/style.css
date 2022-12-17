@@ -846,7 +846,7 @@ footer {
   transition: 0.25s ease-in-out all;
 }
 .cta-bw > a {
-  transition: 0.25s linear all;
+  transition: 0.25s ease-in-out all;
   letter-spacing: 5px;
   font-size: 16px;
   text-transform: uppercase;
