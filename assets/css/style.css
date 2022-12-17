@@ -849,6 +849,9 @@ footer {
   border: solid 1px white;
   background: #141414;
 }
+.cta-bw:hover a {
+  color: #fff;
+}
 
 /************************Plus que des concerts Articles*****************************/
 #articles {
